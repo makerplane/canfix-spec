@@ -1,0 +1,13 @@
+\maketitle
+\begin{minipage}[b]{0.9\textwidth}
+\raggedright
+\setlength{\parskip}{1.5\baselineskip}
+\vspace{1 in}
+\textbf{Copyright \copyright 2011 - \the\year\ Vern Little, Phil Birkelbach, John Nicol}\par
+All rights reserved.  No part of this document may be reproduced or transmitted
+in any form or by any means, electronic or mechanical, including photocopying,
+recording, or by any information storage and retrieval system, except in
+accordance with the “Creative Commons License – Attribution-ShareAlike 3.0” or
+with prior written permission from the Author(s).  See the License section for
+details.
+\end{minipage}

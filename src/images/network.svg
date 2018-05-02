@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="597.81268"
+   height="337.95868"
+   id="svg3861"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="Network.svg"
+   inkscape:export-filename="/Volumes/iDisk/Documents/Projects/Fix/Network.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3863" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.95950662"
+     inkscape:cx="337.78531"
+     inkscape:cy="208.02662"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1268"
+     inkscape:window-height="932"
+     inkscape:window-x="1764"
+     inkscape:window-y="15"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3866">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.261937,-187.80853)">
+    <g
+       id="g4578"
+       transform="translate(-156.23304,-54.534175)">
+      <g
+         transform="matrix(0.48073549,0,0,0.48073549,154.94831,153.1123)"
+         id="g4445">
+        <g
+           transform="translate(141.49408,-42.743002)"
+           id="g4431">
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4433"
+             width="58.955841"
+             height="72.144714"
+             x="182.33655"
+             y="356.68298"
+             ry="9.1522951" />
+          <rect
+             ry="6.4735379"
+             y="315.41388"
+             x="165.81339"
+             height="51.0289"
+             width="92.002151"
+             id="rect4435"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        </g>
+        <g
+           id="g4427"
+           transform="translate(16.212863,-42.743002)">
+          <rect
+             ry="9.1522951"
+             y="356.68298"
+             x="182.33655"
+             height="72.144714"
+             width="58.955841"
+             id="rect3915"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4425"
+             width="92.002151"
+             height="51.0289"
+             x="165.81339"
+             y="315.41388"
+             ry="6.4735379" />
+        </g>
+        <rect
+           style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.78098273;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect3869"
+           width="343.50763"
+           height="105.2535"
+           x="123.80732"
+           y="187.00276"
+           ry="18.099287" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4437"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           transform="translate(-13.528709,-1.9845943)"><flowRegion
+             id="flowRegion4439"><rect
+               id="rect4441"
+               width="305.09662"
+               height="63.377541"
+               x="169.49811"
+               y="216.6628" /></flowRegion><flowPara
+             id="flowPara4443">CAN-FIX Node</flowPara></flowRoot>      </g>
+      <g
+         id="g4506"
+         transform="matrix(0.48073549,0,0,0.48073549,345.81791,153.1123)">
+        <g
+           id="g4508"
+           transform="translate(141.49408,-42.743002)">
+          <rect
+             ry="9.1522951"
+             y="356.68298"
+             x="182.33655"
+             height="72.144714"
+             width="58.955841"
+             id="rect4510"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4512"
+             width="92.002151"
+             height="51.0289"
+             x="165.81339"
+             y="315.41388"
+             ry="6.4735379" />
+        </g>
+        <g
+           transform="translate(16.212863,-42.743002)"
+           id="g4514">
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4516"
+             width="58.955841"
+             height="72.144714"
+             x="182.33655"
+             y="356.68298"
+             ry="9.1522951" />
+          <rect
+             ry="6.4735379"
+             y="315.41388"
+             x="165.81339"
+             height="51.0289"
+             width="92.002151"
+             id="rect4518"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        </g>
+        <rect
+           ry="18.099287"
+           y="187.00276"
+           x="123.80732"
+           height="105.2535"
+           width="343.50763"
+           id="rect4520"
+           style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.78098273;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <flowRoot
+           transform="translate(-13.528709,-1.9845943)"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           id="flowRoot4522"
+           xml:space="preserve"><flowRegion
+             id="flowRegion4524"><rect
+               y="216.6628"
+               x="169.49811"
+               height="63.377541"
+               width="305.09662"
+               id="rect4526" /></flowRegion><flowPara
+             id="flowPara4528">CAN-FIX Node</flowPara></flowRoot>      </g>
+      <g
+         transform="matrix(0.48073549,0,0,0.48073549,536.68753,153.1123)"
+         id="g4554">
+        <g
+           transform="translate(141.49408,-42.743002)"
+           id="g4556">
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4558"
+             width="58.955841"
+             height="72.144714"
+             x="182.33655"
+             y="356.68298"
+             ry="9.1522951" />
+          <rect
+             ry="6.4735379"
+             y="315.41388"
+             x="165.81339"
+             height="51.0289"
+             width="92.002151"
+             id="rect4560"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        </g>
+        <g
+           id="g4562"
+           transform="translate(16.212863,-42.743002)">
+          <rect
+             ry="9.1522951"
+             y="356.68298"
+             x="182.33655"
+             height="72.144714"
+             width="58.955841"
+             id="rect4564"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4566"
+             width="92.002151"
+             height="51.0289"
+             x="165.81339"
+             y="315.41388"
+             ry="6.4735379" />
+        </g>
+        <rect
+           style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.78098273;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect4568"
+           width="343.50763"
+           height="105.2535"
+           x="123.80732"
+           y="187.00276"
+           ry="18.099287" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4570"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           transform="translate(-13.528709,-1.9845943)"><flowRegion
+             id="flowRegion4572"><rect
+               id="rect4574"
+               width="305.09662"
+               height="63.377541"
+               x="169.49811"
+               y="216.6628" /></flowRegion><flowPara
+             id="flowPara4576">CAN-FIX Node</flowPara></flowRoot>      </g>
+    </g>
+    <g
+       id="g4616"
+       transform="translate(-156.23304,119.38563)">
+      <g
+         id="g4618"
+         transform="matrix(0.48073549,0,0,0.48073549,154.94831,153.1123)">
+        <g
+           id="g4620"
+           transform="translate(141.49408,-42.743002)">
+          <rect
+             ry="9.1522951"
+             y="356.68298"
+             x="182.33655"
+             height="72.144714"
+             width="58.955841"
+             id="rect4622"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4624"
+             width="92.002151"
+             height="51.0289"
+             x="165.81339"
+             y="315.41388"
+             ry="6.4735379" />
+        </g>
+        <g
+           transform="translate(16.212863,-42.743002)"
+           id="g4626">
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4628"
+             width="58.955841"
+             height="72.144714"
+             x="182.33655"
+             y="356.68298"
+             ry="9.1522951" />
+          <rect
+             ry="6.4735379"
+             y="315.41388"
+             x="165.81339"
+             height="51.0289"
+             width="92.002151"
+             id="rect4630"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        </g>
+        <rect
+           ry="18.099287"
+           y="187.00276"
+           x="123.80732"
+           height="105.2535"
+           width="343.50763"
+           id="rect4632"
+           style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.78098273;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <flowRoot
+           transform="translate(-13.528709,-1.9845943)"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           id="flowRoot4634"
+           xml:space="preserve"><flowRegion
+             id="flowRegion4636"><rect
+               y="216.6628"
+               x="169.49811"
+               height="63.377541"
+               width="305.09662"
+               id="rect4638" /></flowRegion><flowPara
+             id="flowPara4640">CAN-FIX Node</flowPara></flowRoot>      </g>
+      <g
+         transform="matrix(0.48073549,0,0,0.48073549,345.81791,153.1123)"
+         id="g4642">
+        <g
+           transform="translate(141.49408,-42.743002)"
+           id="g4644">
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4646"
+             width="58.955841"
+             height="72.144714"
+             x="182.33655"
+             y="356.68298"
+             ry="9.1522951" />
+          <rect
+             ry="6.4735379"
+             y="315.41388"
+             x="165.81339"
+             height="51.0289"
+             width="92.002151"
+             id="rect4648"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        </g>
+        <g
+           id="g4650"
+           transform="translate(16.212863,-42.743002)">
+          <rect
+             ry="9.1522951"
+             y="356.68298"
+             x="182.33655"
+             height="72.144714"
+             width="58.955841"
+             id="rect4652"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4654"
+             width="92.002151"
+             height="51.0289"
+             x="165.81339"
+             y="315.41388"
+             ry="6.4735379" />
+        </g>
+        <rect
+           style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.78098273;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect4656"
+           width="343.50763"
+           height="105.2535"
+           x="123.80732"
+           y="187.00276"
+           ry="18.099287" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4658"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           transform="translate(-13.528709,-1.9845943)"><flowRegion
+             id="flowRegion4660"><rect
+               id="rect4662"
+               width="305.09662"
+               height="63.377541"
+               x="169.49811"
+               y="216.6628" /></flowRegion><flowPara
+             id="flowPara4664">CAN-FIX Node</flowPara></flowRoot>      </g>
+      <g
+         id="g4666"
+         transform="matrix(0.48073549,0,0,0.48073549,536.68753,153.1123)">
+        <g
+           id="g4668"
+           transform="translate(141.49408,-42.743002)">
+          <rect
+             ry="9.1522951"
+             y="356.68298"
+             x="182.33655"
+             height="72.144714"
+             width="58.955841"
+             id="rect4670"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4672"
+             width="92.002151"
+             height="51.0289"
+             x="165.81339"
+             y="315.41388"
+             ry="6.4735379" />
+        </g>
+        <g
+           transform="translate(16.212863,-42.743002)"
+           id="g4674">
+          <rect
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4676"
+             width="58.955841"
+             height="72.144714"
+             x="182.33655"
+             y="356.68298"
+             ry="9.1522951" />
+          <rect
+             ry="6.4735379"
+             y="315.41388"
+             x="165.81339"
+             height="51.0289"
+             width="92.002151"
+             id="rect4678"
+             style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.10121942;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        </g>
+        <rect
+           ry="18.099287"
+           y="187.00276"
+           x="123.80732"
+           height="105.2535"
+           width="343.50763"
+           id="rect4680"
+           style="fill:#bcbcbc;fill-opacity:1;stroke:#000000;stroke-width:2.78098273;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <flowRoot
+           transform="translate(-13.528709,-1.9845943)"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           id="flowRoot4682"
+           xml:space="preserve"><flowRegion
+             id="flowRegion4684"><rect
+               y="216.6628"
+               x="169.49811"
+               height="63.377541"
+               width="305.09662"
+               id="rect4686" /></flowRegion><flowPara
+             id="flowPara4688">CAN-FIX Node</flowPara></flowRoot>      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 167.79457,284.25909 0,43.7725 130.27529,0 0,-43.7725"
+       id="path4692"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4705"
+       d="m 359.55979,283.21689 0,43.7725 130.27529,0 0,-43.7725"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 358.51759,457.26467 0,43.7725 130.27529,0 0,-43.7725"
+       id="path4707"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4709"
+       d="m 167.79457,458.30687 0,43.7725 130.27529,0 0,-43.7725"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 550.28281,284.25909 0,40.64589 81.29178,0 0,180.301 -83.37618,0 0,-47.94131"
+       id="path4711"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       transform="translate(-1.8401465,-31.053947)"
+       style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       id="flowRoot4725"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4727"><rect
+           style="font-size:12px;text-align:center;text-anchor:middle"
+           y="320.38339"
+           x="77.122971"
+           height="31.266045"
+           width="62.53212"
+           id="rect4729" /></flowRegion><flowPara
+         id="flowPara4731">120 Ohm</flowPara><flowPara
+         id="flowPara4733">Term.</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4735"
+       style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       transform="translate(-2.8823484,144.03604)"><flowRegion
+         id="flowRegion4737"><rect
+           id="rect4739"
+           width="62.532124"
+           height="45.856895"
+           x="77.122971"
+           y="320.38339"
+           style="font-size:12px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara4741">120 Ohm</flowPara><flowPara
+         id="flowPara3080">Term.</flowPara></flowRoot>  </g>
+</svg>

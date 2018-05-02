@@ -1,0 +1,10 @@
+Pin,Description
+1,+12 to 30 Volts DC
+2,CAN Low
+3,CAN Ground
+4,RS-232 TxD (Optional)
+5,Power Ground
+6,RS-232 RxD (Optional)
+7,CAN High
+8,Shield
+9,RS-232 Ground (Optional)
