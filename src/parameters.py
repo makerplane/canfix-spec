@@ -42,9 +42,11 @@ for x,row in enumerate(sheet):
             mstart = columns["meta"]
             for i, each in enumerate(row[mstart:mstart+15]):
                 if each: meta[i] = each
-            s="**{s} - {e} (0x{s:X} - 0x{e:X}) {d}**\n\n".format(s=idstart,e=idend,d=description)
+            s="**{d}**\n".format(d=description)
             f.write(s)
-            #f.write("~" * (len(s)-1) + "\n\n")
+            f.write("~" * (len(s)-1) + "\n\n")
+            s=":Identifier: {s} - {e} (0x{s:X} - 0x{e:X})\n".format(s=idstart,e=idend)
+            f.write(s)
             s=u":{}: {}\n"
             f.write(s.format("Data Type", datatype))
             if range_: f.write(s.format("Range", range_))
@@ -63,5 +65,5 @@ for x,row in enumerate(sheet):
                 f.write("\n")
             if remarks:
                 f.write(":Remarks:\n")
-                f.write("  | " + remarks.replace("\l","\n  | ") + "\n")
-            f.write("\n\n------------------\n\n")
+                f.write("  | " + remarks.replace("\l","\n  | ") + "\n\n")
+            #f.write("\n\n------------------\n\n")

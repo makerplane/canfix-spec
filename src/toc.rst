@@ -2,7 +2,7 @@
 CAN-FIX Specification
 =======================================
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :glob:
    :caption: Contents:
 
