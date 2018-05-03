@@ -42,12 +42,15 @@ for x,row in enumerate(sheet):
             mstart = columns["meta"]
             for i, each in enumerate(row[mstart:mstart+15]):
                 if each: meta[i] = each
-            s="**{d}**\n".format(d=description)
+            s="{d}\n".format(d=description)
             f.write(s)
             f.write("~" * (len(s)-1) + "\n\n")
-            s=":Identifier: {s} - {e} (0x{s:X} - 0x{e:X})\n".format(s=idstart,e=idend)
+            if count == 1:
+                s=":Identifier\:: {s} (0x{s:X})\n".format(s=idstart,e=idend)
+            else:
+                s=":Identifiers\:: {s} - {e} (0x{s:X} - 0x{e:X})\n".format(s=idstart,e=idend)
             f.write(s)
-            s=u":{}: {}\n"
+            s=u":{}\:: {}\n"
             f.write(s.format("Data Type", datatype))
             if range_: f.write(s.format("Range", range_))
             if units: # We have to do all this sillyness because of the degree symbol
@@ -60,10 +63,11 @@ for x,row in enumerate(sheet):
                 if each:
                     mstring += "  | {:04b} = {}\n".format(i, each)
             if mstring != "":
-                f.write(":Meta:\n")
+                f.write(":Meta\::\n")
                 f.write(mstring)
                 f.write("\n")
             if remarks:
-                f.write(":Remarks:\n")
-                f.write("  | " + remarks.replace("\l","\n  | ") + "\n\n")
+                f.write(":Remarks\::\n")
+                f.write("  | " + remarks.replace("\l","\n  | ") + "\n")
             #f.write("\n\n------------------\n\n")
+            f.write("\n")
