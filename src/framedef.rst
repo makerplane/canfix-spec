@@ -57,7 +57,7 @@ and to show the normal operating ranges
 
 .. _functioncode:
 .. csv-table:: Function / Status Code Bit Definitions
-  :file: tables/functioncod.csv
+  :file: tables/functioncode.csv
   :header-rows: 1
 
 The Function / Status Code is designed so that if the byte has a value of zero,
@@ -113,7 +113,7 @@ Node Specific Message Data Field Format
 
 .. tabularcolumns:: |p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|
 
-.. _fnodespecificframe:
+.. _nodespecificframe:
 .. csv-table:: Node Specific Message Data Field Format
   :file: tables/nodespecificframe.csv
   :header-rows: 1
@@ -142,3 +142,222 @@ Node Identification Command
 
 The Node Identification message is sent to a node to request information about
 the node.
+
+.. tabularcolumns:: |c|l|l|
+
+.. _nodeidresponse:
+.. csv-table:: Node Identification Command Response
+  :file: tables/nodeidresponse.csv
+  :header-rows: 1
+
+Each node should respond to the Node Identification message with the
+specification that it is using to send the data.  For this specification the
+number is 0x01.  The rest of the data is optional but should be padded with
+zeros for simplicity if not used.  Mostly this would be used by configuration
+software to determine which types of devices were attached to the network and
+what their node numbers were.  Obviously it would be advantageous if every node
+created would send a unique response to this command.  It might be useful to
+have a central database of device types and model numbers.  It has little use
+during flight so if there are nodes on the network that have identical
+identifications it won't cause any problems with the network.
+
+Bit Rate Set Command
+~~~~~~~~~~~~~~~~~~~~
+
+The Bit Rate Set message requests that the node change it's CAN Bit Rate to the
+given setting.  The change should take place immediately and therefore no
+response is possible, unless there is an error.  The change should be permanent.
+
+This message can be sent to Node Id 0 to affect all the nodes on the network at
+the same time.
+
+.. tabularcolumns:: |c|l|l|
+
+.. _bitrate:
+.. csv-table:: Bit Rate Set Command Response
+  :file: tables/bitrate.csv
+  :header-rows: 1
+
+Bit rates given in byte two of the request frame should be one of the follwoing...
+
+  | 1 = 125kbs
+  | 2 = 250kbs
+  | 3 = 500kbs
+  | 4 = 1Mbs
+
+Node ID Set Command
+~~~~~~~~~~~~~~~~~~~
+
+The Node ID Set message is used to command the node to change it's node ID.
+This change should take place immediately and permanently at the time of
+receiving this message.  The node should transmit it's success message on the
+CAN ID that is based on it's new node ID.
+
+.. tabularcolumns:: |c|l|l|
+
+.. _nodeidset:
+.. csv-table:: Node ID Set Command Response
+  :file: tables/nodeidset.csv
+  :header-rows: 1
+
+Disable / Enable Parameter Command
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Disable and Enable Parameter messages are used to command a node to start or
+stop broadcasting a particular parameter.  There may be multiple nodes that
+report the same parameter and this allows a mechanism to force one node to stop
+sending that parameter or to re-enable that node to resume sending that
+parameter.  A fairly elaborate redundancy scheme could be generated using these
+messages but that is outside the scope of this document.  This would more often
+be used as an initial configuration and setup message.
+
+The change should be immediate and permanent.
+
+.. tabularcolumns:: |c|l|l|
+
+.. _disableenable:
+.. csv-table:: Disable / Enable Parameter Comamnd Response
+  :file: tables/disableenable.csv
+  :header-rows: 1
+
+Node Report Command
+~~~~~~~~~~~~~~~~~~~
+
+The Node Report message is sent to force a node to report every parameter that
+it is responsible for.  There is no data associated with this command.  Once the
+node receives this message it should immediately begin sending each type of
+parameter that it would send under normal circumstances.  This would normally be
+used by flight display equipment to determine the information that is available
+on the network and also what conflicts there may be.  If a parameter has been
+disabled by the disable parameter command it should not be sent after a node
+report to avoid possible conflicts on the network.
+
+The node should also send the meta data associated with each parameter if
+applicable. This gives display equipment all the information that it will need
+to properly display the information.  Node Report commands should be avoided
+during flight unless absolutely necessary.
+
+There is no other response to this command.
+
+Node Status Information
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. tabularcolumns:: |c|l|
+
+.. _nodestatus:
+.. csv-table:: Node Status Message
+  :file: tables/nodestatus.csv
+  :header-rows: 1
+
+The Node Status Information message is a way for individual nodes to send
+information about themselves directly to other nodes.  This information is
+specific to the node and not necessarily specific to the aircraft.  Information
+like internal temperature, communication status, error counters, etc. would fall
+under this type of message.  There is no response necessary since this
+information is more like normal parameter updates and is simply produced on the
+network for any device to consume.  Care should be taken not to saturate the
+network with this type of information.
+
+The message contains 16 bits of parameter type ID in the first two bytes and
+the following four bytes are for the data.
+
+.. tabularcolumns:: |c|p{6cm}|c|c|
+
+.. _statusparameters:
+.. csv-table:: Node Status Parameter ID Definitions
+  :file: tables/statusparameters.csv
+  :header-rows: 1
+
+Update Firmware Command
+~~~~~~~~~~~~~~~~~~~~~~~
+
+This command informs the node to open a connection on the given channel and
+prepare to receive new firmware.  This command is optional and the method for
+updating firmware is implementation specific and is not specified in this
+document.
+
+The verification code can be used by the node to make sure that the firmware is
+going to be sent by a node that understands the proper way to update firmware to
+this device.  This is simply a unique number that is agreed upon by the node and
+the device used to download the firmware.
+
+Before sending this command a node should listen on the prospective channel for
+at least 500 ms to determine that the channel is not being used.  If it is being
+used another channel should be selected.  Once the communication is established
+on this channel data must be sent on this channel at least once every 250 ms so
+that other nodes can determine whether or not the channel is being used.
+
+.. tabularcolumns:: |c|l|l|
+
+.. _firmware:
+.. csv-table:: Update Firmware Command Response
+  :file: tables/firmware.csv
+  :header-rows: 1
+
+Two-way Connection Request Command
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+After this message is sent and the response is successful the two nodes will
+begin communicating on the given channel.  Before sending this command a node
+should listen on the prospective channel for at least 500 ms to determine that
+the channel is not being used.  It is the senders responsibility to determine if
+other nodes are using this channel.  If it is being used, another channel should
+be selected. Once the communication is established on this channel data must be
+sent at least once every 250 ms so that other nodes can determine whether or the
+channel is being used.
+
+Because these are such low priority CAN bus ID's it is possible on busy networks
+that the 250ms requirement is impossible to meet.  For that reason, this should
+not be considered a robust communication mechanism and should not be used for
+flight critical data unless special precautions are taken to assure that there
+is enough room on the network to accommodate the data and that the integrity of
+the data is sound.
+
+.. tabularcolumns:: |c|l|l|
+
+.. _channel:
+.. csv-table:: Two-Way Communication Request Command Resposne
+  :file: tables/channel.csv
+  :header-rows: 1
+
+Node Configuration Command
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Node Configuration Command is used to set configuration parameters within
+each node.  Typically this would be used as an initial setup and is done in a
+key / value type of arrangement.  What these keys and values represent are
+specific to each node and not specified in this document.
+
+There may be a specification generated in the future that describes a mechanism
+to identify configuration parameters that can be set for each type of node.
+This would probably be some kind of XML document that would describe the
+different types of information that could be set for each node.  This would
+allow for a common piece of software to be used to set configuration parameters
+for all devices.
+
+.. tabularcolumns:: |c|l|l|
+
+.. _configuration:
+.. csv-table:: Node Configuration Command Response
+  :file: tables/configuration.csv
+  :header-rows: 1
+
+Error Codes
+  | 1 = Unknown Parameter
+  | 2 = Parameter is Read Only
+  | 3 = Data Out of Range
+  | 4 = Wrong Data Type
+
+Node Configuration Query Command
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is a method that a sending node can use to query configuration parameters
+that are stored in the destination node.  It's up to each node to understand
+what format the data takes.
+
+.. tabularcolumns:: |c|l|l|l|
+
+.. _configquery:
+.. csv-table:: Node Configuration Query Command Response
+  :file: tables/configquery.csv
+  :header-rows: 1

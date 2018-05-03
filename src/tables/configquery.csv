@@ -1,0 +1,6 @@
+Byte,Request,Response,Response if not available
+2,Key LSB,0x00,0x01
+3,Key MSB,Data LSB,
+4,,Data,
+5,,Data,
+6,,Data MSB,

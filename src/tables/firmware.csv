@@ -1,0 +1,4 @@
+Byte,Request,Response
+2,Verification Code LSB,"0x00 if successful, 0x01 otherwise"
+3,Verification Code MSB,
+4,Channel Number,

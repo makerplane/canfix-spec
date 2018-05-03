@@ -1,0 +1,2 @@
+Byte,Request,Response
+2,New Bit Rate,None if successful or 0x01 if failed

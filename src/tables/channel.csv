@@ -1,0 +1,4 @@
+Byte,Request,Response
+2,Channel Number,"0x00 if successful, None otherwise"
+3,Connection Type LSB,
+4,Connection Type MSB,

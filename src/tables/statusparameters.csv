@@ -1,0 +1,8 @@
+Type,Description,Units,Data Type
+0,"Node Status,0x00 = Good, each bit represents a different error if set",,WORD
+1,Internal Temperature,0.1ºC,INT
+2,CAN Transmit Error Counter,,UDINT
+3,CAN Receive Error Counter,,UDINT
+4,Supply Voltage,0.1 V,INT
+5-255,Reserved for Future Use,,
+256-64K,Device Defined,,

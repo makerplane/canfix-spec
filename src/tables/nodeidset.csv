@@ -1,0 +1,2 @@
+Byte,Request,Response
+2,New Node ID,"0x00 if successful, 0x01 if failed"

@@ -1,0 +1,3 @@
+Byte,Request,Response
+2,Identifier LSB,"0x00 if successful, 0x01 if failed"
+3,Identifier MSB,
