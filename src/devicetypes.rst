@@ -1,7 +1,6 @@
-.. _Suggested Device Types:
-
 Suggested Device Types
-======================
+----------------------
+
 Each device should have a specific device type that can be queried by the Node
 Identification command to determine what kind of device the node is.  The
 purpose for this is mostly configuration.  This device type as well as the model
