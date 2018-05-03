@@ -21,4 +21,11 @@ FIX is a protocol family.  This document will describe the CAN-FIX
 implementation of the FIX protocol.  CAN-FIX is a CAN specific implementation
 of the FIX protocol.
 
-The specification documents are built with Sphinx.
+The specification documents are built with Sphinx.  The following shows how to
+install the requirements on Ubuntu
+
+sudo pip install pyexcel pyexcel-ods
+sudo pip install sphinx
+sudo apt install texlive-latex-base texlive-fonts-recommended
+sudo apt install texlive-fonts-extra texlive-latex-extra
+sudo apt install latexmk
