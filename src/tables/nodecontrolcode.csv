@@ -1,0 +1,14 @@
+Control Code,Description,Mandatory,Respond to Broadcast
+0,Node Identification,Yes,Yes
+1,Bit Rate Set,Yes,Yes
+2,Node ID Set,Yes,No
+3,Disable Parameter,Yes,Yes
+4,Enable Parameter,Yes,No
+5,Node Report,Yes,Yes
+6,Node Status Information,No,
+7,Update Firmware,No,No
+8,Two-Way Connection Request,No,No
+9,Node Configuration Set,No,No
+10,Node Configuration Query,No,No
+11-127,Reserved for Future Use,,
+128-255,User Defined,No,
