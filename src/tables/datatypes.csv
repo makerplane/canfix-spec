@@ -1,0 +1,11 @@
+Data Type,Description
+CHAR,8 bit ASCII character
+BYTE,8 bits
+WORD,16 bits
+SHORT,8 bit signed integer
+USHORT,8 bit unsigned integer
+INT,16 bit signed integer
+UINT,16 bit unsigned integer
+DINT,32 bit signed integer
+UDINT,32 bit unsigned integer
+FLOAT,32 bit floating point

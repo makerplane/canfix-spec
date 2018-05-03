@@ -16,4 +16,4 @@ CAN-FIX Specification
    license
    references
    revision_notes
-   devicetypes
+   practices

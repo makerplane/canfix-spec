@@ -4,6 +4,13 @@ Revision Notes
 
 Version 0.7 - |date|
   * Move specification to Sphinx
+  * Change Appendix to be Recommended Practices
+  * Change Encoder Input data type to INT[2],BYTE.  This adds another axis
+    to the encoder as well a byte for discrete switches or buttons.
+  * Change Units for Static and Pitot pressures to 0.001 inHg from 0.01 inHg
+  * Add milliseconds to Time
+  * Add decimal point to Time Zone to account for 1/2 hour timezones
+  
 
 Version 0.6 - June 6, 2016
   * Added some device types and reworded some of the descriptions in the appendix.
