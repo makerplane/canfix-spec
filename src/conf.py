@@ -134,11 +134,11 @@ htmlhelp_basename = 'CANFIXdoc'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+    'papersize': 'letterpaper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+    'pointsize': '12pt',
 
     # Additional stuff for the LaTeX preamble.
     #
@@ -163,7 +163,7 @@ latex_additional_files = ['maketitle.tex.txt']
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CANFIX.tex', u'CAN-FIX Protocol Specification',
+    (master_doc, 'CANFIX-Draft.tex', u'CAN-FIX Protocol Specification',
      u'Vern Little, Phil Birkelbach, John Nicol', 'manual'),
 ]
 
