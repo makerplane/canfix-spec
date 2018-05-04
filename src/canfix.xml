@@ -5527,8 +5527,8 @@
   <format></format>
   <offset></offset>
   <units>0.1 Hours</units>
-  <index></index>
-  <remarks></remarks>
+  <index>Flight</index>
+  <remarks>Index 0 = Total, 1 = last flight, reverse chronological order from there</remarks>
   <aux id='1'></aux>
   <aux id='2'></aux>
   <aux id='3'></aux>
@@ -5547,6 +5547,32 @@
 </parameter>
 <parameter>
   <id>1314</id>
+  <count>2</count>
+  <name>Total Engine Time (Tach)</name>
+  <type>UINT</type>
+  <format></format>
+  <offset></offset>
+  <units>0.1 Hours</units>
+  <index>Flight</index>
+  <remarks>Index 0 = Total, 1 = last flight, reverse chronological order from there</remarks>
+  <aux id='1'></aux>
+  <aux id='2'></aux>
+  <aux id='3'></aux>
+  <aux id='4'></aux>
+  <aux id='5'></aux>
+  <aux id='6'></aux>
+  <aux id='7'></aux>
+  <aux id='8'></aux>
+  <aux id='9'></aux>
+  <aux id='10'></aux>
+  <aux id='11'></aux>
+  <aux id='12'></aux>
+  <aux id='13'></aux>
+  <aux id='14'></aux>
+  <aux id='15'></aux>
+</parameter>
+<parameter>
+  <id>1316</id>
   <count>2</count>
   <name>Gearbox Speed</name>
   <type>UINT</type>
@@ -5573,7 +5599,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1316</id>
+  <id>1318</id>
   <count>2</count>
   <name>Gearbox Oil Pressure Switch</name>
   <type>BYTE</type>
@@ -5601,7 +5627,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1318</id>
+  <id>1320</id>
   <count>2</count>
   <name>Gearbox Oil Temperature Switch</name>
   <type>BYTE</type>
@@ -5629,7 +5655,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1320</id>
+  <id>1322</id>
   <count>2</count>
   <name>Gearbox Oil Quantity Switch</name>
   <type>BYTE</type>
@@ -5657,7 +5683,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1322</id>
+  <id>1324</id>
   <count>2</count>
   <name>Hydraulic Pressure Switch</name>
   <type>BYTE</type>
@@ -5685,7 +5711,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1324</id>
+  <id>1326</id>
   <count>2</count>
   <name>Hydraulic Temperature Switch</name>
   <type>BYTE</type>
@@ -5713,7 +5739,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1326</id>
+  <id>1328</id>
   <count>2</count>
   <name>Hydraulic Fluid Quantity Switch</name>
   <type>BYTE</type>
@@ -5741,7 +5767,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1328</id>
+  <id>1330</id>
   <count>2</count>
   <name>Gearbox Oil Pressure</name>
   <type>UINT</type>
@@ -5767,7 +5793,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1330</id>
+  <id>1332</id>
   <count>2</count>
   <name>Gearbox Oil Temperature</name>
   <type>UINT</type>
@@ -5793,7 +5819,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1332</id>
+  <id>1334</id>
   <count>2</count>
   <name>Gearbox Oil Quantity</name>
   <type>UINT</type>
@@ -5820,7 +5846,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1334</id>
+  <id>1336</id>
   <count>2</count>
   <name>Hydraulic Pressure</name>
   <type>UINT</type>
@@ -5846,7 +5872,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1336</id>
+  <id>1338</id>
   <count>2</count>
   <name>Hydraulic Temperature</name>
   <type>UINT</type>
@@ -5872,7 +5898,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1338</id>
+  <id>1340</id>
   <count>2</count>
   <name>Hydraulic Fluid Quantity</name>
   <type>UINT</type>
@@ -5899,7 +5925,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1340</id>
+  <id>1344</id>
   <count>4</count>
   <name>Tire Pressure</name>
   <type>UINT</type>
@@ -5925,7 +5951,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1344</id>
+  <id>1348</id>
   <count>4</count>
   <name>Strut Pressure</name>
   <type>UINT</type>
@@ -5951,7 +5977,7 @@
   <aux id='15'></aux>
 </parameter>
 <parameter>
-  <id>1348</id>
+  <id>1349</id>
   <count>1</count>
   <name>Flight Time</name>
   <type>UINT</type>
@@ -5959,7 +5985,7 @@
   <offset></offset>
   <units>0.1 Hours</units>
   <index>Flight</index>
-  <remarks>0 Index = last flight, reverse chronological order from there</remarks>
+  <remarks>Index 0 = last flight, reverse chronological order from there</remarks>
   <aux id='1'></aux>
   <aux id='2'></aux>
   <aux id='3'></aux>

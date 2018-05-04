@@ -2210,12 +2210,26 @@ Total Engine Time
 :Identifiers\:: 1312 - 1313 (0x520 - 0x521)
 :Data Type\:: UINT
 :Units\:: 0.1 Hours
+:Index\:: Flight
 :FIX Id\:: HOBBS
+:Remarks\::
+  | Index 0 = Total, 1 = last flight, reverse chronological order from there
+
+Total Engine Time (Tach)
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+:Identifiers\:: 1314 - 1315 (0x522 - 0x523)
+:Data Type\:: UINT
+:Units\:: 0.1 Hours
+:Index\:: Flight
+:FIX Id\:: TACHTM
+:Remarks\::
+  | Index 0 = Total, 1 = last flight, reverse chronological order from there
 
 Gearbox Speed
 ~~~~~~~~~~~~~
 
-:Identifiers\:: 1314 - 1315 (0x522 - 0x523)
+:Identifiers\:: 1316 - 1317 (0x524 - 0x525)
 :Data Type\:: UINT
 :Units\:: RPM
 :Meta\::
@@ -2230,7 +2244,7 @@ Gearbox Speed
 Gearbox Oil Pressure Switch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1316 - 1317 (0x524 - 0x525)
+:Identifiers\:: 1318 - 1319 (0x526 - 0x527)
 :Data Type\:: BYTE
 :Remarks\::
   | 0 = Normal
@@ -2240,7 +2254,7 @@ Gearbox Oil Pressure Switch
 Gearbox Oil Temperature Switch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1318 - 1319 (0x526 - 0x527)
+:Identifiers\:: 1320 - 1321 (0x528 - 0x529)
 :Data Type\:: BYTE
 :Remarks\::
   | 0 = Normal
@@ -2250,7 +2264,7 @@ Gearbox Oil Temperature Switch
 Gearbox Oil Quantity Switch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1320 - 1321 (0x528 - 0x529)
+:Identifiers\:: 1322 - 1323 (0x52A - 0x52B)
 :Data Type\:: BYTE
 :Remarks\::
   | 0 = Normal
@@ -2260,7 +2274,7 @@ Gearbox Oil Quantity Switch
 Hydraulic Pressure Switch
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1322 - 1323 (0x52A - 0x52B)
+:Identifiers\:: 1324 - 1325 (0x52C - 0x52D)
 :Data Type\:: BYTE
 :Remarks\::
   | 0 = Normal
@@ -2270,7 +2284,7 @@ Hydraulic Pressure Switch
 Hydraulic Temperature Switch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1324 - 1325 (0x52C - 0x52D)
+:Identifiers\:: 1326 - 1327 (0x52E - 0x52F)
 :Data Type\:: BYTE
 :Remarks\::
   | 0 = Normal
@@ -2280,7 +2294,7 @@ Hydraulic Temperature Switch
 Hydraulic Fluid Quantity Switch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1326 - 1327 (0x52E - 0x52F)
+:Identifiers\:: 1328 - 1329 (0x530 - 0x531)
 :Data Type\:: BYTE
 :Remarks\::
   | 0 = Normal
@@ -2290,7 +2304,7 @@ Hydraulic Fluid Quantity Switch
 Gearbox Oil Pressure
 ~~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1328 - 1329 (0x530 - 0x531)
+:Identifiers\:: 1330 - 1331 (0x532 - 0x533)
 :Data Type\:: UINT
 :Units\:: 0.01 psi
 :Meta\::
@@ -2305,7 +2319,7 @@ Gearbox Oil Pressure
 Gearbox Oil Temperature
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1330 - 1331 (0x532 - 0x533)
+:Identifiers\:: 1332 - 1333 (0x534 - 0x535)
 :Data Type\:: UINT
 :Units\:: 0.1°C
 :Meta\::
@@ -2320,7 +2334,7 @@ Gearbox Oil Temperature
 Gearbox Oil Quantity
 ~~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1332 - 1333 (0x534 - 0x535)
+:Identifiers\:: 1334 - 1335 (0x536 - 0x537)
 :Data Type\:: UINT
 :Range\:: 0 to 100
 :Units\:: 0.01%
@@ -2336,7 +2350,7 @@ Gearbox Oil Quantity
 Hydraulic Pressure
 ~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1334 - 1335 (0x536 - 0x537)
+:Identifiers\:: 1336 - 1337 (0x538 - 0x539)
 :Data Type\:: UINT
 :Units\:: 0.01 psi
 :Meta\::
@@ -2351,7 +2365,7 @@ Hydraulic Pressure
 Hydraulic Temperature
 ~~~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1336 - 1337 (0x538 - 0x539)
+:Identifiers\:: 1338 - 1339 (0x53A - 0x53B)
 :Data Type\:: UINT
 :Units\:: 0.1°C
 :Meta\::
@@ -2366,7 +2380,7 @@ Hydraulic Temperature
 Hydraulic Fluid Quantity
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1338 - 1339 (0x53A - 0x53B)
+:Identifiers\:: 1340 - 1341 (0x53C - 0x53D)
 :Data Type\:: UINT
 :Range\:: 0 to 100
 :Units\:: 0.01%
@@ -2382,7 +2396,7 @@ Hydraulic Fluid Quantity
 Tire Pressure
 ~~~~~~~~~~~~~
 
-:Identifiers\:: 1340 - 1343 (0x53C - 0x53F)
+:Identifiers\:: 1344 - 1347 (0x540 - 0x543)
 :Data Type\:: UINT
 :Units\:: 0.01 psi
 :Meta\::
@@ -2397,7 +2411,7 @@ Tire Pressure
 Strut Pressure
 ~~~~~~~~~~~~~~
 
-:Identifiers\:: 1344 - 1347 (0x540 - 0x543)
+:Identifiers\:: 1348 - 1351 (0x544 - 0x547)
 :Data Type\:: UINT
 :Units\:: 0.01 psi
 :Meta\::
@@ -2412,13 +2426,13 @@ Strut Pressure
 Flight Time
 ~~~~~~~~~~~
 
-:Identifier\:: 1348 (0x544)
+:Identifier\:: 1349 (0x545)
 :Data Type\:: UINT
 :Units\:: 0.1 Hours
 :Index\:: Flight
 :FIX Id\:: FTIME
 :Remarks\::
-  | 0 Index = last flight, reverse chronological order from there
+  | Index 0 = last flight, reverse chronological order from there
 
 
 Normal Priority Auxiliary Data
