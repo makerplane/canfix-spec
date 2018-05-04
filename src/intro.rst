@@ -1,7 +1,7 @@
 Introduction
 ============
 
-FIX is an acronym for Flight Information eXchange.  It is a set of protocol
+FIX is an acronym for *Flight Information eXchange*.  It is a set of protocol
 specifications for exchanging information between aircraft avionics and flight
 systems.  This specification and the protocols themselves are licensed under a
 Creative Commons license that allows anyone to modify and redistribute these
@@ -13,7 +13,7 @@ other in a vendor neutral way.
 
 The specifications and protocols are primarily geared toward the Experimental
 Amateur Built (E-AB) aircraft community.  Keeping the specification open and
-free allows airplane builders to create their own devices and write their own
+free allows aircraft builders to create their own devices and write their own
 software that will be able to communicate with other devices without need to pay
 for specifications or licenses.  It also encourages collaboration in the
 development and improvement of the protocols themselves.
@@ -24,12 +24,11 @@ the FIX protocol.
 
 CAN® stands for Controller Area Network.  It was developed originally as a
 robust message based protocol for use in automotive applications.  It has spread
-to other uses as well and is now found in medical equipment and industrial
-controls.
+to other uses, and is now found in medical equipment and industrial controls.
 
 CAN is a message based, producer / consumer type protocol that involves one node
 producing messages onto the CAN-bus and all other nodes receiving or consuming
-those messages.  See the References section on page 139 for more detailed
+those messages.  See the :ref:`References` section for more detailed
 information on CAN.
 
 CAN occupies most of the Physical Layer and all of the Data Link layer of the
@@ -50,8 +49,8 @@ get communicated first.  The lower the identifier the higher the priority of
 that parameter.
 
 CAN priority arbitration is based on the idea of dominant and recessive bits.
-If two nodes try to transmit two different bits onto the network at the same
-time the dominant bit will win and the bus will actually attain the dominant
+If two nodes attempt to transmit different bits onto the network at the same
+time, the dominant bit will win and the bus will actually attain the dominant
 state.  The CAN network is synchronized so that nodes will begin each message at
 the same time.  Each node is required to read the state of the bus as they are
 transmitting.  If two nodes try to transmit at the same time, the first one to
@@ -63,37 +62,37 @@ and one that we will exploit for CAN-FIX.
 
 A complete discussion of the CAN protocol itself is beyond the scope of this
 document.  For more information consult the data available on the internet.  You
-will not have to look very far.  See the References section on page 139 for more
+will not have to look very far.  See the :ref:`References` section for more
 information.
 
 General Description
 -------------------
 
-A CAN-FIX network is made up of individual nodes, each transmitting data on the
-bus.  Each node should be assigned a unique Node ID from 1-255.  The Node ID is
-useful for establishing communications to individual nodes on the network and
-identifying them configuration and diagnostic systems.
+A CAN-FIX network is made up of individual nodes.  Each node should be assigned
+a unique Node ID between 1 and 255.  The Node ID is useful for establishing
+communications to individual nodes on the network and identifying them
+configuration and diagnostic systems.  Node ID 0 is used as the broadcast ID.
 
 The normal use case of the network is for devices that are measuring a parameter
 such as airspeed, altitude, engine data, GPS position, etc. to transmit that
 data on the bus for other devices to read.  The data can then be displayed, used
-in calculations for other data, affect the operation of a system or recorded for
+in calculations, allowed to affect the operation of a system or recorded for
 future analysis.
 
-The network can also be used for configuring nodes and downloading firmware to
-nodes but these types of things should probably not be done during flight.
+The network can also be used for configuration of nodes, retrieving specific
+information about the node, downloading firmware as well as other uses.
 
-A node that transmits a parameter should also transmit all the range and setup
-data associated with that parameter.  For example, the alarm limits that are
-associated with the oil pressure should be known and transmitted by the same
-node that is responsible for measuring the oil pressure.  The reason for this is
-to maintain consistency between display devices.  Lets say that the airplane has
-two electronic flight displays (EFD) and one annunciator.  If we did not
-transmit the alarm limits from the oil pressure node, each of the EFDs and the
-annunciator would have to be configured with the limit. This is redundant and
-prone to error and there is nothing in the system that would prevent different
-display devices from having different settings for any particular parameter.  At
-best this would be confusing and potentially, a safety of flight issue.
+It is also helpful if a node that transmits a particular parameter, also
+transmit all the range and setup data associated with that parameter.  For
+example, the alarm limits that are associated with the oil pressure should be
+known and transmitted by the same node that is responsible for measuring the oil
+pressure.  The reason for this is to maintain consistency between display or
+recording devices.  Should the aircraft have two electronic flight displays
+(EFD) and one annunciator each would have to be separately configured if we did
+not send this information from the source node.  This is redundant and prone to
+error and there is nothing in the system that would prevent display devices from
+having different settings for any particular parameter.  At best this would be
+confusing and potentially, a safety of flight issue.
 
 CAN-FIX takes this one step further and adds an annunciate bit to each parameter
 message so that devices can indicate a parameter that may be out of range.  One
@@ -104,28 +103,28 @@ and beyond a simple greater-than or less-than decision.
 A good example of this is cylinder head temperature.  It makes sense to have a
 low alarm limit on CHT.  It could indicate a failed sensor, a dead cylinder or
 other problems.  When the engine is first started this would be in alarm because
-the engine hasn't had a chance to warm up.  A simple less-than calculation would
-annunciate this alarm, but a smarter device could use a timer or the fact that
-the engine hasn't warmed up past a certain point yet to inhibit the annunciation
-of this alarm even though the temperature is below the threshold.  Hysteresis
-can also be added to alarms as well to keep alarms from going in and out when
-the parameter is very close to an alarm limit.
+the engine hasn't had a chance to initially warm up.  A simple less-than
+calculation would annunciate this as an alarm, but a smarter device could use a
+timer or the fact that the engine hasn't warmed up past a certain point yet to
+inhibit the annunciation of this alarm even though the temperature is below the
+threshold.  Hysteresis can also be added to alarms as well to keep alarms from
+going in and out when the parameter is very close to an alarm limit.
 
-All of this could be configured in display devices and annunciators as well but
+All of this could be configured in display devices and annunciators, but
 it makes more sense for the measuring node to be configured with this
-information and transmit it to the receivers of the information.  That way it
-only has to be configured in one place and the device that supposedly knows the
-most about the parameter has all the information necessary for the proper
-display and recording of the parameter.
+information and transmit it to the receivers.  This way it
+only has to be configured in one place and it is supposed that the device
+which is actually measuring the parameter would better equipped to handle these
+decisions properly.
 
 Multiple networks can be installed and configured and data can be sent from one
 to the other with routers.  Redundancy can be achieved by either duplicating
 nodes and/or networks.  An example is given later in this specification.  If
-there is a large amount of data the networks can be segregated into logical
+there is a large amount of data, the networks can be segregated into logical
 pieces and the common data transmitted from one network to the other with a
 router.
 
-Possible Applications
+Potential Applications
 ---------------------
 
 :numref:`initial` shows one possible entry level use of CAN-FIX (CF).  There is
@@ -133,20 +132,20 @@ a non-CAN-FIX compatible EFIS system that is connected to an RS-232 to CAN-FIX
 converter that would handle conversion between the native interface of the EFIS
 and the CAN-FIX bus.
 
-There is an annunciator that is connected to the CF bus that could be used to
-annunciate any parameter on the CF bus.  The trim controller could read the
-airspeed from the CF bus and adjust the speed of the trim motors accordingly.
-It would also present the trim positions to the bus so that they could be
-displayed on the EFIS.
+There is an annunciator that is connected to the CAN-FIX bus that could be used
+to annunciate any parameter on the CAN-FIX bus.  The trim controller could read
+the airspeed from the CAN-FIX bus and adjust the speed of the trim motors
+accordingly. It would also present the trim positions to the bus so that they
+could be displayed on the EFIS.
 
 The transponder interface is interesting.  It acts like an encoder and can
 accept the pressure altitude from the EFIS information (or another air data
-source on the CF bus) and use that to interface to the transponder.  It could be
-Gray Code or Serial depending on the transponder and CF interface.
+source on the CAN-FIX bus) and use that to interface to the transponder.  It
+could be Gray Code or Serial depending on the transponder and CAN-FIX interface.
 
 Some transponders have a squat switch input that tells the transponder to switch
-back to Standby after the aircraft lands.  The CF interface could use the ground
-speed from the GPS to determine when to signal this line.
+back to Standby after the aircraft lands.  The CAN-FIX interface could use the
+ground speed from the GPS to determine when to signal this line.
 
 The Engine Management system can be completely located in the engine
 compartment, forward of the firewall.  This greatly reduces the number of wires
@@ -159,7 +158,7 @@ maintain.
 
    Possible CAN-FIX Configuration
 
-Obviously this is a very minimal system but it gives an idea of what it
+Obviously this is a very minimal system but it gives an idea of what iS
 possible.  More advanced installations could include CAN-FIX capable autopilots,
 displays, radios, power systems, etc.
 

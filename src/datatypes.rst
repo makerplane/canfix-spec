@@ -1,3 +1,5 @@
+.. _Data Types:
+
 Data Types
 ==========
 
@@ -31,8 +33,8 @@ which it is needed.  Thus far this has not been found necessary.
 A parameter may also be sent as an array of data.  For example time is sent as
 three ``USHORTs``, one for hours, minutes and seconds.  Any combination of these
 five bytes may be used for the data and the data type may be mixed.  A date
-could be given as ``UINT``, ``USHORT[2]``.  The ``UINT`` is for the year (we don't want any
-Y2K stuff here) and the USHORTS are for month and day.
+could be given as ``UINT``, ``USHORT[2]``.  The ``UINT`` is for the year (we
+don't want any Y2K stuff here) and the USHORTS are for month and day.
 
 It is very common in this specification to use integers with assumed decimal
 places in lieu of using floating point numbers.  Be sure to check the individual

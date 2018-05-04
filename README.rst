@@ -1,4 +1,4 @@
- This is the Specification Document for the CAN-FIX communication protocol.
+This is the Specification Document for the CAN-FIX communication protocol.
 
 FIX is an acronym for Flight Information eXchange.  It is a set of protocol
 specifications for exchanging information between aircraft avionics and flight
