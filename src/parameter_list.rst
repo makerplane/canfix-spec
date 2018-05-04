@@ -2447,6 +2447,7 @@ Time Zone
 :Identifier\:: 1410 (0x582)
 :Data Type\:: SHORT
 :Range\:: -12 to 12
+:Units\:: 0.1 Hours
 
 Cabin Temperature
 ~~~~~~~~~~~~~~~~~
@@ -2501,4 +2502,10 @@ Aircraft Identifier
 :Identifier\:: 1415 (0x587)
 :Data Type\:: CHAR[5]
 :FIX Id\:: ID
+
+Aircraft Type
+~~~~~~~~~~~~~
+
+:Identifier\:: 1416 (0x588)
+:Data Type\:: CHAR[5]
 

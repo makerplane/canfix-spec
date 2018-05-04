@@ -6189,4 +6189,30 @@
   <aux id='14'></aux>
   <aux id='15'></aux>
 </parameter>
+<parameter>
+  <id>1416</id>
+  <count>1</count>
+  <name>Aircraft Type</name>
+  <type>CHAR[5]</type>
+  <format></format>
+  <offset></offset>
+  <units></units>
+  <index></index>
+  <remarks></remarks>
+  <aux id='1'></aux>
+  <aux id='2'></aux>
+  <aux id='3'></aux>
+  <aux id='4'></aux>
+  <aux id='5'></aux>
+  <aux id='6'></aux>
+  <aux id='7'></aux>
+  <aux id='8'></aux>
+  <aux id='9'></aux>
+  <aux id='10'></aux>
+  <aux id='11'></aux>
+  <aux id='12'></aux>
+  <aux id='13'></aux>
+  <aux id='14'></aux>
+  <aux id='15'></aux>
+</parameter>
 </protocol>
