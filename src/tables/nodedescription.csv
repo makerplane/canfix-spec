@@ -1,0 +1,7 @@
+Byte,Payload
+2,Packet Number LSB
+3,Packet Number MSB
+4,Char 0
+5,Char 1
+6,Char 2
+7,Char 3

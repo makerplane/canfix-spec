@@ -161,6 +161,8 @@ different Control Codes that can be used.
   :file: tables/nodecontrolcode.csv
   :header-rows: 1
 
+.. _Node Identification:
+
 Node Identification Command
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -442,6 +444,35 @@ way to set configuration information.  Meta data is not included in this
 mechanism.  Changing the low oil pressure set point is better left to
 configuration software while we are on the ground.
 
+Node Description
+~~~~~~~~~~~~~~~~
+
+The *Node Description* message is here to allow a node to produce detailed information about
+itself.  This information is in the form of a NULL terminated string that
+is passed four ASCII characters at a time.
+
+.. _nodedescription:
+.. csv-table:: Node Description Message
+  :file: tables/nodedescription.csv
+  :header-rows: 1
+
+The first two bytes of the payload are the *Packet Number*.  The string is
+broken up into four byte "Packets."  This 16bit number identifies which of those
+packets we are sending. A string of up to 256K characters can be sent using this
+mechanism.  The packets should be sent in order starting with Packet Number = 0
+and the end of the sring is designated by the NULL (0x00) character.  The
+remaining bytes in the message should be padded with 0x00 to simplify decoding.
+
+Typical use of this message is to send detailed information about the particular
+node such as Manufacturer name, Model Description, Serial Number, License terms,
+firmware revision date of manufacture etc.
+
+Here is an example...
+
+  ``MakerPlane EFIS v1.0.1 SN 180612345 Firmware v1.2.3.4-Jun 2018 GPL 2.0``
+
+If implemented this string should be sent as a follow up reponse to the :ref:`Node
+Identification` request.
 
 .. rubric::Footnotes
 
