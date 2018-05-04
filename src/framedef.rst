@@ -385,3 +385,64 @@ what format the data takes.
 .. csv-table:: Node Configuration Query Command Response
   :file: tables/configquery.csv
   :header-rows: 1
+
+Parameter Set Command
+~~~~~~~~~~~~~~~~~~~~~
+
+The *Parameter Set Command* is used to give nodes a more point-to-point way of
+setting parameters. The *Normal Data Field Format* is used to broadcast
+(produce) data on the network for all nodes to consume. Sometimes it becomes
+necessary for a specific node to send one of these parameters to another node to
+**Set** that parameter. A common example would be the frequency in a
+communication radio.  There is room in the specification for up to four radios.
+Each would report the  current frequency at which they are set (also standby and
+memory frequencies as well).  There could be several devices in the aircraft
+that would be tasked with setting those frequencies.  Navigation equipement
+could be configured to change the frequency based on the airport that is
+selected, the EFIS could be programmed or a purpose built display "Head" might
+all want to be able to set the frequency.  Without this mechanism an individual
+CAN Frame Identifier would have to be allocated for each of these different
+devices to send frequencies to each device [#f1]_.
+
+Other uses for this mechanism are the Barometric Altimeter Setting and
+navigational waypoints.
+
+.. _parameterset:
+.. csv-table:: Parameter Set Command
+  :file: tables/parameterset.csv
+  :header-rows: 1
+
+.. _parameterbits:
+.. table:: Parameter ID Bit Descripitons
+
+  +----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+
+  | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | 13 | 14 | 15 |
+  +====+====+====+====+====+====+====+====+====+====+====+====+====+====+====+====+
+  | Parameter Identifier                                 | Index                  |
+  +------------------------------------------------------+------------------------+
+
+The first two bytes of the message are a 16 bit number that describes the
+parameter that is to be set.  The lower 11 bits match the actual parameter ID
+given in the :ref:`Parameters` Chapter.  The remaining 5 bits are the index that
+we are changing.
+
+There are a couple of drawbacks to this mechansim.  The first is that we only
+have four bytes left over for the payload to the parameter.  The paramters
+themselves have 5.  Since very few parameters in this specification need more
+than four bytes this seemed acceptable.  Those that do require all five
+bytes don't seem like the type of information that would need to be set in
+flight.
+
+Another drawback is that with 5 bits for the index we are unable to set all of
+the indexed information that could exist in a node.  This trade off seemed
+reasonable as setting more than 32 frequencies or waypoints.
+
+This is a mechanism for setting parameters in flight.  It's not meant to be a
+way to set configuration information.  Meta data is not included in this
+mechanism.  Changing the low oil pressure set point is better left to
+configuration software while we are on the ground.
+
+
+.. rubric::Footnotes
+
+.. [#f1] In fact this was the case in previous versions of this specification and it proved to be clumsy and unworkable.

@@ -10,5 +10,7 @@ Control Code,Description,Mandatory,Respond to Broadcast
 8,Two-Way Connection Request,No,No
 9,Node Configuration Set,No,No
 10,Node Configuration Query,No,No
-11-127,Reserved for Future Use,,
+11,Parameter Set,No,NO
+12,Node Description,No,No
+13-127,Reserved for Future Use,,
 128-255,User Defined,No,
