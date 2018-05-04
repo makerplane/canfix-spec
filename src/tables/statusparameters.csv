@@ -4,5 +4,6 @@ Type,Description,Units,Data Type
 2,CAN Transmit Error Counter,,UDINT
 3,CAN Receive Error Counter,,UDINT
 4,Supply Voltage,0.1 V,INT
-5-255,Reserved for Future Use,,
+5,Serial Number,,UDINT
+6-255,Reserved for Future Use,,
 256-64K,Device Defined,,

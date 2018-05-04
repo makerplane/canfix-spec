@@ -294,6 +294,9 @@ the following four bytes are for the data.
   :file: tables/statusparameters.csv
   :header-rows: 1
 
+:numref:`statusparameters` shows the parameters that are called out by
+this specification.  This message is not mandatory.
+
 Update Firmware Command
 ~~~~~~~~~~~~~~~~~~~~~~~
 
