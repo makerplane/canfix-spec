@@ -614,8 +614,8 @@ Mach Number
   | 0001 = Max
 
 
-Altimeter Setting Set
-~~~~~~~~~~~~~~~~~~~~~
+Altimeter Setting
+~~~~~~~~~~~~~~~~~
 
 :Identifier\:: 400 (0x190)
 :Data Type\:: UINT
@@ -623,18 +623,10 @@ Altimeter Setting Set
 :Units\:: 0.001 inHg
 :FIX Id\:: BARO
 
-Altimeter Setting Report
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-:Identifier\:: 401 (0x191)
-:Data Type\:: UINT
-:Range\:: 0 to 35
-:Units\:: 0.001 inHg
-
 Pressure Altitude
 ~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 402 (0x192)
+:Identifier\:: 401 (0x191)
 :Data Type\:: DINT
 :Range\:: -1,000 to 60,000
 :Units\:: ft
@@ -1959,34 +1951,18 @@ Reserved
 :Identifiers\:: 1180 - 1215 (0x49C - 0x4BF)
 :Data Type\:: 
 
-VHF Com Frequency Set
-~~~~~~~~~~~~~~~~~~~~~
+VHF Com Frequency
+~~~~~~~~~~~~~~~~~
 
 :Identifiers\:: 1216 - 1219 (0x4C0 - 0x4C3)
 :Data Type\:: UINT
 :Units\:: 0.01 MHz
 :Index\:: 0=Current, 1=Standby, >1 = Memory Locations
 
-VHF Com Frequency Report
-~~~~~~~~~~~~~~~~~~~~~~~~
+VOR/ILS Frequency
+~~~~~~~~~~~~~~~~~
 
 :Identifiers\:: 1220 - 1223 (0x4C4 - 0x4C7)
-:Data Type\:: UINT
-:Units\:: 0.01 MHz
-:Index\:: 0=Current, 1=Standby, >1 = Memory Locations
-
-VOR/ILS Frequency Set
-~~~~~~~~~~~~~~~~~~~~~
-
-:Identifiers\:: 1224 - 1227 (0x4C8 - 0x4CB)
-:Data Type\:: UINT
-:Units\:: 0.01 MHz
-:Index\:: 0=Current, 1=Standby, >1 = Memory Locations
-
-VOR/ILS Frequency Report
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-:Identifiers\:: 1228 - 1231 (0x4CC - 0x4CF)
 :Data Type\:: UINT
 :Range\:: 0 to 359
 :Units\:: °
@@ -1995,13 +1971,13 @@ VOR/ILS Frequency Report
 VOR/ILS Identifier
 ~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1232 - 1235 (0x4D0 - 0x4D3)
+:Identifiers\:: 1224 - 1227 (0x4C8 - 0x4CB)
 :Data Type\:: CHAR[4]
 
 Actual VOR Radial
 ~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1236 - 1239 (0x4D4 - 0x4D7)
+:Identifiers\:: 1228 - 1231 (0x4CC - 0x4CF)
 :Data Type\:: UINT
 :Range\:: 0 to 359.9
 :Units\:: 0.1°
@@ -2009,7 +1985,7 @@ Actual VOR Radial
 Selected VOR Radial
 ~~~~~~~~~~~~~~~~~~~
 
-:Identifiers\:: 1240 - 1243 (0x4D8 - 0x4DB)
+:Identifiers\:: 1232 - 1235 (0x4D0 - 0x4D3)
 :Data Type\:: UINT
 :Range\:: 0 to 359.9
 :Units\:: 0.1°
@@ -2017,7 +1993,7 @@ Selected VOR Radial
 Transponder Code
 ~~~~~~~~~~~~~~~~
 
-:Identifier\:: 1244 (0x4DC)
+:Identifier\:: 1236 (0x4D4)
 :Data Type\:: USHORT[4]
 
 
