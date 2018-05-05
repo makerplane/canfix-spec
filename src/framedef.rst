@@ -36,7 +36,7 @@ messages to use.
 
 Normal Data Field Format
 ------------------------
-.. tabularcolumns:: |p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|
+.. tabularcolumns:: |p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
 
 .. _dataframe:
 .. csv-table:: Normal Data Field Format
@@ -63,7 +63,7 @@ ranges that need to be defined and communicated.  This is done with meta data.
 This meta data can be used by display equipment to scale the range on indicators
 and to show the normal operating ranges
 
-.. tabularcolumns:: |p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|
+.. tabularcolumns:: |p{1.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|
 
 .. _functioncode:
 .. csv-table:: Function / Status Code Bit Definitions
