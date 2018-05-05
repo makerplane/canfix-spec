@@ -10,7 +10,12 @@ Version 0.7 - |date|
   * Change Units for Static and Pitot pressures to 0.001 inHg from 0.01 inHg
   * Add milliseconds to Time
   * Add decimal point to Time Zone to account for 1/2 hour timezones
-  
+  * Add Tachometer Time parameter
+  * Add Serial Number to Node Status Message
+  * Add Node Description Message
+  * Add Paramter Setting function description
+  * General style, grammer and spelling fixes
+
 
 Version 0.6 - June 6, 2016
   * Added some device types and reworded some of the descriptions in the appendix.

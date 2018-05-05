@@ -12,6 +12,7 @@ CAN-FIX Specification
    datatypes
    parameters
    physical
+   requirements
    approval
    license
    references
