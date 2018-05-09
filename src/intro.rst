@@ -125,7 +125,7 @@ pieces and the common data transmitted from one network to the other with a
 router.
 
 Potential Applications
----------------------
+----------------------
 
 :numref:`initial` shows one possible entry level use of CAN-FIX (CF).  There is
 a non-CAN-FIX compatible EFIS system that is connected to an RS-232 to CAN-FIX

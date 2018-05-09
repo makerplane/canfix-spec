@@ -52,7 +52,7 @@ source_suffix = '.rst'
 master_doc = 'toc'
 
 # General information about the project.
-project = u'CAN-FIX Specification'
+project = u'CAN-FIX Protocol Specification'
 copyright = u'2011, Vern Litte, Phil Birkelbach, John Nicol'
 author = u'Phil Birkelbach'
 
@@ -144,6 +144,8 @@ latex_elements = {
     #
     'preamble': r"""
 \usepackage{colortbl}
+\usepackage[printwatermark]{xwatermark}
+\newwatermark[allpages,color=gray!50,angle=45,scale=3,xpos=0,ypos=0]{D R A F T}
 \definecolor{light-blue}{rgb}{0.5,0.5,1.0}
 \protected\def\sphinxstyletheadfamily {\cellcolor{light-blue}\sffamily}
 """,
@@ -163,7 +165,7 @@ latex_additional_files = ['maketitle.tex.txt']
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CANFIX-Draft.tex', u'CAN-FIX Protocol Specification',
+    (master_doc, 'CANFIX-Draft.tex', project,
      u'Vern Little, Phil Birkelbach, John Nicol', 'manual'),
 ]
 
@@ -173,7 +175,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'canfix', u'CAN-FIX Protocol Specification',
+    (master_doc, 'canfix', project,
      [author], 1)
 ]
 
@@ -184,7 +186,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CANFIX', u'CAN-FIX Protocol Specification',
+    (master_doc, 'CANFIX', project,
      author, 'CANFIX', 'Flight Information eXchange over CAN Bus',
      'Miscellaneous'),
 ]

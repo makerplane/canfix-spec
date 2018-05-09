@@ -135,7 +135,7 @@ utility software would use this list to give the user input into what the
 configuration options are in your device.
 
 Lacking a proper EDS file, the utility software will still allow the user to
-configuration commands to your node but this will be much more difficult for
-your user than it could be.
+send configuration commands to your node but this will be much more difficult
+for your user than it could be.
 
 The format of the EDS file can be very simple.
