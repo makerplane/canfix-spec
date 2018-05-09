@@ -11,9 +11,14 @@ Version 0.7 - |date|
   * Add milliseconds to Time
   * Add decimal point to Time Zone to account for 1/2 hour timezones
   * Add Tachometer Time parameter
+  * Add Aircraft Type parameter
   * Add Serial Number to Node Status Message
   * Add Node Description Message
   * Add Paramter Setting function description
+  * Remove Comm Frequency "Set" Parameters (IDs 1216 - 1219)
+  * Remove VOR / ILS Frequency "Set" Parameters (IDs 1224 = 1227)
+  * Remove Altimeter Setting "Set" Parameter (ID 400)
+  * Add General Requirements chapter
   * General style, grammer and spelling fixes
 
 
