@@ -6,6 +6,4 @@
    * Also change the document itself to reflect that.
    * Add Logo
    * Fix ADS-B Stuff
-   * Add error codes to Disable / Enable Parameter commands.  Unknown Parameter,
-     data out of range
-   * Finish specifing the EDS file.
+   * Add reference to Config Utility documentation

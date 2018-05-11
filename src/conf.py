@@ -53,7 +53,7 @@ master_doc = 'toc'
 
 # General information about the project.
 project = u'CAN-FIX Protocol Specification'
-copyright = u'2011, Vern Litte, Phil Birkelbach, John Nicol'
+copyright = u'2011, Vern Little, Phil Birkelbach, John Nicol'
 author = u'Phil Birkelbach'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -98,7 +98,8 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-    'show_powered_by': False
+    'show_powered_by': False,
+    'show_related': True
     }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -113,8 +114,9 @@ html_static_path = ['_static']
 # refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
 html_sidebars = {
     '**': [
-        'relations.html',  # needs 'show_related': True theme option to display
         'searchbox.html',
+        'globaltoc.html',
+        'relations.html',  # needs 'show_related': True theme option to display
     ]
 }
 

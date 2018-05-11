@@ -122,7 +122,7 @@ At a minimum the EDS should include a description of your device as well as a
 Device ID, Firmware Revision and Model Number.  These should match the
 information that your device would send in response to a Node Identification
 request.  The utility software is programmed to send a Node Identification
-Request to every node that it sees on the network.  It uses the  information in
+Request to every node that it sees on the network.  It uses the information in
 the response to match the node on the network with the EDS file.
 
 The EDS file should also list all the parameters that your device is capable of
@@ -139,3 +139,113 @@ send configuration commands to your node but this will be much more difficult
 for your user than it could be.
 
 The format of the EDS file can be very simple.
+
+Here is an example EDS file::
+
+    {
+      "name":"Airdata Computer",
+      "id":"0x32",
+      "model":"0x0A0B0C",
+      "firmware_code":"0xF22",
+      "firmware_driver":"AT328",
+      "parameters":
+        [
+          "0x182",
+          "0x183",
+          "0x184",
+          "0x186",
+          "0x18D",
+          "0x190",
+          "0x191",
+          "0x405",
+          "0x406",
+          "0x408",
+          "0x409",
+          "0x40A",
+          "0x40B"
+        ],
+      "configuration":
+      [
+        {
+          "key":"0x0001",
+          "name":"Airspeed Min",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x0002",
+          "name":"Airspeed Max",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x0003",
+          "name":"V1",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x0004",
+          "name":"V2",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x0005",
+          "name":"Vne",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x0006",
+          "name":"Vfe",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x0007",
+          "name":"Vmc",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x0008",
+          "name":"Va",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x0009",
+          "name":"Vno",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x000A",
+          "name":"Vs",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x000B",
+          "name":"Vs0",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x000C",
+          "name":"Vx",
+          "type":"UINT",
+          "multipier":"0.1"
+        },
+        {
+          "key":"0x000D",
+          "name":"Vy",
+          "type":"UINT",
+          "multipier":"0.1"
+        }
+      ]
+    }
+
+This is a simple example.  More complete documentation is availabe with the
+CAN-FIX Configuration Utility.
