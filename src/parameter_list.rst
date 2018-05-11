@@ -90,7 +90,7 @@ VHF Control Commands
   | b0 = PTT
   | b1 = Flip
   | b2 = Next Saved Freq
-  | b3 = Last Saved Freq
+  | b3 = Prev Saved Freq
 
 VOR/LOC Control Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -102,7 +102,7 @@ VOR/LOC Control Commands
 :Remarks\::
   | b1 = Flip
   | b2 = Next Saved Freq
-  | b3 = Last Saved Freq
+  | b3 = Prev Saved Freq
 
 Transponder Commands
 ~~~~~~~~~~~~~~~~~~~~

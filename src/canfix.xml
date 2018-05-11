@@ -296,7 +296,7 @@
   <remarks>b0 = PTT</remarks>
   <remarks>b1 = Flip</remarks>
   <remarks>b2 = Next Saved Freq</remarks>
-  <remarks>b3 = Last Saved Freq</remarks>
+  <remarks>b3 = Prev Saved Freq</remarks>
   <aux id='1'></aux>
   <aux id='2'></aux>
   <aux id='3'></aux>
@@ -324,7 +324,7 @@
   <index>Radio</index>
   <remarks>b1 = Flip</remarks>
   <remarks>b2 = Next Saved Freq</remarks>
-  <remarks>b3 = Last Saved Freq</remarks>
+  <remarks>b3 = Prev Saved Freq</remarks>
   <aux id='1'></aux>
   <aux id='2'></aux>
   <aux id='3'></aux>
