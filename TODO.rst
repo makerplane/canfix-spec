@@ -7,3 +7,5 @@
    * Add Logo
    * Fix ADS-B Stuff
    * Add reference to Config Utility documentation
+   * Add quick reference table of parameters??
+   * Add quick reference table for frame definitions??

@@ -3,10 +3,10 @@
 General Requirements
 ====================
 
-To be compliant with this specification, devices should meet some minimum level
-of functionality.  The implementation of most of this specification is optional.
-However, if any given part of the specification is implemented, the device is
-expected to behave according to the descriptions in this document.
+A minimum level of functionality must be for a device to be considered
+compliant with this specification.  Although only part of this specification is
+required to be implemented, if any given part of the specification is implemented,
+the device is expected to behave according to the descriptions in this specification.
 
 This section describes the minimum functionality that must be present for a
 device to be considered compliant with this specification.  The requirements for
@@ -31,30 +31,34 @@ All nodes should respond to the Node Identification command even if the only thi
 they return is the specification number.
 
 It is not required that a device send any parameters listed by the
-specification.  The device must  however, respond to a Disable or an Enable
-Parameter message.  If there are no parameters to disable or enable the device
+specification.  However, the device must respond to both the Disable and Enable
+Parameter messages.  If there are no parameters to disable or enable the device
 can simply respond with an *Unknown Parameter* error.
 
 If a device has no parameters to send it is not required to follow a Node Report
 request with any data.
 
-Data types cannot be substituted.  If parameters are sent by a device they must
-match the data types given in this document.
+Data types and units cannot be substituted.  If parameters are sent by a device
+they must match the data types and units given in this document.
+
+The device should respond to the broadcast address for all messages where it
+is appropriate.
 
 Bit rate, node ID number and the parameters that have been enabled or disabled
-should be stored in non-volatile memory so that these changes are permanent
-unless changed by these commands again.
+should be stored in non-volatile memory so that these changes are permanent.
 
 A device should send at least one self identifying frame on the CAN bus at least
-once every 2 seconds to indicate it's health to the system.  Any frame that has
-the devices node number implied will satisfy this requirement.  The only message
-types that do not include the sender's node number are the two-way
-channel communication frames, these would NOT satisfy this requirement.
+once every 2 seconds to indicate it's health to the system.  Any frame that
+includes the device's node number (whether explicitly or implied) will satisfy
+this requirement.  The only message types that do not include the sender's node
+number are the two-way channel communication frames, these would NOT satisfy
+this requirement.
 
 The recommendation is to send a Node Status Information message with the status
 word set to 0x0000 to indicate good health once per second.
 
-125 kbps and 250 kbps are the only two bit rates that are mandatory.
+125 kbps and 250 kbps are the only mandatory bit rates.  125 kbps should be
+the default.
 
 Physical Requirements
 ---------------------
@@ -93,7 +97,7 @@ sophisticated schemes of protection are recommended but not required.
 The device is not required to operate while connected in reverse.  It must
 simply survive.  In fact is recommended that the device NOT operate properly
 while it's power supply is reversed.  This would cause attention to be given to
-the device that it  would not recieve if it was opearating normally while
+the device that it would not recieve if it was opearating normally while
 connected in reverse.
 
 Good engineering practices should be used in the design of these devices.

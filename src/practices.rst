@@ -18,8 +18,8 @@ follow this sequence...
 
   #. Stop normal communication and close the connection
   #. Change the bit rate timing of the CAN network controller
-  #. Wait at least one second
   #. Reopen the CAN connection
+  #. Wait at least one second
   #. Send the response to the *Change Bit Rate* command at the new bit rate.
   #. Resume normal communication
 
@@ -47,7 +47,7 @@ parameter that the end user can set but the device must be capable of measuring,
 calculating and sending that data at an acceptable rate for the safe operation
 of the aircraft.
 
-Much data can be sent *On Change*.  User interface elements like switches,
+Much of the data can be sent *On Change*.  User interface elements like switches,
 encoders, dials and  joysticks can send data on change.  Devices that send
 analog data should take care to filter out noise that might cause on change
 behavior to saturate the network with data.  A maximum update rate could be
@@ -80,7 +80,7 @@ milliseconds should not be ignored.  Lamp flashers and other devices on the
 network that require synchroniztion should be able to rely on this time being
 accurate.  The GPS receiver is probably the  best source of this information.
 Using the GPS receiver also has the added benefit of synchronizing these signals
-between aircraft.  This could be particulary useful for  formation teams.
+between aircraft.  This could be particulary useful for formation teams.
 
 Parameter Replacement
 ---------------------
@@ -102,7 +102,7 @@ may realize that the air temperature measurement that you are using is not very
 good because of installation issues and disable that parameter. You should use
 that as a hint that you should stop calculating and producing values that depend
 on that data.  But if you start receiving the total air temperature on the bus
-then you can use that value in your calculations.  Perhaps the engine monitor
+then you can use this value in your calculations.  Perhaps the engine monitor
 that the user installed does a better job of measuring air temperature than your
 device becuase the probe is mounted in a better location.
 

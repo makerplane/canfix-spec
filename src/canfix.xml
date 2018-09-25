@@ -87,27 +87,9 @@
   <name>Flap Control Switches</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>b0 = Up</remarks>
   <remarks>b1 = Down</remarks>
   <remarks>b2 - b7 Can be used for predefined notches</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>258</id>
@@ -115,9 +97,6 @@
   <name>Trim Switches</name>
   <type>WORD</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>b0 = Pitch Up</remarks>
   <remarks>b1 = Pitch Down</remarks>
   <remarks>b2 = Pitch Center</remarks>
@@ -132,21 +111,6 @@
   <remarks>b11 = AT Pedals Left</remarks>
   <remarks>b12 = AT Pedals Right</remarks>
   <remarks>b13 = AT Pedals Center</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>260</id>
@@ -154,25 +118,7 @@
   <name>Electrical Bus Control Switches</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>262</id>
@@ -180,25 +126,7 @@
   <name>Lighting Control Switches</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>264</id>
@@ -206,25 +134,7 @@
   <name>Fuel Pump System Switches</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>266</id>
@@ -232,25 +142,7 @@
   <name>Fuel Valve System Switches</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>268</id>
@@ -258,9 +150,6 @@
   <name>Auto Pilot Commands</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>b0 = Engage</remarks>
   <remarks>b1 = Disconnect</remarks>
   <remarks>b2 = VS Mode</remarks>
@@ -268,21 +157,6 @@
   <remarks>b4 = Alt Select Mode</remarks>
   <remarks>b5 = Heading Increment</remarks>
   <remarks>b6 = Heading Decrement</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>270</id>
@@ -290,28 +164,11 @@
   <name>VHF Control Commands</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
   <index>Radio</index>
   <remarks>b0 = PTT</remarks>
   <remarks>b1 = Flip</remarks>
   <remarks>b2 = Next Saved Freq</remarks>
   <remarks>b3 = Prev Saved Freq</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>272</id>
@@ -319,27 +176,10 @@
   <name>VOR/LOC Control Commands</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
   <index>Radio</index>
   <remarks>b1 = Flip</remarks>
   <remarks>b2 = Next Saved Freq</remarks>
   <remarks>b3 = Prev Saved Freq</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>274</id>
@@ -347,9 +187,6 @@
   <name>Transponder Commands</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>b0 = IDENT</remarks>
   <remarks>b1 = ALT</remarks>
   <remarks>b2 = STBY</remarks>
@@ -357,21 +194,6 @@
   <remarks>b3 = VFR</remarks>
   <remarks>b5 = OFF</remarks>
   <remarks>b6 = Squat</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>276</id>
@@ -379,25 +201,7 @@
   <name>Starter / Magneto Commands</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>278</id>
@@ -405,29 +209,11 @@
   <name>Landing Gear Control Position</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0=Down</remarks>
   <remarks>1=Up</remarks>
   <remarks>b0=Nose</remarks>
   <remarks>b1=Left</remarks>
   <remarks>b2=Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>280</id>
@@ -435,25 +221,7 @@
   <name>Keypad Input</name>
   <type>CHAR[2]</type>
   <format>Key, Function Key</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>282</id>
@@ -461,26 +229,9 @@
   <name>Encoder Input (High Priority)</name>
   <type>INT[2],BYTE</type>
   <format>Steps Moved</format>
-  <offset></offset>
-  <units></units>
   <index>Unit</index>
   <remarks>X,Y and Switch Positions</remarks>
   <remarks>Less than 0 = CCW, Greater than 0 = CW</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>284</id>
@@ -488,25 +239,8 @@
   <name>Generic Switches (High Priority)</name>
   <type>BYTE[5]</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
   <index>Unit</index>
   <remarks>User Defined For Multiplexing Switches</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>292</id>
@@ -515,25 +249,8 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>Greater Than 0 = Nose Up</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>293</id>
@@ -542,25 +259,8 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>Greater Than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>294</id>
@@ -569,25 +269,8 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>Greater Than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>295</id>
@@ -596,25 +279,8 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>Greater Than 0 = Up</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>296</id>
@@ -623,25 +289,8 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>Greater Than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>297</id>
@@ -650,25 +299,8 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>Greater Than 0 = Down</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>298</id>
@@ -677,25 +309,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>299</id>
@@ -704,25 +319,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>300</id>
@@ -731,25 +329,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>302</id>
@@ -758,25 +339,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>304</id>
@@ -785,25 +349,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>306</id>
@@ -812,25 +359,9 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
   <index>Unit</index>
   <remarks>User Defined</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>320</id>
@@ -839,25 +370,10 @@
   <type>INT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Greater Than 0 = Nose Up</remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>321</id>
@@ -866,25 +382,10 @@
   <type>INT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Greater Than 0 = Right</remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>322</id>
@@ -893,25 +394,10 @@
   <type>INT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Greater Than 0 = Right</remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>323</id>
@@ -920,25 +406,10 @@
   <type>INT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Greater Than 0 = Up</remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>324</id>
@@ -947,25 +418,10 @@
   <type>INT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Greater Than 0 = Right</remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>325</id>
@@ -974,25 +430,10 @@
   <type>INT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Greater Than 0 = Down</remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>326</id>
@@ -1000,30 +441,12 @@
   <name>Landing Gear Position Switches</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>b0=Nose Up</remarks>
   <remarks>b1=Nose Down</remarks>
   <remarks>b2=Left Up</remarks>
   <remarks>b3=Left Down</remarks>
   <remarks>b4=Right Up</remarks>
   <remarks>b5=Right Down</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>384</id>
@@ -1032,25 +455,8 @@
   <type>INT</type>
   <min>-180</min>
   <max>180</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Greater Than 0 = Nose Up</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>385</id>
@@ -1059,25 +465,8 @@
   <type>INT</type>
   <min>-180</min>
   <max>180</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Greater Than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>386</id>
@@ -1086,25 +475,13 @@
   <type>INT</type>
   <min>-180</min>
   <max>180</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
   <aux id='7'>0g</aux>
   <aux id='8'>Warn</aux>
   <aux id='9'>Stall</aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>387</id>
@@ -1113,9 +490,7 @@
   <type>UINT</type>
   <min>0</min>
   <max>999.9</max>
-  <offset></offset>
   <units>0.1 knots</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
@@ -1128,8 +503,6 @@
   <aux id='9'>Vno</aux>
   <aux id='10'>Vs</aux>
   <aux id='11'>Vs0</aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
   <aux id='14'>Vx</aux>
   <aux id='15'>Vy</aux>
 </parameter>
@@ -1140,25 +513,8 @@
   <type>DINT</type>
   <min>-1000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>389</id>
@@ -1167,25 +523,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>359.9</max>
-  <offset></offset>
   <units>0.1°</units>
-  <index></index>
   <remarks>Magnetic Heading</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>390</id>
@@ -1194,26 +533,10 @@
   <type>INT</type>
   <min>-30,000</min>
   <max>30,000</max>
-  <offset></offset>
-  <multiplier>ft/mi</multiplier>
-  <units>n</units>
-  <index></index>
+  <units>ft/min</units>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>391</id>
@@ -1222,25 +545,10 @@
   <type>INT</type>
   <min>-300</min>
   <max>300</max>
-  <offset></offset>
   <units>0.01 knots</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>392</id>
@@ -1249,25 +557,10 @@
   <type>UINT</type>
   <min>0</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>393</id>
@@ -1276,25 +569,10 @@
   <type>INT</type>
   <min>-180</min>
   <max>180</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>394</id>
@@ -1303,25 +581,10 @@
   <type>INT</type>
   <min>-30</min>
   <max>30</max>
-  <offset></offset>
   <units>0.001 g</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>395</id>
@@ -1330,25 +593,10 @@
   <type>INT</type>
   <min>-30</min>
   <max>30</max>
-  <offset></offset>
   <units>0.001 g</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>396</id>
@@ -1357,25 +605,10 @@
   <type>INT</type>
   <min>-30</min>
   <max>30</max>
-  <offset></offset>
   <units>0.001 g</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>397</id>
@@ -1384,25 +617,10 @@
   <type>UINT</type>
   <min>0</min>
   <max>2000</max>
-  <offset></offset>
   <units>0.1 knots</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>398</id>
@@ -1411,25 +629,10 @@
   <type>UINT</type>
   <min>0</min>
   <max>2000</max>
-  <offset></offset>
   <units>0.1 knots</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>399</id>
@@ -1438,25 +641,10 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01 Mach</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>400</id>
@@ -1465,25 +653,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>35</max>
-  <offset></offset>
   <units>0.001 inHg</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>401</id>
@@ -1492,25 +663,8 @@
   <type>DINT</type>
   <min>-1,000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>448</id>
@@ -1519,25 +673,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>359.9</max>
-  <offset></offset>
   <units>0.1°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>449</id>
@@ -1546,54 +683,18 @@
   <type>INT</type>
   <min>-45</min>
   <max>45</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>450</id>
   <count>1</count>
   <name>OBI Flags</name>
   <type>WORD</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>b0 = To/From (To = 1)</remarks>
   <remarks>b1:b2 = Input (00=NAV1, 01=NAV2, 10=GPS1, 11=GPS2)</remarks>
   <remarks>b3 = GS</remarks>
   <remarks>b4 = LOC/NAV</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>451</id>
@@ -1602,25 +703,8 @@
   <type>FLOAT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>452</id>
@@ -1629,25 +713,8 @@
   <type>FLOAT</type>
   <min>-180</min>
   <max>180</max>
-  <offset></offset>
   <units>°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>453</id>
@@ -1656,25 +723,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>2000</max>
-  <offset></offset>
   <units>0.1 knots</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>454</id>
@@ -1683,25 +733,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>359.9</max>
-  <offset></offset>
   <units>0.1°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>455</id>
@@ -1710,51 +743,16 @@
   <type>UINT</type>
   <min>0</min>
   <max>359.9</max>
-  <offset></offset>
   <units>0.1°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>456</id>
   <count>1</count>
   <name>Cross Track Error</name>
   <type>INT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 nm</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>457</id>
@@ -1763,25 +761,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>359.9</max>
-  <offset></offset>
   <units>0.1°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>458</id>
@@ -1790,25 +771,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>90</max>
-  <offset></offset>
   <units>0.1°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>459</id>
@@ -1817,26 +781,8 @@
   <type>INT</type>
   <min>-30,000</min>
   <max>30,000</max>
-  <offset></offset>
-  <multiplier>ft/mi</multiplier>
-  <units>n</units>
-  <index></index>
+  <units>ft/min</units>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>460</id>
@@ -1845,104 +791,32 @@
   <type>DINT</type>
   <min>-1000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>461</id>
   <count>1</count>
   <name>RAIM Status</name>
   <type>USHORT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 if Good</remarks>
   <remarks>Otherwise the ID of the most likely failed satellite</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>462</id>
   <count>1</count>
   <name>RAIM Horizontal Error</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>ft</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>463</id>
   <count>1</count>
   <name>RAIM Vertical Error</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>ft</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>464</id>
@@ -1951,25 +825,9 @@
   <type>FLOAT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>°</units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>465</id>
@@ -1978,25 +836,9 @@
   <type>FLOAT</type>
   <min>-180</min>
   <max>180</max>
-  <offset></offset>
   <units>°</units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>466</id>
@@ -2005,25 +847,9 @@
   <type>DINT</type>
   <min>-1000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>467</id>
@@ -2032,25 +858,9 @@
   <type>FLOAT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>°</units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>468</id>
@@ -2059,25 +869,9 @@
   <type>FLOAT</type>
   <min>-180</min>
   <max>180</max>
-  <offset></offset>
   <units>°</units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>469</id>
@@ -2086,103 +880,33 @@
   <type>DINT</type>
   <min>-1000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>470</id>
   <count>1</count>
   <name>ADS-B ES Status</name>
   <type></type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>471</id>
   <count>1</count>
   <name>ADS-B ES Identification</name>
   <type></type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>472</id>
   <count>1</count>
   <name>ADS-B ES Type</name>
   <type></type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>473</id>
@@ -2191,25 +915,9 @@
   <type>UINT</type>
   <min>0</min>
   <max>2000</max>
-  <offset></offset>
   <units>0.1 knots</units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>474</id>
@@ -2218,25 +926,9 @@
   <type>UINT</type>
   <min>0</min>
   <max>359.9</max>
-  <offset></offset>
   <units>0.1°</units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>475</id>
@@ -2245,171 +937,59 @@
   <type>INT</type>
   <min>-30,000</min>
   <max>30,000</max>
-  <offset></offset>
-  <multiplier>ft/mi</multiplier>
-  <units>n</units>
+  <units>ft/min</units>
   <index>Aircraft</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>476</id>
   <count>1</count>
   <name>ADS-B ES Emergency Priority Status</name>
   <type></type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Aircraft</index>
   <remarks>Event Driven Information</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>477</id>
   <count>1</count>
   <name>ADS-B ES Current Trajectory Change Point</name>
   <type></type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Aircraft</index>
   <remarks>Event Driven Information</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>478</id>
   <count>1</count>
   <name>ADS-B ES Next Trajectory Change Point</name>
   <type></type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Aircraft</index>
   <remarks>Event Driven Information</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>479</id>
   <count>1</count>
   <name>ADS-B ES Operation Coord. Message</name>
   <type></type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Aircraft</index>
   <remarks>Event Driven Information</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>480</id>
   <count>1</count>
   <name>ADS-B ES Operational Status</name>
   <type></type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Aircraft</index>
   <remarks>Event Driven Information</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>512</id>
   <count>2</count>
   <name>N1 or Engine RPM</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
-  <multiplier>RP</multiplier>
-  <units>M</units>
-  <index></index>
+  <units>RPM</units>
   <remarks>N1 for Turbines</remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
@@ -2418,25 +998,16 @@
   <aux id='9'>Restriction 1 High</aux>
   <aux id='10'>Restriction 2 Low</aux>
   <aux id='11'>Restriction 2 High</aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>514</id>
   <count>2</count>
   <name>N2, Prop RPM or Rotor RPM</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
-  <multiplier>RP</multiplier>
-  <units>M</units>
-  <index></index>
+  <units>RPM</units>
   <remarks>N2 for Turbines</remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
@@ -2445,674 +1016,315 @@
   <aux id='9'>Restriction 1 High</aux>
   <aux id='10'>Restriction 2 Low</aux>
   <aux id='11'>Restriction 2 High</aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>516</id>
   <count>2</count>
   <name>Torque</name>
   <type>INT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>518</id>
   <count>2</count>
   <name>Turbine Inlet Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>520</id>
   <count>2</count>
   <name>Inter-turbine Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>522</id>
   <count>2</count>
   <name>Turbine Outlet Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>524</id>
   <count>2</count>
   <name>Fuel Pressure Switch</name>
   <type>SHORT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>526</id>
   <count>2</count>
   <name>Oil Pressure Switch</name>
   <type>SHORT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>528</id>
   <count>2</count>
   <name>Oil Temperature Switch</name>
   <type>SHORT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>530</id>
   <count>2</count>
   <name>Coolant Temperature Switch</name>
   <type>SHORT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>532</id>
   <count>2</count>
   <name>Fuel Quantity Switch</name>
   <type>SHORT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>534</id>
   <count>2</count>
   <name>Oil Quantity Switch</name>
   <type>SHORT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>536</id>
   <count>2</count>
   <name>Coolant Quantity Switch</name>
   <type>SHORT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>538</id>
   <count>2</count>
   <name>Fuel Flow</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 gal/hr</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>540</id>
   <count>2</count>
   <name>Fuel Pressure</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 psi</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>542</id>
   <count>2</count>
   <name>Manifold Pressure</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 inHg</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>544</id>
   <count>2</count>
   <name>Oil Pressure</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 psi</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>546</id>
   <count>2</count>
   <name>Oil Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>548</id>
   <count>2</count>
   <name>Coolant Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>550</id>
   <count>4</count>
   <name>Fuel Quantity</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 gal</units>
   <index>Aux Tank</index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>554</id>
   <count>2</count>
   <name>Fuel Pump Pressure</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 psi</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>556</id>
   <count>2</count>
   <name>Oil Quantity</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 gal</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>558</id>
   <count>2</count>
   <name>Coolant Quantity</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 gal</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>560</id>
   <count>2</count>
   <name>Electric Propulsion Motor Current</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>A</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>562</id>
   <count>2</count>
   <name>Main Propulsion Bus Voltage</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1 V</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>564</id>
   <count>2</count>
   <name>Main Battery Current</name>
   <type>INT</type>
-  <format></format>
-  <offset></offset>
   <units>A</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>566</id>
   <count>2</count>
   <name>Main Battery Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>568</id>
@@ -3121,51 +1333,19 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.1%</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>570</id>
   <count>2</count>
   <name>Hybrid System Status</name>
   <type>WORD</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>640</id>
@@ -3174,25 +1354,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>35</max>
-  <offset></offset>
   <units>0.001 inHg</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>641</id>
@@ -3201,25 +1364,8 @@
   <type>INT</type>
   <min>-1,000</min>
   <max>30,000</max>
-  <offset></offset>
   <units>ft</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>768</id>
@@ -3227,26 +1373,9 @@
   <name>Encoder Input</name>
   <type>INT[2],BYTE</type>
   <format>Steps Moved</format>
-  <offset></offset>
-  <units></units>
   <index>Unit</index>
   <remarks>X,Y and Switch Positions</remarks>
   <remarks>Less than 0 = CCW, Greater than 0 = CW</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>776</id>
@@ -3254,25 +1383,8 @@
   <name>Generic Switches</name>
   <type>BYTE[5]</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
   <index>Unit</index>
   <remarks>User Defined For Multiplexing Switches</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>784</id>
@@ -3281,25 +1393,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>785</id>
@@ -3308,25 +1403,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>786</id>
@@ -3335,25 +1413,8 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>787</id>
@@ -3362,25 +1423,8 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>788</id>
@@ -3389,25 +1433,8 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>789</id>
@@ -3416,25 +1443,8 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>790</id>
@@ -3443,25 +1453,8 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>791</id>
@@ -3470,25 +1463,9 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
   <index>Unit</index>
   <remarks>User Defined</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>896</id>
@@ -3497,26 +1474,9 @@
   <type>INT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Less than 0 = Down</remarks>
   <remarks>Greater than 0 = Up</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>897</id>
@@ -3525,25 +1485,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>100% = Open</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>898</id>
@@ -3552,26 +1495,9 @@
   <type>INT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Less than 0 = Down</remarks>
   <remarks>Greater than 0 = Up</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>899</id>
@@ -3580,26 +1506,9 @@
   <type>INT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Less than 0 = Left</remarks>
   <remarks>Greater than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>900</id>
@@ -3608,26 +1517,9 @@
   <type>INT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Less than 0 = Left</remarks>
   <remarks>Greater than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>901</id>
@@ -3636,26 +1528,9 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>Less than 0 = Down</remarks>
   <remarks>Greater than 0 = Up</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>902</id>
@@ -3664,26 +1539,9 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>Less than 0 = Left</remarks>
   <remarks>Greater than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>903</id>
@@ -3692,26 +1550,9 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>Less than 0 = Left</remarks>
   <remarks>Greater than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>904</id>
@@ -3720,26 +1561,9 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>Less than 0 = Down</remarks>
   <remarks>Greater than 0 = Up</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>905</id>
@@ -3748,26 +1572,9 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks>Less than 0 = Left</remarks>
   <remarks>Greater than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>906</id>
@@ -3775,25 +1582,7 @@
   <name>Light Status</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>907</id>
@@ -3801,25 +1590,7 @@
   <name>Fuel Pump Status</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>911</id>
@@ -3827,25 +1598,7 @@
   <name>Fuel Valve Status</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>912</id>
@@ -3854,25 +1607,15 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
   <index>Unit</index>
   <remarks>User Defined</remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1024</id>
@@ -3881,26 +1624,9 @@
   <type>INT</type>
   <min>-3000</min>
   <max>3000</max>
-  <offset></offset>
   <units>0.1°/sec</units>
-  <index></index>
   <remarks>Less than 0 = Down</remarks>
   <remarks>Greater than 0 = Up</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1025</id>
@@ -3909,26 +1635,9 @@
   <type>INT</type>
   <min>-3000</min>
   <max>3000</max>
-  <offset></offset>
   <units>0.1°/sec</units>
-  <index></index>
   <remarks>Less than 0 = Left</remarks>
   <remarks>Greater than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1026</id>
@@ -3937,26 +1646,9 @@
   <type>INT</type>
   <min>-3000</min>
   <max>3000</max>
-  <offset></offset>
   <units>0.1°/sec</units>
-  <index></index>
   <remarks>Less than 0 = Left</remarks>
   <remarks>Greater than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1027</id>
@@ -3965,78 +1657,25 @@
   <type>INT</type>
   <min>-3000</min>
   <max>3000</max>
-  <offset></offset>
   <units>0.1°/sec</units>
-  <index></index>
   <remarks>Less than 0 = Left</remarks>
   <remarks>Greater than 0 = Right</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1028</id>
   <count>1</count>
   <name>Static Pressure</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.001 inHg</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1029</id>
   <count>1</count>
   <name>Pitot Pressure</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.001 inHg</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1030</id>
@@ -4045,25 +1684,8 @@
   <type>INT</type>
   <min>-300</min>
   <max>300</max>
-  <offset></offset>
   <units>0.01°C</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1031</id>
@@ -4072,25 +1694,8 @@
   <type>INT</type>
   <min>-300</min>
   <max>300</max>
-  <offset></offset>
   <units>0.01°C</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1032</id>
@@ -4099,25 +1704,8 @@
   <type>DINT</type>
   <min>-1,000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1033</id>
@@ -4126,25 +1714,8 @@
   <type>DINT</type>
   <min>-1,000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1034</id>
@@ -4153,25 +1724,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>2000</max>
-  <offset></offset>
   <units>0.1 knots</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1035</id>
@@ -4180,51 +1734,15 @@
   <type>UINT</type>
   <min>0</min>
   <max>360</max>
-  <offset></offset>
   <units>0.01°</units>
-  <index></index>
   <remarks>Magnetic</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1152</id>
   <count>1</count>
   <name>Next Waypoint Identifier</name>
   <type>CHAR[4]</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1153</id>
@@ -4233,25 +1751,8 @@
   <type>FLOAT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1154</id>
@@ -4260,25 +1761,8 @@
   <type>FLOAT</type>
   <min>-180</min>
   <max>180</max>
-  <offset></offset>
   <units>°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1155</id>
@@ -4287,25 +1771,8 @@
   <type>DINT</type>
   <min>-1000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1156</id>
@@ -4313,26 +1780,8 @@
   <name>Next Waypoint ETA</name>
   <type>USHORT[3]</type>
   <format>Hour, Min, Sec</format>
-  <offset></offset>
-  <multiplier>UT</multiplier>
-  <units>C</units>
-  <index></index>
+  <units>UTC</units>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1157</id>
@@ -4340,51 +1789,15 @@
   <name>Next Waypoint ETE</name>
   <type>USHORT[3]</type>
   <format>Hour, Min, Sec</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1158</id>
   <count>1</count>
   <name>Waypoint Identifier</name>
   <type>CHAR[4]</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1159</id>
@@ -4393,25 +1806,9 @@
   <type>FLOAT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>°</units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1160</id>
@@ -4420,25 +1817,9 @@
   <type>FLOAT</type>
   <min>-180</min>
   <max>180</max>
-  <offset></offset>
   <units>°</units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1161</id>
@@ -4447,25 +1828,9 @@
   <type>DINT</type>
   <min>-1000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1162</id>
@@ -4473,26 +1838,9 @@
   <name>Waypoint ETA</name>
   <type>USHORT[3]</type>
   <format>Hour, Min, Sec</format>
-  <offset></offset>
-  <multiplier>UT</multiplier>
-  <units>C</units>
+  <units>UTC</units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1163</id>
@@ -4500,51 +1848,17 @@
   <name>Waypoint ETE</name>
   <type>USHORT[3]</type>
   <format>Hour, Min, Sec</format>
-  <offset></offset>
-  <units></units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1164</id>
   <count>1</count>
   <name>Waypoint, Distance To</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>nm</units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1165</id>
@@ -4553,77 +1867,25 @@
   <type>DINT</type>
   <min>-1000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1166</id>
   <count>1</count>
   <name>Waypoint Minimum Flight Level</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1167</id>
   <count>1</count>
   <name>Waypoint Minimum Radar Level</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1168</id>
@@ -4632,77 +1894,25 @@
   <type>DINT</type>
   <min>-1000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1169</id>
   <count>1</count>
   <name>Waypoint Maximum Flight Level</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1170</id>
   <count>1</count>
   <name>Waypoint Maximum Radar Level</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1171</id>
@@ -4711,77 +1921,24 @@
   <type>DINT</type>
   <min>-1000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1172</id>
   <count>1</count>
   <name>Waypoint Reserved</name>
   <type></type>
-  <format></format>
-  <offset></offset>
-  <units></units>
   <index>Waypoint</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1173</id>
   <count>1</count>
   <name>Destination Identifier</name>
   <type>CHAR[4]</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1174</id>
@@ -4790,25 +1947,8 @@
   <type>FLOAT</type>
   <min>-90</min>
   <max>90</max>
-  <offset></offset>
   <units>°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1175</id>
@@ -4817,25 +1957,8 @@
   <type>FLOAT</type>
   <min>-180</min>
   <max>180</max>
-  <offset></offset>
   <units>°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1176</id>
@@ -4844,25 +1967,8 @@
   <type>DINT</type>
   <min>-1000</min>
   <max>60,000</max>
-  <offset></offset>
   <units>ft</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1177</id>
@@ -4870,26 +1976,8 @@
   <name>Destination ETA</name>
   <type>USHORT[3]</type>
   <format>Hour, Min, Sec</format>
-  <offset></offset>
-  <multiplier>UT</multiplier>
-  <units>C</units>
-  <index></index>
+  <units>UTC</units>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1178</id>
@@ -4897,103 +1985,31 @@
   <name>Destination ETE</name>
   <type>USHORT[3]</type>
   <format>Hour, Min, Sec</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1179</id>
   <count>1</count>
   <name>Track Error Angle</name>
   <type></type>
-  <format></format>
-  <offset></offset>
   <units>°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1180</id>
   <count>36</count>
   <name>Reserved</name>
   <type></type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1216</id>
   <count>4</count>
   <name>VHF Com Frequency</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 MHz</units>
   <index>0=Current, 1=Standby, >1 = Memory Locations</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1220</id>
@@ -5002,51 +2018,16 @@
   <type>UINT</type>
   <min>0</min>
   <max>359</max>
-  <offset></offset>
   <units>°</units>
   <index>0=Current, 1=Standby, >1 = Memory Locations</index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1224</id>
   <count>4</count>
   <name>VOR/ILS Identifier</name>
   <type>CHAR[4]</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1228</id>
@@ -5055,25 +2036,8 @@
   <type>UINT</type>
   <min>0</min>
   <max>359.9</max>
-  <offset></offset>
   <units>0.1°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1232</id>
@@ -5082,662 +2046,287 @@
   <type>UINT</type>
   <min>0</min>
   <max>359.9</max>
-  <offset></offset>
   <units>0.1°</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1236</id>
   <count>1</count>
   <name>Transponder Code</name>
   <type>USHORT[4]</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1280</id>
   <count>2</count>
   <name>Cylinder Head Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
   <index>Cylinder</index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1282</id>
   <count>2</count>
   <name>Exhaust Gas Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
   <index>Cylinder</index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1284</id>
   <count>2</count>
   <name>Cylinder Head Temp. Rate of Change</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C/Min</units>
   <index>Cylinder</index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1286</id>
   <count>2</count>
   <name>Cylinder Head Temp. Deviation</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1288</id>
   <count>2</count>
   <name>Exhaust Gas Temp.  Rate of Change</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C/Min</units>
   <index>Cylinder</index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1290</id>
   <count>2</count>
   <name>Exhaust Gas Temp. Deviation</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1292</id>
   <count>2</count>
   <name>Carburetor Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1294</id>
   <count>4</count>
   <name>Electrical Bus Voltage</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1 V</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1298</id>
   <count>4</count>
   <name>Electrical Bus Current</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1 A</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1302</id>
   <count>4</count>
   <name>Generator / Alternator Voltage</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1 V</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1306</id>
   <count>4</count>
   <name>Generator / Alternator Current</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1 A</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1310</id>
   <count>2</count>
   <name>Engine Power</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1312</id>
   <count>2</count>
   <name>Total Engine Time</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1 Hours</units>
   <index>Flight</index>
   <remarks>Index 0 = Total, 1 = last flight, reverse chronological order from there</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1314</id>
   <count>2</count>
   <name>Total Engine Time (Tach)</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1 Hours</units>
   <index>Flight</index>
   <remarks>Index 0 = Total, 1 = last flight, reverse chronological order from there</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1316</id>
   <count>2</count>
   <name>Gearbox Speed</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
-  <multiplier>RP</multiplier>
-  <units>M</units>
-  <index></index>
+  <units>RPM</units>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1318</id>
   <count>2</count>
   <name>Gearbox Oil Pressure Switch</name>
   <type>BYTE</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1320</id>
   <count>2</count>
   <name>Gearbox Oil Temperature Switch</name>
   <type>BYTE</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1322</id>
   <count>2</count>
   <name>Gearbox Oil Quantity Switch</name>
   <type>BYTE</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1324</id>
   <count>2</count>
   <name>Hydraulic Pressure Switch</name>
   <type>BYTE</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1326</id>
   <count>2</count>
   <name>Hydraulic Temperature Switch</name>
   <type>BYTE</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1328</id>
   <count>2</count>
   <name>Hydraulic Fluid Quantity Switch</name>
   <type>BYTE</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks>0 = Normal</remarks>
   <remarks>-1 = Low</remarks>
   <remarks>1 = High</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1330</id>
   <count>2</count>
   <name>Gearbox Oil Pressure</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 psi</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1332</id>
   <count>2</count>
   <name>Gearbox Oil Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1334</id>
@@ -5746,77 +2335,42 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1336</id>
   <count>2</count>
   <name>Hydraulic Pressure</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 psi</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1338</id>
   <count>2</count>
   <name>Hydraulic Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1340</id>
@@ -5825,103 +2379,51 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.01%</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1344</id>
   <count>4</count>
   <name>Tire Pressure</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 psi</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1348</id>
   <count>4</count>
   <name>Strut Pressure</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.01 psi</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1349</id>
   <count>1</count>
   <name>Flight Time</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1 Hours</units>
   <index>Flight</index>
   <remarks>Index 0 = last flight, reverse chronological order from there</remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1408</id>
@@ -5929,26 +2431,8 @@
   <name>Time</name>
   <type>USHORT[3],UINT</type>
   <format>Hour, Min, Sec, mSec</format>
-  <offset></offset>
-  <multiplier>UT</multiplier>
-  <units>C</units>
-  <index></index>
+  <units>UTC</units>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1409</id>
@@ -5956,25 +2440,7 @@
   <name>Date</name>
   <type>UINT, USHORT[2]</type>
   <format>Year, Month, Day</format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1410</id>
@@ -5983,51 +2449,16 @@
   <type>SHORT</type>
   <min>-12</min>
   <max>12</max>
-  <offset></offset>
   <units>0.1 Hours</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1411</id>
   <count>1</count>
   <name>Cabin Temperature</name>
   <type>UINT</type>
-  <format></format>
-  <offset></offset>
   <units>0.1°C</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1412</id>
@@ -6036,25 +2467,8 @@
   <type>USHORT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>%</units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1413</id>
@@ -6063,25 +2477,14 @@
   <type>UINT</type>
   <min>0</min>
   <max>100</max>
-  <offset></offset>
   <units>0.1% MAC</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1414</id>
@@ -6090,76 +2493,27 @@
   <type>INT</type>
   <min>-100</min>
   <max>100</max>
-  <offset></offset>
   <units>0.1%</units>
-  <index></index>
   <remarks></remarks>
   <aux id='1'>Min</aux>
   <aux id='2'>Max</aux>
-  <aux id='3'></aux>
   <aux id='4'>Low Warn</aux>
   <aux id='5'>Low Alarm</aux>
   <aux id='6'>High Warn</aux>
   <aux id='7'>High Alarm</aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1415</id>
   <count>1</count>
   <name>Aircraft Identifier</name>
   <type>CHAR[5]</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 <parameter>
   <id>1416</id>
   <count>1</count>
   <name>Aircraft Type</name>
   <type>CHAR[5]</type>
-  <format></format>
-  <offset></offset>
-  <units></units>
-  <index></index>
   <remarks></remarks>
-  <aux id='1'></aux>
-  <aux id='2'></aux>
-  <aux id='3'></aux>
-  <aux id='4'></aux>
-  <aux id='5'></aux>
-  <aux id='6'></aux>
-  <aux id='7'></aux>
-  <aux id='8'></aux>
-  <aux id='9'></aux>
-  <aux id='10'></aux>
-  <aux id='11'></aux>
-  <aux id='12'></aux>
-  <aux id='13'></aux>
-  <aux id='14'></aux>
-  <aux id='15'></aux>
 </parameter>
 </protocol>

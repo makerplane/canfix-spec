@@ -51,14 +51,14 @@ for x,row in enumerate(tablebuilder["Identifiers"]):
         out.write("  <count>%s</count>\n" % row[countColumn])
         out.write("  <name>%s</name>\n" % row[nameColumn])
 
-        if row[typeColumn] == None:
+        if not row[typeColumn]:
             print("Warning: Type not set for %s" % row[nameColumn])
             s = ""
         else:
             s = row[typeColumn]
         out.write("  <type>%s</type>\n" % s)
 
-        if row[rangeColumn] != None:
+        if row[rangeColumn]:
             s = row[rangeColumn]
             if s.find(" to ") != -1:
                 ranges = s.replace(" to ", "$").split("$")
@@ -69,14 +69,17 @@ for x,row in enumerate(tablebuilder["Identifiers"]):
             else:
                 out.write("  <format>%s</format>\n" % s)
 
-        if row[offsetColumn] != None:
-            out.write("  <offset>%s</offset>\n" % row[offsetColumn])
+        #if row[offsetColumn]:
+        #    out.write("  <offset>%s</offset>\n" % row[offsetColumn])
 
-        if row[unitsColumn] != None:
+        if row[unitsColumn]:
             i = 0
-            s = row[unitsColumn].replace(u'\xba',u'deg')
-            for i in range(len(s)-1):
-                if s[i].isdigit(): break
+            #s = row[unitsColumn].replace(u'\xba',u'deg')
+            s = row[unitsColumn]
+            for x in range(len(s)-1):
+                if s[x].isdigit(): 
+                    i = 0
+                    break
             if i == 0:
                 mult = None
                 units = s
@@ -90,7 +93,7 @@ for x,row in enumerate(tablebuilder["Identifiers"]):
             s = u"  <units>%s</units>\n" % units
             out.write(s.encode("UTF-8"))
 
-        if row[indexColumn] != None:
+        if row[indexColumn]:
             out.write("  <index>%s</index>\n" % row[indexColumn])
         if row[remarksColumn] != None:
             remarks = row[remarksColumn].replace(r"\l", "\l").split("\l")
@@ -100,7 +103,7 @@ for x,row in enumerate(tablebuilder["Identifiers"]):
 
         for i in range(15):
             s = row[auxColumnStart + i]
-            if s != None:
+            if s:
                 out.write("  <aux id='%d'>%s</aux>\n" % (i+1, s))
 
         out.write("</parameter>\n")

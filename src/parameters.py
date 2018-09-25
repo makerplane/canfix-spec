@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # encoding=utf8
+
+# This program parses the spreadsheet file and creates the parameter_list.rst file
+# that is compiled into the specification document.
+
 import pyexcel as pe
 
 columns = {"idstart":1,
