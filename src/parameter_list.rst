@@ -258,7 +258,7 @@ Engine Throttle Control Position
 :Data Type\:: UINT
 :Range\:: 0 to 100
 :Units\:: 0.01%
-:FIX Id\:: THR#
+:FIX Id\:: THR
 
 Engine Prop Control Position
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -267,7 +267,7 @@ Engine Prop Control Position
 :Data Type\:: UINT
 :Range\:: 0 to 100
 :Units\:: 0.01%
-:FIX Id\:: PROP#
+:FIX Id\:: PROP
 
 Engine Mixture Control Position
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -276,7 +276,7 @@ Engine Mixture Control Position
 :Data Type\:: UINT
 :Range\:: 0 to 100
 :Units\:: 0.01%
-:FIX Id\:: MIX#
+:FIX Id\:: MIX
 
 Generic Analog Control (High Priority)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -286,7 +286,7 @@ Generic Analog Control (High Priority)
 :Range\:: 0 to 100
 :Units\:: 0.01%
 :Index\:: Unit
-:FIX Id\:: GENAI#
+:FIX Id\:: GENAI
 :Remarks\::
   | User Defined
 
@@ -1345,6 +1345,17 @@ Hybrid System Status
 
 :Identifiers\:: 570 - 571 (0x23A - 0x23B)
 :Data Type\:: WORD
+
+Upper Deck Pressure
+~~~~~~~~~~~~~~~~~~~
+
+:Identifiers\:: 572 - 573 (0x23C - 0x23D)
+:Data Type\:: UINT
+:Units\:: 0.01 inHg
+:Meta\::
+  | 0000 = Min
+  | 0001 = Max
+
 
 
 High Priority Auxiliary Data

@@ -1348,6 +1348,16 @@
   <remarks></remarks>
 </parameter>
 <parameter>
+  <id>572</id>
+  <count>2</count>
+  <name>Upper Deck Pressure</name>
+  <type>UINT</type>
+  <units>0.01 inHg</units>
+  <remarks></remarks>
+  <aux id='1'>Min</aux>
+  <aux id='2'>Max</aux>
+</parameter>
+<parameter>
   <id>640</id>
   <count>1</count>
   <name>Cabin Pressure</name>
