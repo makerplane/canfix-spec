@@ -437,7 +437,7 @@
 </parameter>
 <parameter>
   <id>326</id>
-  <count>1</count>
+  <count>3</count>
   <name>Landing Gear Position Switches</name>
   <type>BYTE</type>
   <format>Discrete Bits</format>
@@ -453,8 +453,8 @@
   <count>1</count>
   <name>Pitch Angle</name>
   <type>INT</type>
-  <min>-180</min>
-  <max>180</max>
+  <min>-90</min>
+  <max>90</max>
   <units>0.01°</units>
   <remarks>Greater Than 0 = Nose Up</remarks>
 </parameter>
@@ -473,8 +473,8 @@
   <count>1</count>
   <name>Angle of Attack</name>
   <type>INT</type>
-  <min>-180</min>
-  <max>180</max>
+  <min>-90</min>
+  <max>90</max>
   <units>0.01°</units>
   <remarks></remarks>
   <aux id='1'>Min</aux>

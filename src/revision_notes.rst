@@ -8,6 +8,7 @@ Version 0.7 - |date|
   * Change Encoder Input data type to INT[2],BYTE.  This adds another axis
     to the encoder as well a byte for discrete switches or buttons.
   * Change Units for Static and Pitot pressures to 0.001 inHg from 0.01 inHg
+  * Change Range for Pitch Angle and Angle of Attack to -90 to 90
   * Add milliseconds to Time
   * Add decimal point to Time Zone to account for 1/2 hour timezones
   * Add Tachometer Time parameter
@@ -16,6 +17,7 @@ Version 0.7 - |date|
   * Add Serial Number to Node Status Message
   * Add Node Description Message
   * Add Paramter Setting function description
+  * Change count of Landing Gear Position Switches from 1 to 3
   * Remove Comm Frequency "Set" Parameters (IDs 1216 - 1219)
   * Remove VOR / ILS Frequency "Set" Parameters (IDs 1224 = 1227)
   * Remove Altimeter Setting "Set" Parameter (ID 400)

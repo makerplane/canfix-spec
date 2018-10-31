@@ -361,7 +361,6 @@ Tail Rotor Angle
 :Data Type\:: INT
 :Range\:: -90 to 90
 :Units\:: 0.01°
-:FIX Id\:: FLPPOS
 :Meta\::
   | 0000 = Min
   | 0001 = Max
@@ -376,6 +375,7 @@ Flap Position
 :Data Type\:: INT
 :Range\:: -90 to 90
 :Units\:: 0.01°
+:FIX Id\:: FLPPOS
 :Meta\::
   | 0000 = Min
   | 0001 = Max
@@ -386,7 +386,7 @@ Flap Position
 Landing Gear Position Switches
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 326 (0x146)
+:Identifiers\:: 326 - 328 (0x146 - 0x148)
 :Data Type\:: BYTE
 :Range\:: Discrete Bits
 :FIX Id\:: GEARSW
@@ -407,7 +407,7 @@ Pitch Angle
 
 :Identifier\:: 384 (0x180)
 :Data Type\:: INT
-:Range\:: -180 to 180
+:Range\:: -90 to 90
 :Units\:: 0.01°
 :FIX Id\:: PITCH
 :Remarks\::
@@ -429,7 +429,7 @@ Angle of Attack
 
 :Identifier\:: 386 (0x182)
 :Data Type\:: INT
-:Range\:: -180 to 180
+:Range\:: -90 to 90
 :Units\:: 0.01°
 :FIX Id\:: AOA
 :Meta\::
@@ -1707,6 +1707,7 @@ Density Altitude
 :Data Type\:: DINT
 :Range\:: -1,000 to 60,000
 :Units\:: ft
+:FIX Id\:: DALT
 
 True Altitude
 ~~~~~~~~~~~~~
@@ -1715,6 +1716,7 @@ True Altitude
 :Data Type\:: DINT
 :Range\:: -1,000 to 60,000
 :Units\:: ft
+:FIX Id\:: TALT
 
 Wind Speed
 ~~~~~~~~~~
