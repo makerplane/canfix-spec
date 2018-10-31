@@ -1751,7 +1751,7 @@
   <id>1152</id>
   <count>1</count>
   <name>Next Waypoint Identifier</name>
-  <type>CHAR[4]</type>
+  <type>CHAR[5]</type>
   <remarks></remarks>
 </parameter>
 <parameter>
@@ -1805,7 +1805,7 @@
   <id>1158</id>
   <count>1</count>
   <name>Waypoint Identifier</name>
-  <type>CHAR[4]</type>
+  <type>CHAR[5]</type>
   <index>Waypoint</index>
   <remarks></remarks>
 </parameter>
@@ -1947,7 +1947,7 @@
   <id>1173</id>
   <count>1</count>
   <name>Destination Identifier</name>
-  <type>CHAR[4]</type>
+  <type>CHAR[5]</type>
   <remarks></remarks>
 </parameter>
 <parameter>
@@ -2036,7 +2036,7 @@
   <id>1224</id>
   <count>4</count>
   <name>VOR/ILS Identifier</name>
-  <type>CHAR[4]</type>
+  <type>CHAR[5]</type>
   <remarks></remarks>
 </parameter>
 <parameter>

@@ -9,6 +9,7 @@ Version 0.7 - |date|
     to the encoder as well a byte for discrete switches or buttons.
   * Change Units for Static and Pitot pressures to 0.001 inHg from 0.01 inHg
   * Change Range for Pitch Angle and Angle of Attack to -90 to 90
+  * Change waypoint identifier's type from CHAR[4] to CHAR[5]
   * Add milliseconds to Time
   * Add decimal point to Time Zone to account for 1/2 hour timezones
   * Add Tachometer Time parameter

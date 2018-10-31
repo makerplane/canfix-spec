@@ -258,7 +258,7 @@ Engine Throttle Control Position
 :Data Type\:: UINT
 :Range\:: 0 to 100
 :Units\:: 0.01%
-:FIX Id\:: THR
+:FIX Id\:: CTLTHR
 
 Engine Prop Control Position
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -267,7 +267,7 @@ Engine Prop Control Position
 :Data Type\:: UINT
 :Range\:: 0 to 100
 :Units\:: 0.01%
-:FIX Id\:: PROP
+:FIX Id\:: CTLPROP
 
 Engine Mixture Control Position
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -276,7 +276,7 @@ Engine Mixture Control Position
 :Data Type\:: UINT
 :Range\:: 0 to 100
 :Units\:: 0.01%
-:FIX Id\:: MIX
+:FIX Id\:: CTLMIX
 
 Generic Analog Control (High Priority)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -286,7 +286,7 @@ Generic Analog Control (High Priority)
 :Range\:: 0 to 100
 :Units\:: 0.01%
 :Index\:: Unit
-:FIX Id\:: GENAI
+:FIX Id\:: CTLANL
 :Remarks\::
   | User Defined
 
@@ -346,7 +346,7 @@ Collective Position
 :Data Type\:: INT
 :Range\:: -90 to 90
 :Units\:: 0.01°
-:FIX Id\:: TRANGL
+:FIX Id\:: COLPOS
 :Meta\::
   | 0000 = Min
   | 0001 = Max
@@ -361,6 +361,7 @@ Tail Rotor Angle
 :Data Type\:: INT
 :Range\:: -90 to 90
 :Units\:: 0.01°
+:FIX Id\:: TRANGL
 :Meta\::
   | 0000 = Min
   | 0001 = Max
@@ -932,7 +933,7 @@ N1 or Engine RPM
 :Identifiers\:: 512 - 513 (0x200 - 0x201)
 :Data Type\:: UINT
 :Units\:: RPM
-:FIX Id\:: TACH
+:FIX Id\:: TACH,N1
 :Meta\::
   | 0000 = Min
   | 0001 = Max
@@ -954,7 +955,7 @@ N2, Prop RPM or Rotor RPM
 :Identifiers\:: 514 - 515 (0x202 - 0x203)
 :Data Type\:: UINT
 :Units\:: RPM
-:FIX Id\:: PROP
+:FIX Id\:: PROP,N2
 :Meta\::
   | 0000 = Min
   | 0001 = Max
@@ -1241,7 +1242,7 @@ Oil Quantity
 :Identifiers\:: 556 - 557 (0x22C - 0x22D)
 :Data Type\:: UINT
 :Units\:: 0.01 gal
-:FIX Id\:: OILQTY
+:FIX Id\:: OILQ
 :Meta\::
   | 0000 = Min
   | 0001 = Max
@@ -1257,7 +1258,7 @@ Coolant Quantity
 :Identifiers\:: 558 - 559 (0x22E - 0x22F)
 :Data Type\:: UINT
 :Units\:: 0.01 gal
-:FIX Id\:: H2OQTY
+:FIX Id\:: H2OQ
 :Meta\::
   | 0000 = Min
   | 0001 = Max
@@ -1744,7 +1745,7 @@ Next Waypoint Identifier
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 :Identifier\:: 1152 (0x480)
-:Data Type\:: CHAR[4]
+:Data Type\:: CHAR[5]
 
 Next Waypoint Latitude
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -1789,7 +1790,7 @@ Waypoint Identifier
 ~~~~~~~~~~~~~~~~~~~
 
 :Identifier\:: 1158 (0x486)
-:Data Type\:: CHAR[4]
+:Data Type\:: CHAR[5]
 :Index\:: Waypoint
 
 Waypoint Latitude
@@ -1910,7 +1911,7 @@ Destination Identifier
 ~~~~~~~~~~~~~~~~~~~~~~
 
 :Identifier\:: 1173 (0x495)
-:Data Type\:: CHAR[4]
+:Data Type\:: CHAR[5]
 
 Destination Latitude
 ~~~~~~~~~~~~~~~~~~~~
@@ -1985,7 +1986,7 @@ VOR/ILS Identifier
 ~~~~~~~~~~~~~~~~~~
 
 :Identifiers\:: 1224 - 1227 (0x4C8 - 0x4CB)
-:Data Type\:: CHAR[4]
+:Data Type\:: CHAR[5]
 
 Actual VOR Radial
 ~~~~~~~~~~~~~~~~~
