@@ -40,7 +40,7 @@ own node ID.  Each node should add it's node ID to the beginning identifier to
 determine which one it should use to send these messages.  Node 2 would use 1794
 (0x702) to send these control messages or to respond to other nodes.
 
-*Node Specific Messages* are essentially give our CAN network a point-to-point capability.
+*Node Specific Messages* essentially give our CAN network a point-to-point capability.
 See the :ref:`Frame Definitions` section for more information.
 
 The *Two-Way Communication Channels* Group contains 32 identifiers that are

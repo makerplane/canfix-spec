@@ -148,7 +148,7 @@
   <id>268</id>
   <count>2</count>
   <name>Auto Pilot Commands</name>
-  <type>BYTE</type>
+  <type>WORD</type>
   <format>Discrete Bits</format>
   <remarks>b0 = Engage</remarks>
   <remarks>b1 = Disconnect</remarks>
@@ -616,7 +616,7 @@
   <name>True Airspeed</name>
   <type>UINT</type>
   <min>0</min>
-  <max>2000</max>
+  <max>999.9</max>
   <units>0.1 knots</units>
   <remarks></remarks>
   <aux id='1'>Min</aux>
@@ -628,7 +628,7 @@
   <name>Calibrated Airspeed</name>
   <type>UINT</type>
   <min>0</min>
-  <max>2000</max>
+  <max>999.9</max>
   <units>0.1 knots</units>
   <remarks></remarks>
   <aux id='1'>Min</aux>
@@ -787,6 +787,18 @@
 <parameter>
   <id>460</id>
   <count>1</count>
+  <name>Selected Airspeed</name>
+  <type>UINT</type>
+  <min>0</min>
+  <max>999.9</max>
+  <units>0.1 knots</units>
+  <remarks></remarks>
+  <aux id='1'>Min</aux>
+  <aux id='2'>Max</aux>
+</parameter>
+<parameter>
+  <id>461</id>
+  <count>1</count>
   <name>Selected Altitude</name>
   <type>DINT</type>
   <min>-1000</min>
@@ -795,7 +807,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>461</id>
+  <id>462</id>
   <count>1</count>
   <name>RAIM Status</name>
   <type>USHORT</type>
@@ -803,7 +815,7 @@
   <remarks>Otherwise the ID of the most likely failed satellite</remarks>
 </parameter>
 <parameter>
-  <id>462</id>
+  <id>463</id>
   <count>1</count>
   <name>RAIM Horizontal Error</name>
   <type>UINT</type>
@@ -811,7 +823,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>463</id>
+  <id>464</id>
   <count>1</count>
   <name>RAIM Vertical Error</name>
   <type>UINT</type>
@@ -819,7 +831,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>464</id>
+  <id>465</id>
   <count>1</count>
   <name>ADS-B ES Airborne Position Latitude</name>
   <type>FLOAT</type>
@@ -830,7 +842,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>465</id>
+  <id>466</id>
   <count>1</count>
   <name>ADS-B ES Airborne Position Longitude</name>
   <type>FLOAT</type>
@@ -841,7 +853,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>466</id>
+  <id>467</id>
   <count>1</count>
   <name>ADS-B ES Airborne Position Altitude</name>
   <type>DINT</type>
@@ -852,7 +864,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>467</id>
+  <id>468</id>
   <count>1</count>
   <name>ADS-B ES Surface Position Latitude</name>
   <type>FLOAT</type>
@@ -863,7 +875,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>468</id>
+  <id>469</id>
   <count>1</count>
   <name>ADS-B ES Surface Position Longitude</name>
   <type>FLOAT</type>
@@ -874,7 +886,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>469</id>
+  <id>470</id>
   <count>1</count>
   <name>ADS-B ES Surface Position Altitude</name>
   <type>DINT</type>
@@ -885,7 +897,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>470</id>
+  <id>471</id>
   <count>1</count>
   <name>ADS-B ES Status</name>
   <type></type>
@@ -893,7 +905,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>471</id>
+  <id>472</id>
   <count>1</count>
   <name>ADS-B ES Identification</name>
   <type></type>
@@ -901,7 +913,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>472</id>
+  <id>473</id>
   <count>1</count>
   <name>ADS-B ES Type</name>
   <type></type>
@@ -909,7 +921,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>473</id>
+  <id>474</id>
   <count>1</count>
   <name>ADS-B ES Airborne Velocity</name>
   <type>UINT</type>
@@ -920,7 +932,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>474</id>
+  <id>475</id>
   <count>1</count>
   <name>ADS-B ES Airborne Bearing</name>
   <type>UINT</type>
@@ -931,7 +943,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>475</id>
+  <id>476</id>
   <count>1</count>
   <name>ADS-B ES Airborne Rate of Climb</name>
   <type>INT</type>
@@ -942,7 +954,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>476</id>
+  <id>477</id>
   <count>1</count>
   <name>ADS-B ES Emergency Priority Status</name>
   <type></type>
@@ -950,7 +962,7 @@
   <remarks>Event Driven Information</remarks>
 </parameter>
 <parameter>
-  <id>477</id>
+  <id>478</id>
   <count>1</count>
   <name>ADS-B ES Current Trajectory Change Point</name>
   <type></type>
@@ -958,7 +970,7 @@
   <remarks>Event Driven Information</remarks>
 </parameter>
 <parameter>
-  <id>478</id>
+  <id>479</id>
   <count>1</count>
   <name>ADS-B ES Next Trajectory Change Point</name>
   <type></type>
@@ -966,7 +978,7 @@
   <remarks>Event Driven Information</remarks>
 </parameter>
 <parameter>
-  <id>479</id>
+  <id>480</id>
   <count>1</count>
   <name>ADS-B ES Operation Coord. Message</name>
   <type></type>
@@ -974,7 +986,7 @@
   <remarks>Event Driven Information</remarks>
 </parameter>
 <parameter>
-  <id>480</id>
+  <id>481</id>
   <count>1</count>
   <name>ADS-B ES Operational Status</name>
   <type></type>
@@ -2064,6 +2076,14 @@
   <count>1</count>
   <name>Transponder Code</name>
   <type>USHORT[4]</type>
+  <remarks></remarks>
+</parameter>
+<parameter>
+  <id>1240</id>
+  <count>1</count>
+  <name>Auto Pilot / FD Mode</name>
+  <type>WORD</type>
+  <index>0=AP Mode, 1=Horizontal Mode, 2=Vertical Mode, 255=Status</index>
   <remarks></remarks>
 </parameter>
 <parameter>

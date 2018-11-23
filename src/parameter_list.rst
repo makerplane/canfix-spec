@@ -68,7 +68,7 @@ Auto Pilot Commands
 ~~~~~~~~~~~~~~~~~~~
 
 :Identifiers\:: 268 - 269 (0x10C - 0x10D)
-:Data Type\:: BYTE
+:Data Type\:: WORD
 :Range\:: Discrete Bits
 :Remarks\::
   | b0 = Engage
@@ -581,7 +581,7 @@ True Airspeed
 
 :Identifier\:: 397 (0x18D)
 :Data Type\:: UINT
-:Range\:: 0 to 2000
+:Range\:: 0 to 999.9
 :Units\:: 0.1 knots
 :FIX Id\:: TAS
 :Meta\::
@@ -594,7 +594,7 @@ Calibrated Airspeed
 
 :Identifier\:: 398 (0x18E)
 :Data Type\:: UINT
-:Range\:: 0 to 2000
+:Range\:: 0 to 999.9
 :Units\:: 0.1 knots
 :FIX Id\:: CAS
 :Meta\::
@@ -745,10 +745,22 @@ Selected Vertical Speed
 :Range\:: -30,000 to 30,000
 :Units\:: ft/min
 
-Selected Altitude
+Selected Airspeed
 ~~~~~~~~~~~~~~~~~
 
 :Identifier\:: 460 (0x1CC)
+:Data Type\:: UINT
+:Range\:: 0 to 999.9
+:Units\:: 0.1 knots
+:Meta\::
+  | 0000 = Min
+  | 0001 = Max
+
+
+Selected Altitude
+~~~~~~~~~~~~~~~~~
+
+:Identifier\:: 461 (0x1CD)
 :Data Type\:: DINT
 :Range\:: -1000 to 60,000
 :Units\:: ft
@@ -756,7 +768,7 @@ Selected Altitude
 RAIM Status
 ~~~~~~~~~~~
 
-:Identifier\:: 461 (0x1CD)
+:Identifier\:: 462 (0x1CE)
 :Data Type\:: USHORT
 :Remarks\::
   | 0 if Good
@@ -765,21 +777,21 @@ RAIM Status
 RAIM Horizontal Error
 ~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 462 (0x1CE)
+:Identifier\:: 463 (0x1CF)
 :Data Type\:: UINT
 :Units\:: ft
 
 RAIM Vertical Error
 ~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 463 (0x1CF)
+:Identifier\:: 464 (0x1D0)
 :Data Type\:: UINT
 :Units\:: ft
 
 ADS-B ES Airborne Position Latitude
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 464 (0x1D0)
+:Identifier\:: 465 (0x1D1)
 :Data Type\:: FLOAT
 :Range\:: -90 to 90
 :Units\:: °
@@ -788,7 +800,7 @@ ADS-B ES Airborne Position Latitude
 ADS-B ES Airborne Position Longitude
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 465 (0x1D1)
+:Identifier\:: 466 (0x1D2)
 :Data Type\:: FLOAT
 :Range\:: -180 to 180
 :Units\:: °
@@ -797,7 +809,7 @@ ADS-B ES Airborne Position Longitude
 ADS-B ES Airborne Position Altitude
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 466 (0x1D2)
+:Identifier\:: 467 (0x1D3)
 :Data Type\:: DINT
 :Range\:: -1000 to 60,000
 :Units\:: ft
@@ -806,7 +818,7 @@ ADS-B ES Airborne Position Altitude
 ADS-B ES Surface Position Latitude
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 467 (0x1D3)
+:Identifier\:: 468 (0x1D4)
 :Data Type\:: FLOAT
 :Range\:: -90 to 90
 :Units\:: °
@@ -815,7 +827,7 @@ ADS-B ES Surface Position Latitude
 ADS-B ES Surface Position Longitude
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 468 (0x1D4)
+:Identifier\:: 469 (0x1D5)
 :Data Type\:: FLOAT
 :Range\:: -180 to 180
 :Units\:: °
@@ -824,7 +836,7 @@ ADS-B ES Surface Position Longitude
 ADS-B ES Surface Position Altitude
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 469 (0x1D5)
+:Identifier\:: 470 (0x1D6)
 :Data Type\:: DINT
 :Range\:: -1000 to 60,000
 :Units\:: ft
@@ -833,28 +845,28 @@ ADS-B ES Surface Position Altitude
 ADS-B ES Status
 ~~~~~~~~~~~~~~~
 
-:Identifier\:: 470 (0x1D6)
+:Identifier\:: 471 (0x1D7)
 :Data Type\:: 
 :Index\:: Aircraft
 
 ADS-B ES Identification
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 471 (0x1D7)
+:Identifier\:: 472 (0x1D8)
 :Data Type\:: 
 :Index\:: Aircraft
 
 ADS-B ES Type
 ~~~~~~~~~~~~~
 
-:Identifier\:: 472 (0x1D8)
+:Identifier\:: 473 (0x1D9)
 :Data Type\:: 
 :Index\:: Aircraft
 
 ADS-B ES Airborne Velocity
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 473 (0x1D9)
+:Identifier\:: 474 (0x1DA)
 :Data Type\:: UINT
 :Range\:: 0 to 2000
 :Units\:: 0.1 knots
@@ -863,7 +875,7 @@ ADS-B ES Airborne Velocity
 ADS-B ES Airborne Bearing
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 474 (0x1DA)
+:Identifier\:: 475 (0x1DB)
 :Data Type\:: UINT
 :Range\:: 0 to 359.9
 :Units\:: 0.1°
@@ -872,7 +884,7 @@ ADS-B ES Airborne Bearing
 ADS-B ES Airborne Rate of Climb
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 475 (0x1DB)
+:Identifier\:: 476 (0x1DC)
 :Data Type\:: INT
 :Range\:: -30,000 to 30,000
 :Units\:: ft/min
@@ -881,7 +893,7 @@ ADS-B ES Airborne Rate of Climb
 ADS-B ES Emergency Priority Status
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 476 (0x1DC)
+:Identifier\:: 477 (0x1DD)
 :Data Type\:: 
 :Index\:: Aircraft
 :Remarks\::
@@ -890,7 +902,7 @@ ADS-B ES Emergency Priority Status
 ADS-B ES Current Trajectory Change Point
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 477 (0x1DD)
+:Identifier\:: 478 (0x1DE)
 :Data Type\:: 
 :Index\:: Aircraft
 :Remarks\::
@@ -899,7 +911,7 @@ ADS-B ES Current Trajectory Change Point
 ADS-B ES Next Trajectory Change Point
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 478 (0x1DE)
+:Identifier\:: 479 (0x1DF)
 :Data Type\:: 
 :Index\:: Aircraft
 :Remarks\::
@@ -908,7 +920,7 @@ ADS-B ES Next Trajectory Change Point
 ADS-B ES Operation Coord. Message
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 479 (0x1DF)
+:Identifier\:: 480 (0x1E0)
 :Data Type\:: 
 :Index\:: Aircraft
 :Remarks\::
@@ -917,7 +929,7 @@ ADS-B ES Operation Coord. Message
 ADS-B ES Operational Status
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Identifier\:: 480 (0x1E0)
+:Identifier\:: 481 (0x1E1)
 :Data Type\:: 
 :Index\:: Aircraft
 :Remarks\::
@@ -2009,6 +2021,13 @@ Transponder Code
 
 :Identifier\:: 1236 (0x4D4)
 :Data Type\:: USHORT[4]
+
+Auto Pilot / FD Mode
+~~~~~~~~~~~~~~~~~~~~
+
+:Identifier\:: 1240 (0x4D8)
+:Data Type\:: WORD
+:Index\:: 0=AP Mode, 1=Horizontal Mode, 2=Vertical Mode, 255=Status
 
 
 Normal Priority Engine / Aircraft System Data

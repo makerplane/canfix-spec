@@ -14,6 +14,7 @@ Version 0.7 - |date|
   * Add decimal point to Time Zone to account for 1/2 hour timezones
   * Add Tachometer Time parameter
   * Add Aircraft Type parameter
+  * Add Selected Airspeed Parameter
   * Add Upper Deck Pressure parameter
   * Add Serial Number to Node Status Message
   * Add Node Description Message
