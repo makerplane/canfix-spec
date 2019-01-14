@@ -1,0 +1,3283 @@
+{
+    "groups": [
+        {
+            "endid": 255, 
+            "name": "High Priority Node Alarms", 
+            "startid": 1
+        }, 
+        {
+            "endid": 319, 
+            "name": "High Priority Pilot Control Inputs", 
+            "startid": 256
+        }, 
+        {
+            "endid": 383, 
+            "name": "High Priority Measured Positions", 
+            "startid": 320
+        }, 
+        {
+            "endid": 447, 
+            "name": "High Priority Flight Data", 
+            "startid": 384
+        }, 
+        {
+            "endid": 511, 
+            "name": "High Priority Navigation Data", 
+            "startid": 448
+        }, 
+        {
+            "endid": 639, 
+            "name": "High Priority Engine / Aircraft System Data", 
+            "startid": 512
+        }, 
+        {
+            "endid": 767, 
+            "name": "High Priority Auxiliary Data", 
+            "startid": 640
+        }, 
+        {
+            "endid": 895, 
+            "name": "Normal Priority Pilot Control Inputs", 
+            "startid": 768
+        }, 
+        {
+            "endid": 1023, 
+            "name": "Normal Priority Measured Positions", 
+            "startid": 896
+        }, 
+        {
+            "endid": 1151, 
+            "name": "Normal Priority Flight Data", 
+            "startid": 1024
+        }, 
+        {
+            "endid": 1279, 
+            "name": "Normal Priority Navigation Data", 
+            "startid": 1152
+        }, 
+        {
+            "endid": 1407, 
+            "name": "Normal Priority Engine / Aircraft System Data", 
+            "startid": 1280
+        }, 
+        {
+            "endid": 1535, 
+            "name": "Normal Priority Auxiliary Data", 
+            "startid": 1408
+        }, 
+        {
+            "endid": 1695, 
+            "name": "Future", 
+            "startid": 1536
+        }, 
+        {
+            "endid": 1951, 
+            "name": "Node Specific Messages", 
+            "startid": 1696
+        }, 
+        {
+            "endid": 2047, 
+            "name": "Two-Way Connection Channels", 
+            "startid": 1952
+        }
+    ], 
+    "name": "CANFIX", 
+    "parameters": [
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 256, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Flap Control Switches", 
+            "remarks": [
+                "b0 = Up", 
+                "b1 = Down", 
+                "b2 - b7 Can be used for predefined notches"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 258, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Trim Switches", 
+            "remarks": [
+                "b0 = Pitch Up", 
+                "b1 = Pitch Down", 
+                "b2 = Pitch Center", 
+                "b3 = Roll Left", 
+                "b4 = Roll Right", 
+                "b5 = Roll Center", 
+                "b6 = Yaw Left", 
+                "b7 = Yaw Right", 
+                "b8 = Yaw Center", 
+                "b9 = Collective Up", 
+                "b10 = Collective Dn", 
+                "b11 = AT Pedals Left", 
+                "b12 = AT Pedals Right", 
+                "b13 = AT Pedals Center"
+            ], 
+            "type": "WORD"
+        }, 
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 260, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Electrical Bus Control Switches", 
+            "remarks": null, 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 262, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Lighting Control Switches", 
+            "remarks": null, 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 264, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Fuel Pump System Switches", 
+            "remarks": null, 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 266, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Fuel Valve System Switches", 
+            "remarks": null, 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 268, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Auto Pilot Commands", 
+            "remarks": [
+                "b0 = Engage", 
+                "b1 = Disconnect", 
+                "b2 = VS Mode", 
+                "b3 = Alt Hold Mode", 
+                "b4 = Alt Select Mode", 
+                "b5 = Heading Increment", 
+                "b6 = Heading Decrement"
+            ], 
+            "type": "WORD"
+        }, 
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 270, 
+            "index": "Radio", 
+            "metadata": {}, 
+            "name": "VHF Control Commands", 
+            "remarks": [
+                "b0 = PTT", 
+                "b1 = Flip", 
+                "b2 = Next Saved Freq", 
+                "b3 = Prev Saved Freq"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 272, 
+            "index": "Radio", 
+            "metadata": {}, 
+            "name": "VOR/LOC Control Commands", 
+            "remarks": [
+                "b1 = Flip", 
+                "b2 = Next Saved Freq", 
+                "b3 = Prev Saved Freq"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 274, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Transponder Commands", 
+            "remarks": [
+                "b0 = IDENT", 
+                "b1 = ALT", 
+                "b2 = STBY", 
+                "b2 = ALT", 
+                "b3 = VFR", 
+                "b5 = OFF", 
+                "b6 = Squat"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 276, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Starter / Magneto Commands", 
+            "remarks": null, 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "format": "Discrete Bits", 
+            "id": 278, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Landing Gear Control Position", 
+            "remarks": [
+                "0=Down", 
+                "1=Up", 
+                "b0=Nose", 
+                "b1=Left", 
+                "b2=Right"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "format": "Key, Function Key", 
+            "id": 280, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Keypad Input", 
+            "remarks": null, 
+            "type": "CHAR[2]"
+        }, 
+        {
+            "count": 2, 
+            "format": "Steps Moved", 
+            "id": 282, 
+            "index": "Unit", 
+            "metadata": {}, 
+            "name": "Encoder Input (High Priority)", 
+            "remarks": [
+                "X,Y and Switch Positions", 
+                "Less than 0 = CCW, Greater than 0 = CW"
+            ], 
+            "type": "INT[2],BYTE"
+        }, 
+        {
+            "count": 8, 
+            "format": "Discrete Bits", 
+            "id": 284, 
+            "index": "Unit", 
+            "metadata": {}, 
+            "name": "Generic Switches (High Priority)", 
+            "remarks": [
+                "User Defined For Multiplexing Switches"
+            ], 
+            "type": "BYTE[5]"
+        }, 
+        {
+            "count": 1, 
+            "id": 292, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Pitch Control Position", 
+            "remarks": [
+                "Greater Than 0 = Nose Up"
+            ], 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 293, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Roll Control Position", 
+            "remarks": [
+                "Greater Than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 294, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Yaw Control Position", 
+            "remarks": [
+                "Greater Than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 295, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Collective Control Position", 
+            "remarks": [
+                "Greater Than 0 = Up"
+            ], 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 296, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Anti-Torque Pedals Position", 
+            "remarks": [
+                "Greater Than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 297, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Flap Control Position", 
+            "remarks": [
+                "Greater Than 0 = Down"
+            ], 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 298, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Left Brake Control Position", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 299, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Right Brake Control Position", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 2, 
+            "id": 300, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Engine Throttle Control Position", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 2, 
+            "id": 302, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Engine Prop Control Position", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 2, 
+            "id": 304, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Engine Mixture Control Position", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 2, 
+            "id": 306, 
+            "index": "Unit", 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Generic Analog Control (High Priority)", 
+            "remarks": [
+                "User Defined"
+            ], 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 320, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Elevator Position", 
+            "remarks": [
+                "Greater Than 0 = Nose Up"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 321, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Aileron Position", 
+            "remarks": [
+                "Greater Than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 322, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Rudder Position", 
+            "remarks": [
+                "Greater Than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 323, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Collective Position", 
+            "remarks": [
+                "Greater Than 0 = Up"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 324, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Tail Rotor Angle", 
+            "remarks": [
+                "Greater Than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 325, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Flap Position", 
+            "remarks": [
+                "Greater Than 0 = Down"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 3, 
+            "format": "Discrete Bits", 
+            "id": 326, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Landing Gear Position Switches", 
+            "remarks": [
+                "b0=Nose Up", 
+                "b1=Nose Down", 
+                "b2=Left Up", 
+                "b3=Left Down", 
+                "b4=Right Up", 
+                "b5=Right Down"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 1, 
+            "id": 384, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Pitch Angle", 
+            "remarks": [
+                "Greater Than 0 = Nose Up"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 385, 
+            "index": null, 
+            "max": "180", 
+            "metadata": {}, 
+            "min": "-180", 
+            "multiplier": "0.01", 
+            "name": "Roll Angle", 
+            "remarks": [
+                "Greater Than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 386, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "7": "0g", 
+                "8": "Warn", 
+                "9": "Stall"
+            }, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Angle of Attack", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 387, 
+            "index": null, 
+            "max": "999.9", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "3": "V1", 
+                "4": "V2", 
+                "5": "Vne", 
+                "6": "Vfe", 
+                "7": "Vmc", 
+                "8": "Va", 
+                "9": "Vno", 
+                "10": "Vs", 
+                "11": "Vs0", 
+                "14": "Vx", 
+                "15": "Vy"
+            }, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Indicated Airspeed", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "knots"
+        }, 
+        {
+            "count": 1, 
+            "id": 388, 
+            "index": null, 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1000", 
+            "name": "Indicated Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 389, 
+            "index": null, 
+            "max": "359.9", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Heading", 
+            "remarks": [
+                "Magnetic Heading"
+            ], 
+            "type": "UINT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 390, 
+            "index": null, 
+            "max": "30,000", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-30,000", 
+            "name": "Vertical Speed", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "ft/min"
+        }, 
+        {
+            "count": 1, 
+            "id": 391, 
+            "index": null, 
+            "max": "300", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-300", 
+            "multiplier": "0.01", 
+            "name": "TE Variometer Vertical Speed", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "knots"
+        }, 
+        {
+            "count": 1, 
+            "id": 392, 
+            "index": null, 
+            "max": "60,000", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "0", 
+            "name": "Radar Altitude", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 393, 
+            "index": null, 
+            "max": "180", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-180", 
+            "multiplier": "0.01", 
+            "name": "Yaw Angle", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 394, 
+            "index": null, 
+            "max": "30", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-30", 
+            "multiplier": "0.001", 
+            "name": "Normal Acceleration", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "g"
+        }, 
+        {
+            "count": 1, 
+            "id": 395, 
+            "index": null, 
+            "max": "30", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-30", 
+            "multiplier": "0.001", 
+            "name": "Lateral Acceleration", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "g"
+        }, 
+        {
+            "count": 1, 
+            "id": 396, 
+            "index": null, 
+            "max": "30", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "-30", 
+            "multiplier": "0.001", 
+            "name": "Longitudinal Acceleration", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "g"
+        }, 
+        {
+            "count": 1, 
+            "id": 397, 
+            "index": null, 
+            "max": "999.9", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "True Airspeed", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "knots"
+        }, 
+        {
+            "count": 1, 
+            "id": 398, 
+            "index": null, 
+            "max": "999.9", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Calibrated Airspeed", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "knots"
+        }, 
+        {
+            "count": 1, 
+            "id": 399, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Mach Number", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "Mach"
+        }, 
+        {
+            "count": 1, 
+            "id": 400, 
+            "index": null, 
+            "max": "35", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.001", 
+            "name": "Altimeter Setting", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "inHg"
+        }, 
+        {
+            "count": 1, 
+            "id": 401, 
+            "index": null, 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1,000", 
+            "name": "Pressure Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 448, 
+            "index": null, 
+            "max": "359.9", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "VOR/LOC Deviation", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 449, 
+            "index": null, 
+            "max": "45", 
+            "metadata": {}, 
+            "min": "-45", 
+            "multiplier": "0.01", 
+            "name": "Glideslope Deviation", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 450, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "OBI Flags", 
+            "remarks": [
+                "b0 = To/From (To = 1)", 
+                "b1:b2 = Input (00=NAV1, 01=NAV2, 10=GPS1, 11=GPS2)", 
+                "b3 = GS", 
+                "b4 = LOC/NAV"
+            ], 
+            "type": "WORD"
+        }, 
+        {
+            "count": 1, 
+            "id": 451, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "-90", 
+            "name": "Aircraft Position Latitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 452, 
+            "index": null, 
+            "max": "180", 
+            "metadata": {}, 
+            "min": "-180", 
+            "name": "Aircraft Position Longitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 453, 
+            "index": null, 
+            "max": "2000", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Groundspeed", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "knots"
+        }, 
+        {
+            "count": 1, 
+            "id": 454, 
+            "index": null, 
+            "max": "359.9", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "True Ground Track", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 455, 
+            "index": null, 
+            "max": "359.9", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Magnetic Ground Track", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 456, 
+            "index": null, 
+            "metadata": {}, 
+            "multiplier": "0.01", 
+            "name": "Cross Track Error", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "nm"
+        }, 
+        {
+            "count": 1, 
+            "id": 457, 
+            "index": null, 
+            "max": "359.9", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Selected Course", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 458, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Selected Glidepath Angle", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 459, 
+            "index": null, 
+            "max": "30,000", 
+            "metadata": {}, 
+            "min": "-30,000", 
+            "name": "Selected Vertical Speed", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "ft/min"
+        }, 
+        {
+            "count": 1, 
+            "id": 460, 
+            "index": null, 
+            "max": "999.9", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Selected Airspeed", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "knots"
+        }, 
+        {
+            "count": 1, 
+            "id": 461, 
+            "index": null, 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1000", 
+            "name": "Selected Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 462, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "RAIM Status", 
+            "remarks": [
+                "0 if Good", 
+                "Otherwise the ID of the most likely failed satellite"
+            ], 
+            "type": "USHORT"
+        }, 
+        {
+            "count": 1, 
+            "id": 463, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "RAIM Horizontal Error", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 464, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "RAIM Vertical Error", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 465, 
+            "index": "Aircraft", 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "-90", 
+            "name": "ADS-B ES Airborne Position Latitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 466, 
+            "index": "Aircraft", 
+            "max": "180", 
+            "metadata": {}, 
+            "min": "-180", 
+            "name": "ADS-B ES Airborne Position Longitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 467, 
+            "index": "Aircraft", 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1000", 
+            "name": "ADS-B ES Airborne Position Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 468, 
+            "index": "Aircraft", 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "-90", 
+            "name": "ADS-B ES Surface Position Latitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 469, 
+            "index": "Aircraft", 
+            "max": "180", 
+            "metadata": {}, 
+            "min": "-180", 
+            "name": "ADS-B ES Surface Position Longitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 470, 
+            "index": "Aircraft", 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1000", 
+            "name": "ADS-B ES Surface Position Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 471, 
+            "index": "Aircraft", 
+            "metadata": {}, 
+            "name": "ADS-B ES Status", 
+            "remarks": null, 
+            "type": ""
+        }, 
+        {
+            "count": 1, 
+            "id": 472, 
+            "index": "Aircraft", 
+            "metadata": {}, 
+            "name": "ADS-B ES Identification", 
+            "remarks": null, 
+            "type": ""
+        }, 
+        {
+            "count": 1, 
+            "id": 473, 
+            "index": "Aircraft", 
+            "metadata": {}, 
+            "name": "ADS-B ES Type", 
+            "remarks": null, 
+            "type": ""
+        }, 
+        {
+            "count": 1, 
+            "id": 474, 
+            "index": "Aircraft", 
+            "max": "2000", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "ADS-B ES Airborne Velocity", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "knots"
+        }, 
+        {
+            "count": 1, 
+            "id": 475, 
+            "index": "Aircraft", 
+            "max": "359.9", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "ADS-B ES Airborne Bearing", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 476, 
+            "index": "Aircraft", 
+            "max": "30,000", 
+            "metadata": {}, 
+            "min": "-30,000", 
+            "name": "ADS-B ES Airborne Rate of Climb", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "ft/min"
+        }, 
+        {
+            "count": 1, 
+            "id": 477, 
+            "index": "Aircraft", 
+            "metadata": {}, 
+            "name": "ADS-B ES Emergency Priority Status", 
+            "remarks": [
+                "Event Driven Information"
+            ], 
+            "type": ""
+        }, 
+        {
+            "count": 1, 
+            "id": 478, 
+            "index": "Aircraft", 
+            "metadata": {}, 
+            "name": "ADS-B ES Current Trajectory Change Point", 
+            "remarks": [
+                "Event Driven Information"
+            ], 
+            "type": ""
+        }, 
+        {
+            "count": 1, 
+            "id": 479, 
+            "index": "Aircraft", 
+            "metadata": {}, 
+            "name": "ADS-B ES Next Trajectory Change Point", 
+            "remarks": [
+                "Event Driven Information"
+            ], 
+            "type": ""
+        }, 
+        {
+            "count": 1, 
+            "id": 480, 
+            "index": "Aircraft", 
+            "metadata": {}, 
+            "name": "ADS-B ES Operation Coord. Message", 
+            "remarks": [
+                "Event Driven Information"
+            ], 
+            "type": ""
+        }, 
+        {
+            "count": 1, 
+            "id": 481, 
+            "index": "Aircraft", 
+            "metadata": {}, 
+            "name": "ADS-B ES Operational Status", 
+            "remarks": [
+                "Event Driven Information"
+            ], 
+            "type": ""
+        }, 
+        {
+            "count": 2, 
+            "id": 512, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm", 
+                "8": "Restriction 1 Low", 
+                "9": "Restriction 1 High", 
+                "10": "Restriction 2 Low", 
+                "11": "Restriction 2 High"
+            }, 
+            "name": "N1 or Engine RPM", 
+            "remarks": [
+                "N1 for Turbines"
+            ], 
+            "type": "UINT", 
+            "units": "RPM"
+        }, 
+        {
+            "count": 2, 
+            "id": 514, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm", 
+                "8": "Restriction 1 Low", 
+                "9": "Restriction 1 High", 
+                "10": "Restriction 2 Low", 
+                "11": "Restriction 2 High"
+            }, 
+            "name": "N2, Prop RPM or Rotor RPM", 
+            "remarks": [
+                "N2 for Turbines"
+            ], 
+            "type": "UINT", 
+            "units": "RPM"
+        }, 
+        {
+            "count": 2, 
+            "id": 516, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "name": "Torque", 
+            "remarks": null, 
+            "type": "INT"
+        }, 
+        {
+            "count": 2, 
+            "id": 518, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Turbine Inlet Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 2, 
+            "id": 520, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Inter-turbine Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 2, 
+            "id": 522, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Turbine Outlet Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 2, 
+            "id": 524, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Fuel Pressure Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "SHORT"
+        }, 
+        {
+            "count": 2, 
+            "id": 526, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Oil Pressure Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "SHORT"
+        }, 
+        {
+            "count": 2, 
+            "id": 528, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Oil Temperature Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "SHORT"
+        }, 
+        {
+            "count": 2, 
+            "id": 530, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Coolant Temperature Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "SHORT"
+        }, 
+        {
+            "count": 2, 
+            "id": 532, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Fuel Quantity Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "SHORT"
+        }, 
+        {
+            "count": 2, 
+            "id": 534, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Oil Quantity Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "SHORT"
+        }, 
+        {
+            "count": 2, 
+            "id": 536, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Coolant Quantity Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "SHORT"
+        }, 
+        {
+            "count": 2, 
+            "id": 538, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Fuel Flow", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "gal/hr"
+        }, 
+        {
+            "count": 2, 
+            "id": 540, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Fuel Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "psi"
+        }, 
+        {
+            "count": 2, 
+            "id": 542, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Manifold Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "inHg"
+        }, 
+        {
+            "count": 2, 
+            "id": 544, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Oil Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "psi"
+        }, 
+        {
+            "count": 2, 
+            "id": 546, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Oil Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 2, 
+            "id": 548, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Coolant Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 4, 
+            "id": 550, 
+            "index": "Aux Tank", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Fuel Quantity", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "gal"
+        }, 
+        {
+            "count": 2, 
+            "id": 554, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Fuel Pump Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "psi"
+        }, 
+        {
+            "count": 2, 
+            "id": 556, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Oil Quantity", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "gal"
+        }, 
+        {
+            "count": 2, 
+            "id": 558, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Coolant Quantity", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "gal"
+        }, 
+        {
+            "count": 2, 
+            "id": 560, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "name": "Electric Propulsion Motor Current", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "A"
+        }, 
+        {
+            "count": 2, 
+            "id": 562, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Main Propulsion Bus Voltage", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "V"
+        }, 
+        {
+            "count": 2, 
+            "id": 564, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "name": "Main Battery Current", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "A"
+        }, 
+        {
+            "count": 2, 
+            "id": 566, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Main Battery Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 2, 
+            "id": 568, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm"
+            }, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Main Battery Charge", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 2, 
+            "id": 570, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Hybrid System Status", 
+            "remarks": null, 
+            "type": "WORD"
+        }, 
+        {
+            "count": 2, 
+            "id": 572, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Upper Deck Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "inHg"
+        }, 
+        {
+            "count": 1, 
+            "id": 640, 
+            "index": null, 
+            "max": "35", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.001", 
+            "name": "Cabin Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "inHg"
+        }, 
+        {
+            "count": 1, 
+            "id": 641, 
+            "index": null, 
+            "max": "30,000", 
+            "metadata": {}, 
+            "min": "-1,000", 
+            "name": "Cabin Altitude", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 8, 
+            "format": "Steps Moved", 
+            "id": 768, 
+            "index": "Unit", 
+            "metadata": {}, 
+            "name": "Encoder Input", 
+            "remarks": [
+                "X,Y and Switch Positions", 
+                "Less than 0 = CCW, Greater than 0 = CW"
+            ], 
+            "type": "INT[2],BYTE"
+        }, 
+        {
+            "count": 8, 
+            "format": "Discrete Bits", 
+            "id": 776, 
+            "index": "Unit", 
+            "metadata": {}, 
+            "name": "Generic Switches", 
+            "remarks": [
+                "User Defined For Multiplexing Switches"
+            ], 
+            "type": "BYTE[5]"
+        }, 
+        {
+            "count": 1, 
+            "id": 784, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Speedbrake Control Position", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 785, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Cowl Flaps Control Position", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 786, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Pitch Trim Control Position", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 787, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Roll Trim Control Position", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 788, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Yaw Trim Control Position", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 789, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Collective Trim Control Position", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 790, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Anti-Torque Pedals Trim Position", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 8, 
+            "id": 791, 
+            "index": "Unit", 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Generic Analog Control", 
+            "remarks": [
+                "User Defined"
+            ], 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 896, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Speedbrake Position", 
+            "remarks": [
+                "Less than 0 = Down", 
+                "Greater than 0 = Up"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 897, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Cowl Flaps Position", 
+            "remarks": [
+                "100% = Open"
+            ], 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 898, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Pitch Trim Position", 
+            "remarks": [
+                "Less than 0 = Down", 
+                "Greater than 0 = Up"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 899, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Roll Trim Position", 
+            "remarks": [
+                "Less than 0 = Left", 
+                "Greater than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 900, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "-90", 
+            "multiplier": "0.01", 
+            "name": "Yaw Trim Position", 
+            "remarks": [
+                "Less than 0 = Left", 
+                "Greater than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 901, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Pitch Trim Motor Speed", 
+            "remarks": [
+                "Less than 0 = Down", 
+                "Greater than 0 = Up"
+            ], 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 902, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Roll Trim Motor Speed", 
+            "remarks": [
+                "Less than 0 = Left", 
+                "Greater than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 903, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Yaw Trim Motor Speed", 
+            "remarks": [
+                "Less than 0 = Left", 
+                "Greater than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 904, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Collective Trim Motor Speed", 
+            "remarks": [
+                "Less than 0 = Down", 
+                "Greater than 0 = Up"
+            ], 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 905, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "-100", 
+            "multiplier": "0.01", 
+            "name": "Anti-Torque Pedals Trim Motor Speed", 
+            "remarks": [
+                "Less than 0 = Left", 
+                "Greater than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "format": "Discrete Bits", 
+            "id": 906, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Light Status", 
+            "remarks": null, 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 4, 
+            "format": "Discrete Bits", 
+            "id": 907, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Fuel Pump Status", 
+            "remarks": null, 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 1, 
+            "format": "Discrete Bits", 
+            "id": 911, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Fuel Valve Status", 
+            "remarks": null, 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 8, 
+            "id": 912, 
+            "index": "Unit", 
+            "max": "100", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Generic Analog Measurement", 
+            "remarks": [
+                "User Defined"
+            ], 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 1024, 
+            "index": null, 
+            "max": "3000", 
+            "metadata": {}, 
+            "min": "-3000", 
+            "multiplier": "0.1", 
+            "name": "Pitch Rate", 
+            "remarks": [
+                "Less than 0 = Down", 
+                "Greater than 0 = Up"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0/sec"
+        }, 
+        {
+            "count": 1, 
+            "id": 1025, 
+            "index": null, 
+            "max": "3000", 
+            "metadata": {}, 
+            "min": "-3000", 
+            "multiplier": "0.1", 
+            "name": "Roll Rate", 
+            "remarks": [
+                "Less than 0 = Left", 
+                "Greater than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0/sec"
+        }, 
+        {
+            "count": 1, 
+            "id": 1026, 
+            "index": null, 
+            "max": "3000", 
+            "metadata": {}, 
+            "min": "-3000", 
+            "multiplier": "0.1", 
+            "name": "Yaw Rate", 
+            "remarks": [
+                "Less than 0 = Left", 
+                "Greater than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0/sec"
+        }, 
+        {
+            "count": 1, 
+            "id": 1027, 
+            "index": null, 
+            "max": "3000", 
+            "metadata": {}, 
+            "min": "-3000", 
+            "multiplier": "0.1", 
+            "name": "Turn Rate", 
+            "remarks": [
+                "Less than 0 = Left", 
+                "Greater than 0 = Right"
+            ], 
+            "type": "INT", 
+            "units": "\u00b0/sec"
+        }, 
+        {
+            "count": 1, 
+            "id": 1028, 
+            "index": null, 
+            "metadata": {}, 
+            "multiplier": "0.001", 
+            "name": "Static Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "inHg"
+        }, 
+        {
+            "count": 1, 
+            "id": 1029, 
+            "index": null, 
+            "metadata": {}, 
+            "multiplier": "0.001", 
+            "name": "Pitot Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "inHg"
+        }, 
+        {
+            "count": 1, 
+            "id": 1030, 
+            "index": null, 
+            "max": "300", 
+            "metadata": {}, 
+            "min": "-300", 
+            "multiplier": "0.01", 
+            "name": "Total Air Temperature", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 1, 
+            "id": 1031, 
+            "index": null, 
+            "max": "300", 
+            "metadata": {}, 
+            "min": "-300", 
+            "multiplier": "0.01", 
+            "name": "Static Air Temperature", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 1, 
+            "id": 1032, 
+            "index": null, 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1,000", 
+            "name": "Density Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 1033, 
+            "index": null, 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1,000", 
+            "name": "True Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 1034, 
+            "index": null, 
+            "max": "2000", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Wind Speed", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "knots"
+        }, 
+        {
+            "count": 1, 
+            "id": 1035, 
+            "index": null, 
+            "max": "360", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Wind Direction", 
+            "remarks": [
+                "Magnetic"
+            ], 
+            "type": "UINT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 1152, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Next Waypoint Identifier", 
+            "remarks": null, 
+            "type": "CHAR[5]"
+        }, 
+        {
+            "count": 1, 
+            "id": 1153, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "-90", 
+            "name": "Next Waypoint Latitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 1154, 
+            "index": null, 
+            "max": "180", 
+            "metadata": {}, 
+            "min": "-180", 
+            "name": "Next Waypoint Longitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 1155, 
+            "index": null, 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1000", 
+            "name": "Next Waypoint Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "format": "Hour, Min, Sec", 
+            "id": 1156, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Next Waypoint ETA", 
+            "remarks": null, 
+            "type": "USHORT[3]", 
+            "units": "UTC"
+        }, 
+        {
+            "count": 1, 
+            "format": "Hour, Min, Sec", 
+            "id": 1157, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Next Waypoint ETE", 
+            "remarks": null, 
+            "type": "USHORT[3]"
+        }, 
+        {
+            "count": 1, 
+            "id": 1158, 
+            "index": "Waypoint", 
+            "metadata": {}, 
+            "name": "Waypoint Identifier", 
+            "remarks": null, 
+            "type": "CHAR[5]"
+        }, 
+        {
+            "count": 1, 
+            "id": 1159, 
+            "index": "Waypoint", 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "-90", 
+            "name": "Waypoint Latitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 1160, 
+            "index": "Waypoint", 
+            "max": "180", 
+            "metadata": {}, 
+            "min": "-180", 
+            "name": "Waypoint Longitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 1161, 
+            "index": "Waypoint", 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1000", 
+            "name": "Waypoint Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "format": "Hour, Min, Sec", 
+            "id": 1162, 
+            "index": "Waypoint", 
+            "metadata": {}, 
+            "name": "Waypoint ETA", 
+            "remarks": null, 
+            "type": "USHORT[3]", 
+            "units": "UTC"
+        }, 
+        {
+            "count": 1, 
+            "format": "Hour, Min, Sec", 
+            "id": 1163, 
+            "index": "Waypoint", 
+            "metadata": {}, 
+            "name": "Waypoint ETE", 
+            "remarks": null, 
+            "type": "USHORT[3]"
+        }, 
+        {
+            "count": 1, 
+            "id": 1164, 
+            "index": "Waypoint", 
+            "metadata": {}, 
+            "name": "Waypoint, Distance To", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "nm"
+        }, 
+        {
+            "count": 1, 
+            "id": 1165, 
+            "index": "Waypoint", 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1000", 
+            "name": "Waypoint Minimum Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 1166, 
+            "index": "Waypoint", 
+            "metadata": {}, 
+            "name": "Waypoint Minimum Flight Level", 
+            "remarks": null, 
+            "type": "UINT"
+        }, 
+        {
+            "count": 1, 
+            "id": 1167, 
+            "index": "Waypoint", 
+            "metadata": {}, 
+            "name": "Waypoint Minimum Radar Level", 
+            "remarks": null, 
+            "type": "UINT"
+        }, 
+        {
+            "count": 1, 
+            "id": 1168, 
+            "index": "Waypoint", 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1000", 
+            "name": "Waypoint Maximum Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 1169, 
+            "index": "Waypoint", 
+            "metadata": {}, 
+            "name": "Waypoint Maximum Flight Level", 
+            "remarks": null, 
+            "type": "UINT"
+        }, 
+        {
+            "count": 1, 
+            "id": 1170, 
+            "index": "Waypoint", 
+            "metadata": {}, 
+            "name": "Waypoint Maximum Radar Level", 
+            "remarks": null, 
+            "type": "UINT"
+        }, 
+        {
+            "count": 1, 
+            "id": 1171, 
+            "index": "Waypoint", 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1000", 
+            "name": "Waypoint Planned Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "id": 1172, 
+            "index": "Waypoint", 
+            "metadata": {}, 
+            "name": "Waypoint Reserved", 
+            "remarks": null, 
+            "type": ""
+        }, 
+        {
+            "count": 1, 
+            "id": 1173, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Destination Identifier", 
+            "remarks": null, 
+            "type": "CHAR[5]"
+        }, 
+        {
+            "count": 1, 
+            "id": 1174, 
+            "index": null, 
+            "max": "90", 
+            "metadata": {}, 
+            "min": "-90", 
+            "name": "Destination Latitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 1175, 
+            "index": null, 
+            "max": "180", 
+            "metadata": {}, 
+            "min": "-180", 
+            "name": "Destination Longitude", 
+            "remarks": null, 
+            "type": "FLOAT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 1176, 
+            "index": null, 
+            "max": "60,000", 
+            "metadata": {}, 
+            "min": "-1000", 
+            "name": "Destination Altitude", 
+            "remarks": null, 
+            "type": "DINT", 
+            "units": "ft"
+        }, 
+        {
+            "count": 1, 
+            "format": "Hour, Min, Sec", 
+            "id": 1177, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Destination ETA", 
+            "remarks": null, 
+            "type": "USHORT[3]", 
+            "units": "UTC"
+        }, 
+        {
+            "count": 1, 
+            "format": "Hour, Min, Sec", 
+            "id": 1178, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Destination ETE", 
+            "remarks": null, 
+            "type": "USHORT[3]"
+        }, 
+        {
+            "count": 1, 
+            "id": 1179, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Track Error Angle", 
+            "remarks": null, 
+            "type": "", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 36, 
+            "id": 1180, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Reserved", 
+            "remarks": null, 
+            "type": ""
+        }, 
+        {
+            "count": 4, 
+            "id": 1216, 
+            "index": "0=Current, 1=Standby, >1 = Memory Locations", 
+            "metadata": {}, 
+            "multiplier": "0.01", 
+            "name": "VHF Com Frequency", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "MHz"
+        }, 
+        {
+            "count": 4, 
+            "id": 1220, 
+            "index": "0=Current, 1=Standby, >1 = Memory Locations", 
+            "max": "359", 
+            "metadata": {}, 
+            "min": "0", 
+            "name": "VOR/ILS Frequency", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 4, 
+            "id": 1224, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "VOR/ILS Identifier", 
+            "remarks": null, 
+            "type": "CHAR[5]"
+        }, 
+        {
+            "count": 4, 
+            "id": 1228, 
+            "index": null, 
+            "max": "359.9", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Actual VOR Radial", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 4, 
+            "id": 1232, 
+            "index": null, 
+            "max": "359.9", 
+            "metadata": {}, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Selected VOR Radial", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0"
+        }, 
+        {
+            "count": 1, 
+            "id": 1236, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Transponder Code", 
+            "remarks": null, 
+            "type": "USHORT[4]"
+        }, 
+        {
+            "count": 1, 
+            "id": 1240, 
+            "index": "0=AP Mode, 1=Horizontal Mode, 2=Vertical Mode, 255=Status", 
+            "metadata": {}, 
+            "name": "Auto Pilot / FD Mode", 
+            "remarks": null, 
+            "type": "WORD"
+        }, 
+        {
+            "count": 2, 
+            "id": 1280, 
+            "index": "Cylinder", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Cylinder Head Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 2, 
+            "id": 1282, 
+            "index": "Cylinder", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Exhaust Gas Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 2, 
+            "id": 1284, 
+            "index": "Cylinder", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Cylinder Head Temp. Rate of Change", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C/Min"
+        }, 
+        {
+            "count": 2, 
+            "id": 1286, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Cylinder Head Temp. Deviation", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 2, 
+            "id": 1288, 
+            "index": "Cylinder", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Exhaust Gas Temp.  Rate of Change", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C/Min"
+        }, 
+        {
+            "count": 2, 
+            "id": 1290, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Exhaust Gas Temp. Deviation", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 2, 
+            "id": 1292, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Carburetor Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 4, 
+            "id": 1294, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Electrical Bus Voltage", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "V"
+        }, 
+        {
+            "count": 4, 
+            "id": 1298, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Electrical Bus Current", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "A"
+        }, 
+        {
+            "count": 4, 
+            "id": 1302, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Generator / Alternator Voltage", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "V"
+        }, 
+        {
+            "count": 4, 
+            "id": 1306, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Generator / Alternator Current", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "A"
+        }, 
+        {
+            "count": 2, 
+            "id": 1310, 
+            "index": null, 
+            "metadata": {}, 
+            "multiplier": "0.1", 
+            "name": "Engine Power", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 2, 
+            "id": 1312, 
+            "index": "Flight", 
+            "metadata": {}, 
+            "multiplier": "0.1", 
+            "name": "Total Engine Time", 
+            "remarks": [
+                "Index 0 = Total, 1 = last flight, reverse chronological order from there"
+            ], 
+            "type": "UINT", 
+            "units": "Hours"
+        }, 
+        {
+            "count": 2, 
+            "id": 1314, 
+            "index": "Flight", 
+            "metadata": {}, 
+            "multiplier": "0.1", 
+            "name": "Total Engine Time (Tach)", 
+            "remarks": [
+                "Index 0 = Total, 1 = last flight, reverse chronological order from there"
+            ], 
+            "type": "UINT", 
+            "units": "Hours"
+        }, 
+        {
+            "count": 2, 
+            "id": 1316, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "name": "Gearbox Speed", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "RPM"
+        }, 
+        {
+            "count": 2, 
+            "id": 1318, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Gearbox Oil Pressure Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "id": 1320, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Gearbox Oil Temperature Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "id": 1322, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Gearbox Oil Quantity Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "id": 1324, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Hydraulic Pressure Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "id": 1326, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Hydraulic Temperature Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "id": 1328, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Hydraulic Fluid Quantity Switch", 
+            "remarks": [
+                "0 = Normal", 
+                "-1 = Low", 
+                "1 = High"
+            ], 
+            "type": "BYTE"
+        }, 
+        {
+            "count": 2, 
+            "id": 1330, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Gearbox Oil Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "psi"
+        }, 
+        {
+            "count": 2, 
+            "id": 1332, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Gearbox Oil Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 2, 
+            "id": 1334, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Gearbox Oil Quantity", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 2, 
+            "id": 1336, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Hydraulic Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "psi"
+        }, 
+        {
+            "count": 2, 
+            "id": 1338, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.1", 
+            "name": "Hydraulic Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 2, 
+            "id": 1340, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "min": "0", 
+            "multiplier": "0.01", 
+            "name": "Hydraulic Fluid Quantity", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%"
+        }, 
+        {
+            "count": 4, 
+            "id": 1344, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Tire Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "psi"
+        }, 
+        {
+            "count": 4, 
+            "id": 1348, 
+            "index": null, 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "multiplier": "0.01", 
+            "name": "Strut Pressure", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "psi"
+        }, 
+        {
+            "count": 1, 
+            "id": 1349, 
+            "index": "Flight", 
+            "metadata": {}, 
+            "multiplier": "0.1", 
+            "name": "Flight Time", 
+            "remarks": [
+                "Index 0 = last flight, reverse chronological order from there"
+            ], 
+            "type": "UINT", 
+            "units": "Hours"
+        }, 
+        {
+            "count": 1, 
+            "format": "Hour, Min, Sec, mSec", 
+            "id": 1408, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Time", 
+            "remarks": null, 
+            "type": "USHORT[3],UINT", 
+            "units": "UTC"
+        }, 
+        {
+            "count": 1, 
+            "format": "Year, Month, Day", 
+            "id": 1409, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Date", 
+            "remarks": null, 
+            "type": "UINT,USHORT[2]"
+        }, 
+        {
+            "count": 1, 
+            "id": 1410, 
+            "index": null, 
+            "max": "12", 
+            "metadata": {}, 
+            "min": "-12", 
+            "multiplier": "0.1", 
+            "name": "Time Zone", 
+            "remarks": null, 
+            "type": "SHORT", 
+            "units": "Hours"
+        }, 
+        {
+            "count": 1, 
+            "id": 1411, 
+            "index": null, 
+            "metadata": {}, 
+            "multiplier": "0.1", 
+            "name": "Cabin Temperature", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "\u00b0C"
+        }, 
+        {
+            "count": 1, 
+            "id": 1412, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {}, 
+            "min": "0", 
+            "name": "Panel Dimmer Level", 
+            "remarks": null, 
+            "type": "USHORT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 1413, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "min": "0", 
+            "multiplier": "0.1", 
+            "name": "Longitudinal Center of Gravity", 
+            "remarks": null, 
+            "type": "UINT", 
+            "units": "%MAC"
+        }, 
+        {
+            "count": 1, 
+            "id": 1414, 
+            "index": null, 
+            "max": "100", 
+            "metadata": {
+                "1": "Min", 
+                "2": "Max", 
+                "4": "Low Warn", 
+                "5": "Low Alarm", 
+                "6": "High Warn", 
+                "7": "High Alarm"
+            }, 
+            "min": "-100", 
+            "multiplier": "0.1", 
+            "name": "Lateral Center of Gravity", 
+            "remarks": null, 
+            "type": "INT", 
+            "units": "%"
+        }, 
+        {
+            "count": 1, 
+            "id": 1415, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Aircraft Identifier", 
+            "remarks": null, 
+            "type": "CHAR[5]"
+        }, 
+        {
+            "count": 1, 
+            "id": 1416, 
+            "index": null, 
+            "metadata": {}, 
+            "name": "Aircraft Type", 
+            "remarks": null, 
+            "type": "CHAR[5]"
+        }
+    ], 
+    "version": "0.7"
+}

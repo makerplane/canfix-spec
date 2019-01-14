@@ -1,5 +1,6 @@
 #!/bin/bash
 
+./canfix_json.py
 ./canfix_xml.py
 ./parameters.py
 
