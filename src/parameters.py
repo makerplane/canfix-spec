@@ -65,7 +65,7 @@ for x,row in enumerate(sheet):
             mstring = ""
             for i, each in enumerate(meta):
                 if each:
-                    mstring += "  | {:04b} = {}\n".format(i, each)
+                    mstring += "  | {:04b} = {}\n".format(i+1, each)
             if mstring != "":
                 f.write(":Meta\::\n")
                 f.write(mstring)

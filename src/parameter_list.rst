@@ -303,8 +303,8 @@ Elevator Position
 :Units\:: 0.01°
 :FIX Id\:: ELVPOS
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 :Remarks\::
   | Greater Than 0 = Nose Up
@@ -318,8 +318,8 @@ Aileron Position
 :Units\:: 0.01°
 :FIX Id\:: AILPOS
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 :Remarks\::
   | Greater Than 0 = Right
@@ -333,8 +333,8 @@ Rudder Position
 :Units\:: 0.01°
 :FIX Id\:: RUDPOS
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 :Remarks\::
   | Greater Than 0 = Right
@@ -348,8 +348,8 @@ Collective Position
 :Units\:: 0.01°
 :FIX Id\:: COLPOS
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 :Remarks\::
   | Greater Than 0 = Up
@@ -363,8 +363,8 @@ Tail Rotor Angle
 :Units\:: 0.01°
 :FIX Id\:: TRANGL
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 :Remarks\::
   | Greater Than 0 = Right
@@ -378,8 +378,8 @@ Flap Position
 :Units\:: 0.01°
 :FIX Id\:: FLPPOS
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 :Remarks\::
   | Greater Than 0 = Down
@@ -434,11 +434,11 @@ Angle of Attack
 :Units\:: 0.01°
 :FIX Id\:: AOA
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0110 = 0g
-  | 0111 = Warn
-  | 1000 = Stall
+  | 0001 = Min
+  | 0010 = Max
+  | 0111 = 0g
+  | 1000 = Warn
+  | 1001 = Stall
 
 
 Indicated Airspeed
@@ -450,19 +450,19 @@ Indicated Airspeed
 :Units\:: 0.1 knots
 :FIX Id\:: IAS
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0010 = V1
-  | 0011 = V2
-  | 0100 = Vne
-  | 0101 = Vfe
-  | 0110 = Vmc
-  | 0111 = Va
-  | 1000 = Vno
-  | 1001 = Vs
-  | 1010 = Vs0
-  | 1101 = Vx
-  | 1110 = Vy
+  | 0001 = Min
+  | 0010 = Max
+  | 0011 = V1
+  | 0100 = V2
+  | 0101 = Vne
+  | 0110 = Vfe
+  | 0111 = Vmc
+  | 1000 = Va
+  | 1001 = Vno
+  | 1010 = Vs
+  | 1011 = Vs0
+  | 1110 = Vx
+  | 1111 = Vy
 
 
 Indicated Altitude
@@ -494,8 +494,8 @@ Vertical Speed
 :Units\:: ft/min
 :FIX Id\:: VERTSP
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 TE Variometer Vertical Speed
@@ -507,8 +507,8 @@ TE Variometer Vertical Speed
 :Units\:: 0.01 knots
 :FIX Id\:: VARIO
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 Radar Altitude
@@ -520,8 +520,8 @@ Radar Altitude
 :Units\:: ft
 :FIX Id\:: RALT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 Yaw Angle
@@ -533,8 +533,8 @@ Yaw Angle
 :Units\:: 0.01°
 :FIX Id\:: YAW
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 Normal Acceleration
@@ -546,8 +546,8 @@ Normal Acceleration
 :Units\:: 0.001 g
 :FIX Id\:: ACNOR
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 Lateral Acceleration
@@ -559,8 +559,8 @@ Lateral Acceleration
 :Units\:: 0.001 g
 :FIX Id\:: ACLAT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 Longitudinal Acceleration
@@ -572,8 +572,8 @@ Longitudinal Acceleration
 :Units\:: 0.001 g
 :FIX Id\:: ACLON
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 True Airspeed
@@ -585,8 +585,8 @@ True Airspeed
 :Units\:: 0.1 knots
 :FIX Id\:: TAS
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 Calibrated Airspeed
@@ -598,8 +598,8 @@ Calibrated Airspeed
 :Units\:: 0.1 knots
 :FIX Id\:: CAS
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 Mach Number
@@ -611,8 +611,8 @@ Mach Number
 :Units\:: 0.01 Mach
 :FIX Id\:: MACH
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 Altimeter Setting
@@ -753,8 +753,8 @@ Selected Airspeed
 :Range\:: 0 to 999.9
 :Units\:: 0.1 knots
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 Selected Altitude
@@ -947,16 +947,16 @@ N1 or Engine RPM
 :Units\:: RPM
 :FIX Id\:: TACH,N1
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
-  | 0111 = Restriction 1 Low
-  | 1000 = Restriction 1 High
-  | 1001 = Restriction 2 Low
-  | 1010 = Restriction 2 High
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
+  | 1000 = Restriction 1 Low
+  | 1001 = Restriction 1 High
+  | 1010 = Restriction 2 Low
+  | 1011 = Restriction 2 High
 
 :Remarks\::
   | N1 for Turbines
@@ -969,16 +969,16 @@ N2, Prop RPM or Rotor RPM
 :Units\:: RPM
 :FIX Id\:: PROP,N2
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
-  | 0111 = Restriction 1 Low
-  | 1000 = Restriction 1 High
-  | 1001 = Restriction 2 Low
-  | 1010 = Restriction 2 High
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
+  | 1000 = Restriction 1 Low
+  | 1001 = Restriction 1 High
+  | 1010 = Restriction 2 Low
+  | 1011 = Restriction 2 High
 
 :Remarks\::
   | N2 for Turbines
@@ -990,12 +990,12 @@ Torque
 :Data Type\:: INT
 :FIX Id\:: TORQUE
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Turbine Inlet Temperature
@@ -1006,12 +1006,12 @@ Turbine Inlet Temperature
 :Units\:: 0.1°C
 :FIX Id\:: TIT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Inter-turbine Temperature
@@ -1022,12 +1022,12 @@ Inter-turbine Temperature
 :Units\:: 0.1°C
 :FIX Id\:: ITT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Turbine Outlet Temperature
@@ -1038,12 +1038,12 @@ Turbine Outlet Temperature
 :Units\:: 0.1°C
 :FIX Id\:: TOT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Fuel Pressure Switch
@@ -1131,12 +1131,12 @@ Fuel Flow
 :Units\:: 0.01 gal/hr
 :FIX Id\:: FUELF
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Fuel Pressure
@@ -1147,12 +1147,12 @@ Fuel Pressure
 :Units\:: 0.01 psi
 :FIX Id\:: FUELP
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Manifold Pressure
@@ -1163,8 +1163,8 @@ Manifold Pressure
 :Units\:: 0.01 inHg
 :FIX Id\:: MAP
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 Oil Pressure
@@ -1175,12 +1175,12 @@ Oil Pressure
 :Units\:: 0.01 psi
 :FIX Id\:: OILP
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Oil Temperature
@@ -1191,12 +1191,12 @@ Oil Temperature
 :Units\:: 0.1°C
 :FIX Id\:: OILT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Coolant Temperature
@@ -1207,12 +1207,12 @@ Coolant Temperature
 :Units\:: 0.1°C
 :FIX Id\:: H2OT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Fuel Quantity
@@ -1224,12 +1224,12 @@ Fuel Quantity
 :Index\:: Aux Tank
 :FIX Id\:: FUELQ
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Fuel Pump Pressure
@@ -1240,12 +1240,12 @@ Fuel Pump Pressure
 :Units\:: 0.01 psi
 :FIX Id\:: FUELPP
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Oil Quantity
@@ -1256,12 +1256,12 @@ Oil Quantity
 :Units\:: 0.01 gal
 :FIX Id\:: OILQ
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Coolant Quantity
@@ -1272,12 +1272,12 @@ Coolant Quantity
 :Units\:: 0.01 gal
 :FIX Id\:: H2OQ
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Electric Propulsion Motor Current
@@ -1288,12 +1288,12 @@ Electric Propulsion Motor Current
 :Units\:: A
 :FIX Id\:: EMI
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Main Propulsion Bus Voltage
@@ -1303,12 +1303,12 @@ Main Propulsion Bus Voltage
 :Data Type\:: UINT
 :Units\:: 0.1 V
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Main Battery Current
@@ -1318,12 +1318,12 @@ Main Battery Current
 :Data Type\:: INT
 :Units\:: A
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Main Battery Temperature
@@ -1333,10 +1333,10 @@ Main Battery Temperature
 :Data Type\:: UINT
 :Units\:: 0.1°C
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Main Battery Charge
@@ -1347,10 +1347,10 @@ Main Battery Charge
 :Range\:: 0 to 100
 :Units\:: 0.1%
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
 
 
 Hybrid System Status
@@ -1366,8 +1366,8 @@ Upper Deck Pressure
 :Data Type\:: UINT
 :Units\:: 0.01 inHg
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
+  | 0001 = Min
+  | 0010 = Max
 
 
 
@@ -1625,12 +1625,12 @@ Generic Analog Measurement
 :Units\:: 0.01%
 :Index\:: Unit
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 :Remarks\::
   | User Defined
@@ -2042,12 +2042,12 @@ Cylinder Head Temperature
 :Index\:: Cylinder
 :FIX Id\:: CHT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Exhaust Gas Temperature
@@ -2059,12 +2059,12 @@ Exhaust Gas Temperature
 :Index\:: Cylinder
 :FIX Id\:: EGT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Cylinder Head Temp. Rate of Change
@@ -2076,10 +2076,10 @@ Cylinder Head Temp. Rate of Change
 :Index\:: Cylinder
 :FIX Id\:: CHTROC
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Cylinder Head Temp. Deviation
@@ -2090,10 +2090,10 @@ Cylinder Head Temp. Deviation
 :Units\:: 0.1°C
 :FIX Id\:: CHTDT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Exhaust Gas Temp.  Rate of Change
@@ -2105,10 +2105,10 @@ Exhaust Gas Temp.  Rate of Change
 :Index\:: Cylinder
 :FIX Id\:: EGTROC
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Exhaust Gas Temp. Deviation
@@ -2119,10 +2119,10 @@ Exhaust Gas Temp. Deviation
 :Units\:: 0.1°C
 :FIX Id\:: EGTDT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Carburetor Temperature
@@ -2133,12 +2133,12 @@ Carburetor Temperature
 :Units\:: 0.1°C
 :FIX Id\:: CARBT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Electrical Bus Voltage
@@ -2149,12 +2149,12 @@ Electrical Bus Voltage
 :Units\:: 0.1 V
 :FIX Id\:: VOLT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Electrical Bus Current
@@ -2165,12 +2165,12 @@ Electrical Bus Current
 :Units\:: 0.1 A
 :FIX Id\:: CURRNT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Generator / Alternator Voltage
@@ -2181,12 +2181,12 @@ Generator / Alternator Voltage
 :Units\:: 0.1 V
 :FIX Id\:: ALTVOLT
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Generator / Alternator Current
@@ -2197,12 +2197,12 @@ Generator / Alternator Current
 :Units\:: 0.1 A
 :FIX Id\:: ALTCUR
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Engine Power
@@ -2242,12 +2242,12 @@ Gearbox Speed
 :Data Type\:: UINT
 :Units\:: RPM
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Gearbox Oil Pressure Switch
@@ -2317,12 +2317,12 @@ Gearbox Oil Pressure
 :Data Type\:: UINT
 :Units\:: 0.01 psi
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Gearbox Oil Temperature
@@ -2332,12 +2332,12 @@ Gearbox Oil Temperature
 :Data Type\:: UINT
 :Units\:: 0.1°C
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Gearbox Oil Quantity
@@ -2348,12 +2348,12 @@ Gearbox Oil Quantity
 :Range\:: 0 to 100
 :Units\:: 0.01%
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Hydraulic Pressure
@@ -2363,12 +2363,12 @@ Hydraulic Pressure
 :Data Type\:: UINT
 :Units\:: 0.01 psi
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Hydraulic Temperature
@@ -2378,12 +2378,12 @@ Hydraulic Temperature
 :Data Type\:: UINT
 :Units\:: 0.1°C
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Hydraulic Fluid Quantity
@@ -2394,12 +2394,12 @@ Hydraulic Fluid Quantity
 :Range\:: 0 to 100
 :Units\:: 0.01%
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Tire Pressure
@@ -2409,12 +2409,12 @@ Tire Pressure
 :Data Type\:: UINT
 :Units\:: 0.01 psi
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Strut Pressure
@@ -2424,12 +2424,12 @@ Strut Pressure
 :Data Type\:: UINT
 :Units\:: 0.01 psi
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Flight Time
@@ -2495,12 +2495,12 @@ Longitudinal Center of Gravity
 :Range\:: 0 to 100
 :Units\:: 0.1% MAC
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Lateral Center of Gravity
@@ -2511,12 +2511,12 @@ Lateral Center of Gravity
 :Range\:: -100 to 100
 :Units\:: 0.1%
 :Meta\::
-  | 0000 = Min
-  | 0001 = Max
-  | 0011 = Low Warn
-  | 0100 = Low Alarm
-  | 0101 = High Warn
-  | 0110 = High Alarm
+  | 0001 = Min
+  | 0010 = Max
+  | 0100 = Low Warn
+  | 0101 = Low Alarm
+  | 0110 = High Warn
+  | 0111 = High Alarm
 
 
 Aircraft Identifier
