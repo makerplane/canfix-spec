@@ -77,7 +77,7 @@ for x,row in enumerate(tablebuilder["Identifiers"]):
             #s = row[unitsColumn].replace(u'\xba',u'deg')
             s = row[unitsColumn]
             for x in range(len(s)-1):
-                if s[x].isdigit(): 
+                if s[x].isdigit():
                     i = 0
                     break
             if i == 0:
@@ -104,7 +104,7 @@ for x,row in enumerate(tablebuilder["Identifiers"]):
         for i in range(15):
             s = row[auxColumnStart + i]
             if s:
-                out.write("  <aux id='%d'>%s</aux>\n" % (i+1, s))
+                out.write("  <meta id='%d'>%s</meta>\n" % (i+1, s))
 
         out.write("</parameter>\n")
 

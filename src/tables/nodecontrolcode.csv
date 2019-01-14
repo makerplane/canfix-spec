@@ -5,12 +5,12 @@ Control Code,Description,Mandatory,Respond to Broadcast
 3,Disable Parameter,Yes,Yes
 4,Enable Parameter,Yes,No
 5,Node Report,Yes,Yes
-6,Node Status Information,No,
+6,Node Status Information,No,N/A
 7,Update Firmware,No,No
 8,Two-Way Connection Request,No,No
 9,Node Configuration Set,No,No
 10,Node Configuration Query,No,No
-11,Parameter Set,No,No
-12,Node Description,No,No
-13-127,Reserved for Future Use,,
+11,Node Description,No,No
+12-19,Parameter Set,No,N/A
+20-127,Reserved for Future Use,,
 128-255,User Defined,No,

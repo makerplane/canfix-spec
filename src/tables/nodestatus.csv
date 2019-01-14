@@ -1,7 +1,8 @@
 Byte,Payload
-2,Parameter Type LSB
-3,Parameter Type MSB
+1,Parameter Type LSB
+2,Parameter Type MSB
+3,Data LSB
 4,Data
 5,Data
 6,Data
-7,Data
+7,Data MSB

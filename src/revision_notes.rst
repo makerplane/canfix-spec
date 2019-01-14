@@ -4,6 +4,7 @@ Revision Notes
 
 Version 0.7 - |date|
   * Move specification to Sphinx
+  * Move Node Specific Messages to a higher priority than the Two-Way Channels
   * Change Appendix to be Recommended Practices
   * Change Encoder Input data type to INT[2],BYTE.  This adds another axis
     to the encoder as well a byte for discrete switches or buttons.
@@ -24,6 +25,8 @@ Version 0.7 - |date|
   * Remove VOR / ILS Frequency "Set" Parameters (IDs 1224 = 1227)
   * Remove Altimeter Setting "Set" Parameter (ID 400)
   * Add General Requirements chapter
+  * Change Bit Rate Set message error code to 0xFF
+  * Change Node ID Set message response
   * General style, grammer and spelling fixes
 
 

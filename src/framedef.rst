@@ -141,18 +141,20 @@ Node Specific Message Data Field Format
 *Node Specific Message* frames are sent with identifiers 1792 thru 2047.  These
 are the last 256 CAN identifiers.
 
-The *Node Specific Message* format is simple.  The source node ID is inferred by the identifier on which the message was
-transmitted by the following formula.
+The *Node Specific Message* format is simple.  The source node ID is inferred
+by the identifier on which the message was transmitted by the following formula.
 
   Frame ID - 1792 = Node ID
 
-The first byte is the destination
-node. Zero can be sent as the destination node to effect all nodes.
-Whether the node is allowed to respond to this broadcast address depends on the
-what type of message it is.
-
 The *Control Code* indicates what type of message this is.  Table 3.5 shows the
 different Control Codes that can be used.
+
+For most of these messages the second byte is the destination node. Zero can be
+sent as the destination node to effect all nodes. Whether the node is allowed to
+respond to this broadcast address depends on the what type of message it is.
+Whether or not the message type includes a destination  node depends on the type
+of message.
+
 
 .. tabularcolumns:: |c|l|c|c|
 
@@ -217,7 +219,9 @@ Node ID Set Command
 The *Node ID Set* message is used to command the node to change it's node ID.
 This change should take place immediately and permanently at the time of
 receiving this message.  The node should transmit it's success message on the
-CAN ID that is based on it's new node ID.
+CAN ID that is based on it's new node ID.  If there is a failure the node should
+not send a response.  The requester should determine failure if the success
+message isn't sent on the new id in a timely manner.
 
 .. tabularcolumns:: |c|l|l|
 
@@ -431,16 +435,34 @@ parameter that is to be set.  The lower 11 bits match the actual parameter ID
 given in the :ref:`Parameters` Chapter.  The remaining 5 bits are the index that
 we are changing.
 
-There are a couple of drawbacks to this mechansim.  The first is that we only
-have four bytes left over for the payload to the parameter.  The paramters
-themselves have 5.  Since very few parameters in this specification need more
-than four bytes this seemed acceptable.  Those that do require all five
-bytes don't seem like the type of information that would need to be set in
-flight.
+Since we only have 5 bits to use for the index in this message we are using
+multiple control codes to allow us to set all of the indexes.  Since 5 bits
+will give us 32 individual indexes we have set aside 8 control codes to give us
+access to all of the indexes.
 
-Another drawback is that with 5 bits for the index we are unable to set all of
-the indexed information that could exist in a node.  This trade off seemed
-reasonable as setting more than 32 frequencies or waypoints.
+.. _parameterindexes:
+.. table:: Parameter Set Control Codes
+
+  +------------+---------+
+  | Control    | Index   |
+  | Code       | Range   |
+  +============+=========+
+  | 12         | 0-31    |
+  +------------+---------+
+  | 13         | 32-63   |
+  +------------+---------+
+  | 14         | 64-95   |
+  +------------+---------+
+  | 15         | 96-127  |
+  +------------+---------+
+  | 16         | 128-159 |
+  +------------+---------+
+  | 17         | 160-191 |
+  +------------+---------+
+  | 18         | 192-223 |
+  +------------+---------+
+  | 19         | 224-255 |
+  +------------+---------+
 
 This is a mechanism for setting parameters in flight.  It's not meant to be a
 way to set configuration information.  Meta data is not included in this

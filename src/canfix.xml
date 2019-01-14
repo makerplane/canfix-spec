@@ -69,16 +69,16 @@
 <group>
   <name>Future</name>
   <startid>1536</startid>
-  <endid>1759</endid>
-</group>
-<group>
-  <name>Two-Way Connection Channels</name>
-  <startid>1760</startid>
-  <endid>1791</endid>
+  <endid>1695</endid>
 </group>
 <group>
   <name>Node Specific Messages</name>
-  <startid>1792</startid>
+  <startid>1696</startid>
+  <endid>1951</endid>
+</group>
+<group>
+  <name>Two-Way Connection Channels</name>
+  <startid>1952</startid>
   <endid>2047</endid>
 </group>
 <parameter>
@@ -372,8 +372,8 @@
   <max>90</max>
   <units>0.01°</units>
   <remarks>Greater Than 0 = Nose Up</remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>321</id>
@@ -384,8 +384,8 @@
   <max>90</max>
   <units>0.01°</units>
   <remarks>Greater Than 0 = Right</remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>322</id>
@@ -396,8 +396,8 @@
   <max>90</max>
   <units>0.01°</units>
   <remarks>Greater Than 0 = Right</remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>323</id>
@@ -408,8 +408,8 @@
   <max>90</max>
   <units>0.01°</units>
   <remarks>Greater Than 0 = Up</remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>324</id>
@@ -420,8 +420,8 @@
   <max>90</max>
   <units>0.01°</units>
   <remarks>Greater Than 0 = Right</remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>325</id>
@@ -432,8 +432,8 @@
   <max>90</max>
   <units>0.01°</units>
   <remarks>Greater Than 0 = Down</remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>326</id>
@@ -477,11 +477,11 @@
   <max>90</max>
   <units>0.01°</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='7'>0g</aux>
-  <aux id='8'>Warn</aux>
-  <aux id='9'>Stall</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='7'>0g</meta>
+  <meta id='8'>Warn</meta>
+  <meta id='9'>Stall</meta>
 </parameter>
 <parameter>
   <id>387</id>
@@ -492,19 +492,19 @@
   <max>999.9</max>
   <units>0.1 knots</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='3'>V1</aux>
-  <aux id='4'>V2</aux>
-  <aux id='5'>Vne</aux>
-  <aux id='6'>Vfe</aux>
-  <aux id='7'>Vmc</aux>
-  <aux id='8'>Va</aux>
-  <aux id='9'>Vno</aux>
-  <aux id='10'>Vs</aux>
-  <aux id='11'>Vs0</aux>
-  <aux id='14'>Vx</aux>
-  <aux id='15'>Vy</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='3'>V1</meta>
+  <meta id='4'>V2</meta>
+  <meta id='5'>Vne</meta>
+  <meta id='6'>Vfe</meta>
+  <meta id='7'>Vmc</meta>
+  <meta id='8'>Va</meta>
+  <meta id='9'>Vno</meta>
+  <meta id='10'>Vs</meta>
+  <meta id='11'>Vs0</meta>
+  <meta id='14'>Vx</meta>
+  <meta id='15'>Vy</meta>
 </parameter>
 <parameter>
   <id>388</id>
@@ -535,8 +535,8 @@
   <max>30,000</max>
   <units>ft/min</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>391</id>
@@ -547,8 +547,8 @@
   <max>300</max>
   <units>0.01 knots</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>392</id>
@@ -559,8 +559,8 @@
   <max>60,000</max>
   <units>ft</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>393</id>
@@ -571,8 +571,8 @@
   <max>180</max>
   <units>0.01°</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>394</id>
@@ -583,8 +583,8 @@
   <max>30</max>
   <units>0.001 g</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>395</id>
@@ -595,8 +595,8 @@
   <max>30</max>
   <units>0.001 g</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>396</id>
@@ -607,8 +607,8 @@
   <max>30</max>
   <units>0.001 g</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>397</id>
@@ -619,8 +619,8 @@
   <max>999.9</max>
   <units>0.1 knots</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>398</id>
@@ -631,8 +631,8 @@
   <max>999.9</max>
   <units>0.1 knots</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>399</id>
@@ -643,8 +643,8 @@
   <max>100</max>
   <units>0.01 Mach</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>400</id>
@@ -793,8 +793,8 @@
   <max>999.9</max>
   <units>0.1 knots</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>461</id>
@@ -1000,16 +1000,16 @@
   <type>UINT</type>
   <units>RPM</units>
   <remarks>N1 for Turbines</remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
-  <aux id='8'>Restriction 1 Low</aux>
-  <aux id='9'>Restriction 1 High</aux>
-  <aux id='10'>Restriction 2 Low</aux>
-  <aux id='11'>Restriction 2 High</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
+  <meta id='8'>Restriction 1 Low</meta>
+  <meta id='9'>Restriction 1 High</meta>
+  <meta id='10'>Restriction 2 Low</meta>
+  <meta id='11'>Restriction 2 High</meta>
 </parameter>
 <parameter>
   <id>514</id>
@@ -1018,16 +1018,16 @@
   <type>UINT</type>
   <units>RPM</units>
   <remarks>N2 for Turbines</remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
-  <aux id='8'>Restriction 1 Low</aux>
-  <aux id='9'>Restriction 1 High</aux>
-  <aux id='10'>Restriction 2 Low</aux>
-  <aux id='11'>Restriction 2 High</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
+  <meta id='8'>Restriction 1 Low</meta>
+  <meta id='9'>Restriction 1 High</meta>
+  <meta id='10'>Restriction 2 Low</meta>
+  <meta id='11'>Restriction 2 High</meta>
 </parameter>
 <parameter>
   <id>516</id>
@@ -1035,12 +1035,12 @@
   <name>Torque</name>
   <type>INT</type>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>518</id>
@@ -1049,12 +1049,12 @@
   <type>UINT</type>
   <units>0.1°C</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>520</id>
@@ -1063,12 +1063,12 @@
   <type>UINT</type>
   <units>0.1°C</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>522</id>
@@ -1077,12 +1077,12 @@
   <type>UINT</type>
   <units>0.1°C</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>524</id>
@@ -1154,12 +1154,12 @@
   <type>UINT</type>
   <units>0.01 gal/hr</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>540</id>
@@ -1168,12 +1168,12 @@
   <type>UINT</type>
   <units>0.01 psi</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>542</id>
@@ -1182,8 +1182,8 @@
   <type>UINT</type>
   <units>0.01 inHg</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>544</id>
@@ -1192,12 +1192,12 @@
   <type>UINT</type>
   <units>0.01 psi</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>546</id>
@@ -1206,12 +1206,12 @@
   <type>UINT</type>
   <units>0.1°C</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>548</id>
@@ -1220,12 +1220,12 @@
   <type>UINT</type>
   <units>0.1°C</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>550</id>
@@ -1235,12 +1235,12 @@
   <units>0.01 gal</units>
   <index>Aux Tank</index>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>554</id>
@@ -1249,12 +1249,12 @@
   <type>UINT</type>
   <units>0.01 psi</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>556</id>
@@ -1263,12 +1263,12 @@
   <type>UINT</type>
   <units>0.01 gal</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>558</id>
@@ -1277,12 +1277,12 @@
   <type>UINT</type>
   <units>0.01 gal</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>560</id>
@@ -1291,12 +1291,12 @@
   <type>UINT</type>
   <units>A</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>562</id>
@@ -1305,12 +1305,12 @@
   <type>UINT</type>
   <units>0.1 V</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>564</id>
@@ -1319,12 +1319,12 @@
   <type>INT</type>
   <units>A</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>566</id>
@@ -1333,10 +1333,10 @@
   <type>UINT</type>
   <units>0.1°C</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>568</id>
@@ -1347,10 +1347,10 @@
   <max>100</max>
   <units>0.1%</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
 </parameter>
 <parameter>
   <id>570</id>
@@ -1366,8 +1366,8 @@
   <type>UINT</type>
   <units>0.01 inHg</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
 </parameter>
 <parameter>
   <id>640</id>
@@ -1632,12 +1632,12 @@
   <units>0.01%</units>
   <index>Unit</index>
   <remarks>User Defined</remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1024</id>
@@ -2094,12 +2094,12 @@
   <units>0.1°C</units>
   <index>Cylinder</index>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1282</id>
@@ -2109,12 +2109,12 @@
   <units>0.1°C</units>
   <index>Cylinder</index>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1284</id>
@@ -2124,10 +2124,10 @@
   <units>0.1°C/Min</units>
   <index>Cylinder</index>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1286</id>
@@ -2136,10 +2136,10 @@
   <type>UINT</type>
   <units>0.1°C</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1288</id>
@@ -2149,10 +2149,10 @@
   <units>0.1°C/Min</units>
   <index>Cylinder</index>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1290</id>
@@ -2161,10 +2161,10 @@
   <type>UINT</type>
   <units>0.1°C</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1292</id>
@@ -2173,12 +2173,12 @@
   <type>UINT</type>
   <units>0.1°C</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1294</id>
@@ -2187,12 +2187,12 @@
   <type>UINT</type>
   <units>0.1 V</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1298</id>
@@ -2201,12 +2201,12 @@
   <type>UINT</type>
   <units>0.1 A</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1302</id>
@@ -2215,12 +2215,12 @@
   <type>UINT</type>
   <units>0.1 V</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1306</id>
@@ -2229,12 +2229,12 @@
   <type>UINT</type>
   <units>0.1 A</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1310</id>
@@ -2269,12 +2269,12 @@
   <type>UINT</type>
   <units>RPM</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1318</id>
@@ -2337,12 +2337,12 @@
   <type>UINT</type>
   <units>0.01 psi</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1332</id>
@@ -2351,12 +2351,12 @@
   <type>UINT</type>
   <units>0.1°C</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1334</id>
@@ -2367,12 +2367,12 @@
   <max>100</max>
   <units>0.01%</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1336</id>
@@ -2381,12 +2381,12 @@
   <type>UINT</type>
   <units>0.01 psi</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1338</id>
@@ -2395,12 +2395,12 @@
   <type>UINT</type>
   <units>0.1°C</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1340</id>
@@ -2411,12 +2411,12 @@
   <max>100</max>
   <units>0.01%</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1344</id>
@@ -2425,12 +2425,12 @@
   <type>UINT</type>
   <units>0.01 psi</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1348</id>
@@ -2439,12 +2439,12 @@
   <type>UINT</type>
   <units>0.01 psi</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1349</id>
@@ -2509,12 +2509,12 @@
   <max>100</max>
   <units>0.1% MAC</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1414</id>
@@ -2525,12 +2525,12 @@
   <max>100</max>
   <units>0.1%</units>
   <remarks></remarks>
-  <aux id='1'>Min</aux>
-  <aux id='2'>Max</aux>
-  <aux id='4'>Low Warn</aux>
-  <aux id='5'>Low Alarm</aux>
-  <aux id='6'>High Warn</aux>
-  <aux id='7'>High Alarm</aux>
+  <meta id='1'>Min</meta>
+  <meta id='2'>Max</meta>
+  <meta id='4'>Low Warn</meta>
+  <meta id='5'>Low Alarm</meta>
+  <meta id='6'>High Warn</meta>
+  <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
   <id>1415</id>

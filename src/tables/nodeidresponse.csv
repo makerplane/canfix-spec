@@ -1,4 +1,5 @@
 Byte,Request,Response
+1,Destination Node,Destination Node
 2,,CAN-FIX Specification. For this specification = 0x01
 3,,Device Type
 4,,Firmware Revision
