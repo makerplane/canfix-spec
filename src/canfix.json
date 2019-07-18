@@ -66,19 +66,19 @@
             "startid": 1408
         }, 
         {
-            "endid": 1695, 
+            "endid": 1759, 
             "name": "Future", 
             "startid": 1536
         }, 
         {
-            "endid": 1951, 
+            "endid": 2015, 
             "name": "Node Specific Messages", 
-            "startid": 1696
+            "startid": 1760
         }, 
         {
             "endid": 2047, 
             "name": "Two-Way Connection Channels", 
-            "startid": 1952
+            "startid": 2016
         }
     ], 
     "name": "CANFIX", 

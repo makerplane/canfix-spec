@@ -1,4 +1,5 @@
 Byte,Payload
+0,0x06
 1,Parameter Type LSB
 2,Parameter Type MSB
 3,Data LSB

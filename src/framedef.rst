@@ -138,13 +138,12 @@ Node Specific Message Data Field Format
   :file: tables/nodespecificframe.csv
   :header-rows: 1
 
-*Node Specific Message* frames are sent with identifiers 1792 thru 2047.  These
-are the last 256 CAN identifiers.
+*Node Specific Message* frames are sent with identifiers 1760 thru 2015.
 
 The *Node Specific Message* format is simple.  The source node ID is inferred
 by the identifier on which the message was transmitted by the following formula.
 
-  Frame ID - 1792 = Node ID
+  Frame ID - 1760 = Node ID
 
 The *Control Code* indicates what type of message this is.  Table 3.5 shows the
 different Control Codes that can be used.
@@ -174,7 +173,7 @@ the node.
 .. tabularcolumns:: |c|l|l|
 
 .. _nodeidresponse:
-.. csv-table:: Node Identification Command Response
+.. csv-table:: Node Identification Command Frame
   :file: tables/nodeidresponse.csv
   :header-rows: 1
 
@@ -202,7 +201,7 @@ the same time.
 .. tabularcolumns:: |c|l|l|
 
 .. _bitrate:
-.. csv-table:: Bit Rate Set Command Response
+.. csv-table:: Bit Rate Set Command Frame
   :file: tables/bitrate.csv
   :header-rows: 1
 
@@ -226,7 +225,7 @@ message isn't sent on the new id in a timely manner.
 .. tabularcolumns:: |c|l|l|
 
 .. _nodeidset:
-.. csv-table:: Node ID Set Command Response
+.. csv-table:: Node ID Set Command Frame
   :file: tables/nodeidset.csv
   :header-rows: 1
 
@@ -245,9 +244,14 @@ The change should be immediate and permanent.
 
 .. tabularcolumns:: |c|l|l|
 
-.. _disableenable:
-.. csv-table:: Disable / Enable Parameter Comamnd Response
-  :file: tables/disableenable.csv
+.. _disable:
+.. csv-table:: Disable Parameter Comamnd Frame
+  :file: tables/disable.csv
+  :header-rows: 1
+
+.. _enable:
+.. csv-table:: Enable Parameter Comamnd Frame
+  :file: tables/enable.csv
   :header-rows: 1
 
 Node Report Command
@@ -323,7 +327,7 @@ that other nodes can determine whether or not the channel is being used.
 .. tabularcolumns:: |c|l|l|
 
 .. _firmware:
-.. csv-table:: Update Firmware Command Response
+.. csv-table:: Update Firmware Command Frame
   :file: tables/firmware.csv
   :header-rows: 1
 
@@ -349,7 +353,7 @@ the data is sound.
 .. tabularcolumns:: |c|l|l|
 
 .. _channel:
-.. csv-table:: Two-Way Communication Request Command Resposne
+.. csv-table:: Two-Way Communication Request Command Frame
   :file: tables/channel.csv
   :header-rows: 1
 
@@ -371,7 +375,7 @@ for all devices.
 .. tabularcolumns:: |c|l|l|
 
 .. _configuration:
-.. csv-table:: Node Configuration Command Response
+.. csv-table:: Node Configuration Command Frame
   :file: tables/configuration.csv
   :header-rows: 1
 
@@ -394,6 +398,40 @@ what format the data takes.
 .. csv-table:: Node Configuration Query Command Response
   :file: tables/configquery.csv
   :header-rows: 1
+
+Error Codes
+  | 1 = Unknown Key
+  | 2 = Bad Value
+
+Node Description
+~~~~~~~~~~~~~~~~
+
+The *Node Description* message is here to allow a node to produce detailed information about
+itself.  This information is in the form of a NULL terminated string that
+is passed four ASCII characters at a time.
+
+.. _nodedescription:
+.. csv-table:: Node Description Message
+  :file: tables/nodedescription.csv
+  :header-rows: 1
+
+The first two bytes of the payload are the *Packet Number*.  The string is
+broken up into four byte "Packets."  This 16bit number identifies which of those
+packets we are sending. A string of up to 256K characters can be sent using this
+mechanism.  The packets should be sent in order starting with Packet Number = 0
+and the end of the sring is designated by the NULL (0x00) character.  The
+remaining bytes in the message should be padded with 0x00 to simplify decoding.
+
+Typical use of this message is to send detailed information about the particular
+node such as Manufacturer name, Model Description, Serial Number, License terms,
+firmware revision date of manufacture etc.
+
+Here is an example...
+
+  ``MakerPlane EFIS v1.0.1 SN 180612345 Firmware v1.2.3.4-Jun 2018 GPL 2.0``
+
+If implemented this string should be sent as a follow up reponse to the :ref:`Node
+Identification` request.
 
 Parameter Set Command
 ~~~~~~~~~~~~~~~~~~~~~
@@ -468,36 +506,6 @@ This is a mechanism for setting parameters in flight.  It's not meant to be a
 way to set configuration information.  Meta data is not included in this
 mechanism.  Changing the low oil pressure set point is better left to
 configuration software while we are on the ground.
-
-Node Description
-~~~~~~~~~~~~~~~~
-
-The *Node Description* message is here to allow a node to produce detailed information about
-itself.  This information is in the form of a NULL terminated string that
-is passed four ASCII characters at a time.
-
-.. _nodedescription:
-.. csv-table:: Node Description Message
-  :file: tables/nodedescription.csv
-  :header-rows: 1
-
-The first two bytes of the payload are the *Packet Number*.  The string is
-broken up into four byte "Packets."  This 16bit number identifies which of those
-packets we are sending. A string of up to 256K characters can be sent using this
-mechanism.  The packets should be sent in order starting with Packet Number = 0
-and the end of the sring is designated by the NULL (0x00) character.  The
-remaining bytes in the message should be padded with 0x00 to simplify decoding.
-
-Typical use of this message is to send detailed information about the particular
-node such as Manufacturer name, Model Description, Serial Number, License terms,
-firmware revision date of manufacture etc.
-
-Here is an example...
-
-  ``MakerPlane EFIS v1.0.1 SN 180612345 Firmware v1.2.3.4-Jun 2018 GPL 2.0``
-
-If implemented this string should be sent as a follow up reponse to the :ref:`Node
-Identification` request.
 
 .. rubric::Footnotes
 

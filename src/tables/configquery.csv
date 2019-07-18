@@ -1,6 +1,7 @@
-Byte,Request,Response,Response if not available
+Byte,Request,Response,Response if Error
+0,0x0A,0x0A
 1,Destination Node,Destination Node,Destination Node
-2,Key LSB,0x00,0x01
+2,Key LSB,0x00,Non-zero Error Code
 3,Key MSB,Data LSB,
 4,,Data,
 5,,Data,

@@ -69,16 +69,16 @@
 <group>
   <name>Future</name>
   <startid>1536</startid>
-  <endid>1695</endid>
+  <endid>1759</endid>
 </group>
 <group>
   <name>Node Specific Messages</name>
-  <startid>1696</startid>
-  <endid>1951</endid>
+  <startid>1760</startid>
+  <endid>2015</endid>
 </group>
 <group>
   <name>Two-Way Connection Channels</name>
-  <startid>1952</startid>
+  <startid>2016</startid>
   <endid>2047</endid>
 </group>
 <parameter>

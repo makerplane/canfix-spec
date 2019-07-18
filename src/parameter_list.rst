@@ -2471,6 +2471,7 @@ Time Zone
 :Data Type\:: SHORT
 :Range\:: -12 to 12
 :Units\:: 0.1 Hours
+:FIX Id\:: TZONE
 
 Cabin Temperature
 ~~~~~~~~~~~~~~~~~
@@ -2486,6 +2487,7 @@ Panel Dimmer Level
 :Data Type\:: USHORT
 :Range\:: 0 to 100
 :Units\:: %
+:FIX Id\:: DIM
 
 Longitudinal Center of Gravity
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -34,11 +34,11 @@ communicated.
 The *Node Specific Messages* group occupies the last 256 identifiers.  These are
 somewhat similar to the *High Priority Node Alarms* in that, the sending node
 number can be inferred from the frame identifier.  All nodes on the network
-should monitor all 256 of these ID's.  The first of these 1792 (0x700), is
+should monitor all 256 of these ID's.  The first of these 1760 (0x6E0), is
 reserved and the rest should be used by each individual node according to it's
 own node ID.  Each node should add it's node ID to the beginning identifier to
-determine which one it should use to send these messages.  Node 2 would use 1794
-(0x702) to send these control messages or to respond to other nodes.
+determine which one it should use to send these messages.  Node 2 would use 1762
+(0x6E2) to send these control messages or to respond to other nodes.
 
 *Node Specific Messages* essentially give our CAN network a point-to-point capability.
 See the :ref:`Frame Definitions` section for more information.
@@ -56,8 +56,8 @@ received that message.
 Once established the type of data sent on the channel is
 arbitrary and would be defined by the two nodes.  The channel identifiers are
 detailed in :numref:`channels`. If two nodes decide to use channel 0 for some
-form of communication the requesting node would use ID 1760 and the responding
-node would use ID 1761.  This continues for all 16 channels.
+form of communication the requesting node would use ID 2016 and the responding
+node would use ID 2017.  This continues for all 16 channels.
 
 Some generic protocols for using these two-way communication mechanisms may be
 described for general use but are not required by the specification.  One

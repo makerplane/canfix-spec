@@ -1,4 +1,5 @@
 Byte,Payload
+0,0x0B
 1,Destination Node
 2,Packet Number LSB
 3,Packet Number MSB
