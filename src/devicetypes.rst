@@ -9,7 +9,7 @@ and indicate to the user the name of the device, what kind of firmware loading
 algorithms to use, the configuration parameters that are available, etc.
 
 Although not a requirement for the proper functioning of the network it seems
-helpful enough to suggest a set of device types for CAN-FIX capable devices.
+helpful enough to suggest a set of device types for CAN-FiX capable devices.
 
 The following list gives some recommendations for device type codes.  This is by
 no means exhaustive and is not required.
@@ -217,7 +217,7 @@ for more details on the revision process.
   0xB5
     USB Interface
   0xB6
-    CAN-FIX Router
+    CAN-FiX Router
 
 
 **Navigation**

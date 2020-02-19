@@ -1742,6 +1742,16 @@
 <parameter>
   <id>1034</id>
   <count>1</count>
+  <name>GPS Altitude</name>
+  <type>DINT</type>
+  <min>-1,000</min>
+  <max>60,000</max>
+  <units>ft</units>
+  <remarks></remarks>
+</parameter>
+<parameter>
+  <id>1035</id>
+  <count>1</count>
   <name>Wind Speed</name>
   <type>UINT</type>
   <min>0</min>
@@ -1750,7 +1760,7 @@
   <remarks></remarks>
 </parameter>
 <parameter>
-  <id>1035</id>
+  <id>1036</id>
   <count>1</count>
   <name>Wind Direction</name>
   <type>UINT</type>

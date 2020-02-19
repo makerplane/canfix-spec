@@ -1,5 +1,5 @@
 =======================================
-CAN-FIX Specification
+CAN-FiX Specification
 =======================================
 .. toctree::
    :maxdepth: 3

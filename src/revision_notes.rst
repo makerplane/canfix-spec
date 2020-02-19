@@ -20,6 +20,7 @@ Version 0.7 - |date|
   * Add Serial Number to Node Status Message
   * Add Node Description Message
   * Add Paramter Setting function description
+  * Add GPS Altitude
   * Change count of Landing Gear Position Switches from 1 to 3
   * Remove Comm Frequency "Set" Parameters (IDs 1216 - 1219)
   * Remove VOR / ILS Frequency "Set" Parameters (IDs 1224 = 1227)

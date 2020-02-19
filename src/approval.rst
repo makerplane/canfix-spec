@@ -3,10 +3,10 @@
 Update and Approval Process
 ===========================
 
-Suggested updates to this specification will be made via the MakerPlane CAN-FIX
+Suggested updates to this specification will be made via the MakerPlane CAN-FiX
 online forum.  http://makerplane.org/forum/viewforum.php?f=24.
 
-The CAN-FIX Specification Review Committee (CFSRC) will consist of a minimum of
+The CAN-FiX Specification Review Committee (CFSRC) will consist of a minimum of
 two voting members.  This Committee is charged with gathering change requests,
 seeking consensus on those changes and approving the changes for implementation
 within the next version of the specification.   Other requirements and processes
@@ -15,7 +15,7 @@ will meet to formally discuss and approve changes to the specification.
 
 These change requests will be discussed and either approved for ratification by
 the specification committee, not approved, or reserved for further discussion by
-the moderator of the CAN-FIX forum.
+the moderator of the CAN-FiX forum.
 
 The CFSRC will operate within the following essential guidelines [#f1]_ :
 

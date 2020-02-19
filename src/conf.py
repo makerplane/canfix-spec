@@ -52,7 +52,7 @@ source_suffix = '.rst'
 master_doc = 'toc'
 
 # General information about the project.
-project = u'CAN-FIX Protocol Specification'
+project = u'CAN-FiX Protocol Specification'
 copyright = u'2011, Vern Little, Phil Birkelbach, John Nicol'
 author = u'Phil Birkelbach'
 
@@ -128,7 +128,7 @@ html_show_sourcelink = False
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CANFIXdoc'
+htmlhelp_basename = 'CANFiXdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -167,11 +167,11 @@ latex_additional_files = ['maketitle.tex.txt']
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CANFIX-Draft.tex', project,
+    (master_doc, 'CANFiX-Draft.tex', project,
      u'Vern Little, Phil Birkelbach, John Nicol', 'manual'),
 ]
 
-
+latex_logo = 'images/logo.png'
 # -- Options for manual page output ---------------------------------------
 
 # One entry per manual page. List of tuples
@@ -188,7 +188,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CANFIX', project,
-     author, 'CANFIX', 'Flight Information eXchange over CAN Bus',
+    (master_doc, 'CANFiX', project,
+     author, 'CANFiX', 'Flight Information eXchange over CAN Bus',
      'Miscellaneous'),
 ]

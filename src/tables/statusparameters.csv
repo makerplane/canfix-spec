@@ -1,9 +1,12 @@
 Type,Description,Units,Data Type
 0,"Node Status,0x00 = Good, each bit represents a different error if set",,WORD
 1,Internal Temperature,0.1ºC,INT
-2,CAN Transmit Error Counter,,UDINT
-3,CAN Receive Error Counter,,UDINT
-4,Supply Voltage,0.1 V,INT
-5,Serial Number,,UDINT
-6-255,Reserved for Future Use,,
+2,Supply Voltage,0.1 V,INT
+3,CAN Transmit Frame Counter,,UDINT
+4,CAN Receive Frame Counter,,UDINT
+5,CAN Transmit Error Counter,,UDINT
+6,CAN Receive Error Counter,,UDINT
+7,CAN Receive Overrun Counter,,UDINT
+8,Serial Number,,UDINT
+9-255,Reserved for Future Use,,
 256-64K,Device Defined,,

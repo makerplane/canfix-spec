@@ -1704,6 +1704,7 @@ Total Air Temperature
 :Data Type\:: INT
 :Range\:: -300 to 300
 :Units\:: 0.01°C
+:FIX Id\:: OAT
 
 Static Air Temperature
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -1731,10 +1732,19 @@ True Altitude
 :Units\:: ft
 :FIX Id\:: TALT
 
+GPS Altitude
+~~~~~~~~~~~~
+
+:Identifier\:: 1034 (0x40A)
+:Data Type\:: DINT
+:Range\:: -1,000 to 60,000
+:Units\:: ft
+:FIX Id\:: GPSALT
+
 Wind Speed
 ~~~~~~~~~~
 
-:Identifier\:: 1034 (0x40A)
+:Identifier\:: 1035 (0x40B)
 :Data Type\:: UINT
 :Range\:: 0 to 2000
 :Units\:: 0.1 knots
@@ -1742,7 +1752,7 @@ Wind Speed
 Wind Direction
 ~~~~~~~~~~~~~~
 
-:Identifier\:: 1035 (0x40B)
+:Identifier\:: 1036 (0x40C)
 :Data Type\:: UINT
 :Range\:: 0 to 360
 :Units\:: 0.01°

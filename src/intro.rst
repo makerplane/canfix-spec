@@ -18,8 +18,8 @@ software that will be able to communicate with other devices without need to pay
 for specifications or licenses.  It also encourages collaboration in the
 development and improvement of the protocols themselves.
 
-FIX is a protocol family.  This document will describe the CAN-FIX
-implementation of the FIX protocol.  CAN-FIX is a CAN specific implementation of
+FIX is a protocol family.  This document will describe the CAN-FiX
+implementation of the FIX protocol.  CAN-FiX is a CAN specific implementation of
 the FIX protocol.
 
 CAN® stands for Controller Area Network.  It was developed originally as a
@@ -32,12 +32,12 @@ those messages.  See the :ref:`References` section for more detailed
 information on CAN.
 
 CAN occupies most of the Physical Layer and all of the Data Link layer of the
-OSI model.  The physical connection is not specified.  CAN-FIX will fill in the
+OSI model.  The physical connection is not specified.  CAN-FiX will fill in the
 physical connection specification as well as the Network, Transport, Session and
-Presentation Layers.  CAN-FIX is a much simpler protocol than is described by
+Presentation Layers.  CAN-FiX is a much simpler protocol than is described by
 the OSI model so the correlation is not perfect, but it helps in the discussion.
 
-CAN-FIX will be built upon the 2.0B version of CAN, but for the sake of
+CAN-FiX will be built upon the 2.0B version of CAN, but for the sake of
 simplicity will only use the base frame format.  The base frame uses an 11 bit
 identifier and that will give us the ability to send 2048 different types of
 messages.  The extended frame format of CAN will be left for vendor device
@@ -58,7 +58,7 @@ transmit a recessive bit while another is transmitting a dominant bit will lose
 the arbitration and should stop transmitting.  The node should try again later.
 The dominant bit is a zero so the lower the number being transmitted the higher
 the priority on the bus.  This is a very powerful feature of the CAN protocol
-and one that we will exploit for CAN-FIX.
+and one that we will exploit for CAN-FiX.
 
 A complete discussion of the CAN protocol itself is beyond the scope of this
 document.  For more information consult the data available on the internet.  You
@@ -68,7 +68,7 @@ information.
 General Description
 -------------------
 
-A CAN-FIX network is made up of individual nodes.  Each node should be assigned
+A CAN-FiX network is made up of individual nodes.  Each node should be assigned
 a unique Node ID between 1 and 255.  The Node ID is useful for establishing
 communications to individual nodes on the network and identifying them
 configuration and diagnostic systems.  Node ID 0 is used as the broadcast ID.
@@ -94,7 +94,7 @@ error and there is nothing in the system that would prevent display devices from
 having different settings for any particular parameter.  At best this would be
 confusing and potentially, a safety of flight issue.
 
-CAN-FIX takes this one step further and adds an annunciate bit to each parameter
+CAN-FiX takes this one step further and adds an annunciate bit to each parameter
 message so that devices can indicate a parameter that may be out of range.  One
 of the reasons for this extra bit is to avoid nuisance alarms in the system, by
 allowing the measuring node more control over when to annunciate and alarm above
@@ -127,24 +127,24 @@ router.
 Potential Applications
 ----------------------
 
-:numref:`initial` shows one possible entry level use of CAN-FIX (CF).  There is
-a non-CAN-FIX compatible EFIS system that is connected to an RS-232 to CAN-FIX
+:numref:`initial` shows one possible entry level use of CAN-FiX (CF).  There is
+a non-CAN-FiX compatible EFIS system that is connected to an RS-232 to CAN-FiX
 converter that would handle conversion between the native interface of the EFIS
-and the CAN-FIX bus.
+and the CAN-FiX bus.
 
-There is an annunciator that is connected to the CAN-FIX bus that could be used
-to annunciate any parameter on the CAN-FIX bus.  The trim controller could read
-the airspeed from the CAN-FIX bus and adjust the speed of the trim motors
+There is an annunciator that is connected to the CAN-FiX bus that could be used
+to annunciate any parameter on the CAN-FiX bus.  The trim controller could read
+the airspeed from the CAN-FiX bus and adjust the speed of the trim motors
 accordingly. It would also present the trim positions to the bus so that they
 could be displayed on the EFIS.
 
 The transponder interface is interesting.  It acts like an encoder and can
 accept the pressure altitude from the EFIS information (or another air data
-source on the CAN-FIX bus) and use that to interface to the transponder.  It
-could be Gray Code or Serial depending on the transponder and CAN-FIX interface.
+source on the CAN-FiX bus) and use that to interface to the transponder.  It
+could be Gray Code or Serial depending on the transponder and CAN-FiX interface.
 
 Some transponders have a squat switch input that tells the transponder to switch
-back to Standby after the aircraft lands.  The CAN-FIX interface could use the
+back to Standby after the aircraft lands.  The CAN-FiX interface could use the
 ground speed from the GPS to determine when to signal this line.
 
 The Engine Management system can be completely located in the engine
@@ -154,12 +154,12 @@ maintain.
 
 .. _initial:
 .. figure:: images/initial.png
-   :alt: Possible CAN-FIX Configuration
+   :alt: Possible CAN-FiX Configuration
 
-   Possible CAN-FIX Configuration
+   Possible CAN-FiX Configuration
 
 Obviously this is a very minimal system but it gives an idea of what iS
-possible.  More advanced installations could include CAN-FIX capable autopilots,
+possible.  More advanced installations could include CAN-FiX capable autopilots,
 displays, radios, power systems, etc.
 
 Eventually, if the technology becomes more widespread the entire avionics system
@@ -167,11 +167,11 @@ could be integrated with FIX.
 
 .. _advanced:
 .. figure:: images/advanced.png
-   :alt: Advanced CAN-FIX implementation
+   :alt: Advanced CAN-FiX implementation
 
-   Advanced CAN-FIX implementation
+   Advanced CAN-FiX implementation
 
-:numref:`advanced` shows a much more advanced system.  There are three CAN-FIX
+:numref:`advanced` shows a much more advanced system.  There are three CAN-FiX
 buses.  The first two (A & B) are used primarily for flight critical data and
 they are redundant.  The most critical pieces are duplicated.  There are two
 Electronic Flight Displays (EFD) and two Air Data / Attitude, Heading and
@@ -190,7 +190,7 @@ are modularity, simplicity and flexibility and, of course, reliability.
 
 These are just imaginary examples of what can be done with the FIX protocols.
 Obviously there could be thousands of different combinations of devices, some
-CAN-FIX compatible and others that need adapters.  Some may even choose to use
+CAN-FiX compatible and others that need adapters.  Some may even choose to use
 very little of this in their aircraft.  Perhaps someone only uses it to
 eliminate wires from the EMS to an Engine Display, and installs “steam gauges”
 for everything else.  Another person may be building a “hard IFR in the flight

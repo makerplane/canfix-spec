@@ -11,7 +11,7 @@ Identifiers is shown in :numref:`distribution`.
 .. tabularcolumns:: |L|L|C|
 
 .. _distribution:
-.. csv-table:: CAN-FIX Identifier Distribution
+.. csv-table:: CAN-FiX Identifier Distribution
    :file: tables/distribution.csv
    :header-rows: 1
 

@@ -1,4 +1,4 @@
-This is the Specification Document for the CAN-FIX communication protocol.
+This is the Specification Document for the CAN-FiX communication protocol.
 
 FIX is an acronym for Flight Information eXchange.  It is a set of protocol
 specifications for exchanging information between aircraft avionics and flight
@@ -17,8 +17,8 @@ software that will be able to communicate with other devices without need to
 pay for specifications or licenses.  It also encourages collaboration in the
 development and improvement of the protocols themselves.
 
-FIX is a protocol family.  This document will describe the CAN-FIX
-implementation of the FIX protocol.  CAN-FIX is a CAN specific implementation
+FIX is a protocol family.  This document will describe the CAN-FiX
+implementation of the FIX protocol.  CAN-FiX is a CAN specific implementation
 of the FIX protocol.
 
 The specification documents are built with Sphinx.  The following shows how to

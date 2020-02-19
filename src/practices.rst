@@ -248,4 +248,4 @@ Here is an example EDS file::
     }
 
 This is a simple example.  More complete documentation is availabe with the
-CAN-FIX Configuration Utility.
+CAN-FiX Configuration Utility.

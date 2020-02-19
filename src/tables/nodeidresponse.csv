@@ -1,7 +1,7 @@
 Byte,Request,Response
 0,0x00,0x00
 1,Destination Node,Destination Node
-2,,CAN-FIX Specification. For this specification = 0x01
+2,,CAN-FiX Specification. For this specification = 0x01
 3,,Device Type
 4,,Firmware Revision
 5,,Model Number LSB
