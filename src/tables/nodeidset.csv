@@ -1,3 +1,4 @@
 Byte,Request,Response
+0,2,2
 1,Destination Node,Destination Node
 2,New Node ID,"0x00 if successful, None if failed"

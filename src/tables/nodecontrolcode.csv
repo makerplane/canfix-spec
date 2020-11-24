@@ -6,10 +6,10 @@ Control Code,Description,Mandatory,Respond to Broadcast
 4,Enable Parameter,Yes,No
 5,Node Report,Yes,Yes
 6,Node Status Information,No,N/A
-7,Update Firmware,No,No
-8,Two-Way Connection Request,No,No
-9,Node Configuration Set,No,No
-10,Node Configuration Query,No,No
+7,Update Firmware,No,Yes
+8,Two-Way Connection Request,No,Yes
+9,Node Configuration Set,No,Yes
+10,Node Configuration Query,No,Yes
 11,Node Description,No,No
 12-19,Parameter Set,No,N/A
 20-127,Reserved for Future Use,,
