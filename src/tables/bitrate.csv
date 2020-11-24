@@ -1,3 +1,4 @@
 Byte,Request,Response
+0,1,1
 1,Destination Node,Destination Node
 2,New Bit Rate,None if successful or 0xFF if failed

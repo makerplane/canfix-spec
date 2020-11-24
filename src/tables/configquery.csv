@@ -1,4 +1,5 @@
 Byte,Request,Response,Response if not available
+0,10,10,10
 1,Destination Node,Destination Node,Destination Node
 2,Key LSB,0x00,0x01
 3,Key MSB,Data LSB,

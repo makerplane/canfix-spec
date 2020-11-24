@@ -1,4 +1,5 @@
 Byte,Request,Response
+0,3 Disable; 4 Enable,3 Disable; 4 Enable
 1,Destination Node,Destination Node
 2,Identifier LSB,"0x00 if successful, 0x01 unknown parameter"
 3,Identifier MSB,
