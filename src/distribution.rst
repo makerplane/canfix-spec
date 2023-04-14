@@ -31,7 +31,7 @@ be one-shot type of information about a node that would not be continuously
 communicated and therefore would need to override data that is continuously
 communicated.
 
-The *Node Specific Messages* group occupies the last 256 identifiers.  These are
+The *Node Specific Messages* group occupies 256 identifiers.  These are
 somewhat similar to the *High Priority Node Alarms* in that, the sending node
 number can be inferred from the frame identifier.  All nodes on the network
 should monitor all 256 of these ID's.  The first of these 1760 (0x6E0), is
@@ -76,7 +76,7 @@ same time.
    :file: tables/channels.csv
    :header-rows: 1
 
-The rest of the groups are normal data parameter update identifiers.  Care
+The rest of the identifiers are for normal data parameter updates.  Care
 should be taken to assure that only one node on the network is producing any
 particular parameter to avoid potential errors that would be generated if two
 different nodes attempted to communicate the same data simultaneously.

@@ -492,7 +492,7 @@ Vertical Speed
 :Data Type\:: INT
 :Range\:: -30,000 to 30,000
 :Units\:: ft/min
-:FIX Id\:: VERTSP
+:FIX Id\:: VS
 :Meta\::
   | 0001 = Min
   | 0010 = Max

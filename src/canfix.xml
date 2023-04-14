@@ -2,6 +2,11 @@
 <name>CANFIX</name>
 <version>0.7</version>
 <group>
+  <name>Reserved for Future Use</name>
+  <startid>0</startid>
+  <endid>0</endid>
+</group>
+<group>
   <name>High Priority Node Alarms</name>
   <startid>1</startid>
   <endid>255</endid>
@@ -67,13 +72,18 @@
   <endid>1535</endid>
 </group>
 <group>
-  <name>Future</name>
+  <name>Reserved for User</name>
   <startid>1536</startid>
-  <endid>1759</endid>
+  <endid>1551</endid>
+</group>
+<group>
+  <name>Reserved for Future Use</name>
+  <startid>1552</startid>
+  <endid>1760</endid>
 </group>
 <group>
   <name>Node Specific Messages</name>
-  <startid>1760</startid>
+  <startid>1761</startid>
   <endid>2015</endid>
 </group>
 <group>

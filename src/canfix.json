@@ -1,6 +1,11 @@
 {
     "groups": [
         {
+            "endid": 0, 
+            "name": "Reserved for Future Use", 
+            "startid": 0
+        }, 
+        {
             "endid": 255, 
             "name": "High Priority Node Alarms", 
             "startid": 1
@@ -66,14 +71,19 @@
             "startid": 1408
         }, 
         {
-            "endid": 1759, 
-            "name": "Future", 
+            "endid": 1551, 
+            "name": "Reserved for User", 
             "startid": 1536
+        }, 
+        {
+            "endid": 1760, 
+            "name": "Reserved for Future Use", 
+            "startid": 1552
         }, 
         {
             "endid": 2015, 
             "name": "Node Specific Messages", 
-            "startid": 1760
+            "startid": 1761
         }, 
         {
             "endid": 2047, 
