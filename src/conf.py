@@ -38,6 +38,7 @@ numfig_format = { 'figure':'Figure %s',
                   'code-block':'Listing %s',
                   'section':'Section' }
 
+today_fmt = "%B %d, %Y"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -47,14 +48,16 @@ templates_path = ['_templates']
 #
 # source_suffix = ['.rst', '.md']
 source_suffix = '.rst'
+source_encoding = 'utf-8-sig'
 
-# The master toctree document.
+# The root toctree document.
 master_doc = 'toc'
 
 # General information about the project.
 project = u'CAN-FiX Protocol Specification'
 copyright = u'2011, Vern Little, Phil Birkelbach, John Nicol'
 author = u'Phil Birkelbach'
+
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -70,7 +73,7 @@ release = u'0.7'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'English'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -91,7 +94,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'bizstyle'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -132,11 +135,15 @@ htmlhelp_basename = 'CANFiXdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
-
+latex_engine = 'xelatex'
 latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
+# The paper size ('letterpaper' or 'a4paper').
     #
     'papersize': 'letterpaper',
+    'maketitle': r"""\newcommand\sphinxbackoftitlepage{\textbf{Copyright \copyright 2011 - \the\year\ Vern
+Little, Phil Birkelbach, John Nicol}\par
+All rightrs reserved.  No part of this document may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying, recording, or by any information storage and retrieval system, except in accordance with the "Creative Commons License - Attribution-ShareAlike 3.0" or with prior written permission from the Authors(s). See the License section for details.
+}\sphinxmaketitle""",
 
     # The font size ('10pt', '11pt' or '12pt').
     #
@@ -146,19 +153,20 @@ latex_elements = {
     #
     'preamble': r"""
 \usepackage{colortbl}
-\usepackage[printwatermark]{xwatermark}
-\newwatermark[allpages,color=gray!50,angle=45,scale=3,xpos=0,ypos=0]{D R A F T}
 \definecolor{light-blue}{rgb}{0.5,0.5,1.0}
 \protected\def\sphinxstyletheadfamily {\cellcolor{light-blue}\sffamily}
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{1}
 """,
 
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
     'extraclassoptions': 'openany',
-    'maketitle': r'\input{maketitle.tex.txt}'
 }
-latex_additional_files = ['maketitle.tex.txt']
+#latex_additional_files = ['maketitle.tex.txt']
+#latex_table_style ='borderless'
 
 #latex_toplevel_sectioning = 'section'
 #latex_show_pagerefs = True

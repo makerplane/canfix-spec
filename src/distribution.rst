@@ -69,8 +69,6 @@ channel at any given time.  CAN has a very strict rule about multiple nodes
 being prohibited from sending the same frame identifier on the network at the
 same time.
 
-.. table_style: borderless
-
 .. _channels:
 .. csv-table:: Two-Way Communication Channel IDs
    :file: tables/channels.csv

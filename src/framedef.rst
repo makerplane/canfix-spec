@@ -131,7 +131,7 @@ encoded.
 Node Specific Message Data Field Format
 ---------------------------------------
 
-.. tabularcolumns:: |p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|
+.. tabularcolumns:: |p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
 
 .. _nodespecificframe:
 .. csv-table:: Node Specific Message Data Field Format
@@ -258,7 +258,9 @@ Node Report Command
 ~~~~~~~~~~~~~~~~~~~
 
 The *Node Report* message is sent to force a node to report every parameter that
-it is responsible for.  There is no data associated with this command.  Once the
+it is responsible for.  There is no data associated with this command.  Byte 1 should
+be set to the destination node number or to the broadcast address (0x00) to request
+reports from all nodes on the network.  Once the
 node receives this message it should immediately begin sending each type of
 parameter that it would send under normal circumstances.  This would normally be
 used by flight display equipment to determine the information that is available

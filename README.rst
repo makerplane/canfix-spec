@@ -32,4 +32,6 @@ sudo apt install texlive-latex-base texlive-fonts-recommended
 
 sudo apt install texlive-fonts-extra texlive-latex-extra
 
+sudo apt install texlive-xetex
+
 sudo apt install latexmk
