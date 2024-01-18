@@ -31,7 +31,7 @@ for x, row in enumerate(tablebuilder["Groups"]):
         group["name"] = row[NameColumn]
         group["startid"] = row[StartColumn]
         group["endid"] = row[EndColumn]
-        print "Writing Group: %s" % row[NameColumn]
+        print("Writing Group: %s" % row[NameColumn])
         groups.append(group)
 output["groups"] = groups
 
@@ -50,7 +50,7 @@ parameters = []
 for x,row in enumerate(tablebuilder["Identifiers"]):
     if x < 2: continue
     if row[idColumn]:
-        print "Writing Parameter: %s" % row[nameColumn]
+        print("Writing Parameter: %s" % row[nameColumn])
         p = {}
         p["id"] = row[idColumn]
         p["count"] = row[countColumn]

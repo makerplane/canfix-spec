@@ -8,5 +8,6 @@ Type,Description,Units,Data Type
 6,CAN Receive Error Counter,,UDINT
 7,CAN Receive Overrun Counter,,UDINT
 8,Serial Number,,UDINT
-9-255,Reserved for Future Use,,
+9,Quorum,,UINT
+10-255,Reserved for Future Use,,
 256-64K,Device Defined,,
