@@ -11,25 +11,25 @@ outputfile = "canfix.xml"
 canfixVersion = "0.7"
 
 tablebuilder = pe.get_book(file_name=inputfile)
-out = open(outputfile, 'w')
+out = open(outputfile, 'wb')
 
 NameColumn = 0
 StartColumn = 3
 EndColumn = 6
 
-out.write("<protocol>\n<name>CANFIX</name>\n")
-out.write("<version>%s</version>\n" % canfixVersion)
+out.write("<protocol>\n<name>CANFIX</name>\n".encode("UTF-8"))
+out.write(f"<version>{canfixVersion}</version>\n".encode("UTF-8"))
 
 
 for x, row in enumerate(tablebuilder["Groups"]):
     if x < 1: continue  # Not sure why slicing doesn't work on sheets - quick hack
     if row[NameColumn]:
-        out.write("<group>\n")
-        out.write("  <name>%s</name>\n" % row[NameColumn])
-        out.write("  <startid>%s</startid>\n" % row[StartColumn])
-        out.write("  <endid>%s</endid>\n" % row[EndColumn])
-        out.write("</group>\n")
-        print "Writing Group: %s" % row[NameColumn]
+        out.write("<group>\n".encode("UTF-8"))
+        out.write(f"  <name>{row[NameColumn]}</name>\n".encode("UTF-8"))
+        out.write(f"  <startid>{row[StartColumn]}</startid>\n".encode("UTF-8"))
+        out.write(f"  <endid>{row[EndColumn]}</endid>\n".encode("UTF-8"))
+        out.write("</group>\n".encode("UTF-8"))
+        print("Writing Group: %s" % row[NameColumn])
 
 idColumn = 1
 nameColumn = 4
@@ -45,29 +45,29 @@ auxColumnStart = 11
 for x,row in enumerate(tablebuilder["Identifiers"]):
     if x < 2: continue
     if row[idColumn]:
-        print "Writing Parameter: %s" % row[nameColumn]
-        out.write("<parameter>\n")
-        out.write("  <id>%s</id>\n" % row[idColumn])
-        out.write("  <count>%s</count>\n" % row[countColumn])
-        out.write("  <name>%s</name>\n" % row[nameColumn])
+        print("Writing Parameter: %s" % row[nameColumn])
+        out.write("<parameter>\n".encode("UTF-8"))
+        out.write(f"  <id>{row[idColumn]}</id>\n".encode("UTF-8"))
+        out.write(f"  <count>{row[countColumn]}</count>\n".encode("UTF-8"))
+        out.write(f"  <name>{row[nameColumn]}</name>\n".encode("UTF-8"))
 
         if not row[typeColumn]:
             print("Warning: Type not set for %s" % row[nameColumn])
             s = ""
         else:
             s = row[typeColumn]
-        out.write("  <type>%s</type>\n" % s)
+        out.write(f"  <type>{s}</type>\n".encode("UTF-8"))
 
         if row[rangeColumn]:
             s = row[rangeColumn]
             if s.find(" to ") != -1:
                 ranges = s.replace(" to ", "$").split("$")
                 #out.write("  <range>\n")
-                out.write("  <min>%s</min>\n" % ranges[0])
-                out.write("  <max>%s</max>\n" % ranges[1])
+                out.write(f"  <min>{ranges[0]}</min>\n".encode("UTF-8"))
+                out.write(f"  <max>{ranges[1]}</max>\n".encode("UTF-8"))
                 #out.write("  </range>\n")
             else:
-                out.write("  <format>%s</format>\n" % s)
+                out.write(f"  <format>{s}</format>\n".encode("UTF-8"))
 
         #if row[offsetColumn]:
         #    out.write("  <offset>%s</offset>\n" % row[offsetColumn])
@@ -89,25 +89,25 @@ for x,row in enumerate(tablebuilder["Identifiers"]):
                 units = s[i:].strip()
 
             if mult:
-                out.write("  <multiplier>%s</multiplier>\n" % mult)
-            s = u"  <units>%s</units>\n" % units
+                out.write(f"  <multiplier>{mult}</multiplier>\n".encode("UTF-8"))
+            s = f"  <units>{units}</units>\n"
             out.write(s.encode("UTF-8"))
 
         if row[indexColumn]:
-            out.write("  <index>%s</index>\n" % row[indexColumn])
+            out.write(f"  <index>{row[indexColumn]}</index>\n".encode("UTF-8"))
         if row[remarksColumn] != None:
             remarks = row[remarksColumn].replace(r"\l", "\l").split("\l")
             for s in remarks:
-                out.write("  <remarks>%s</remarks>\n" % s)
+                out.write(f"  <remarks>{s}</remarks>\n".encode("UTF-8"))
         #out.write("  <>%s</>\n" % row[Column])
 
         for i in range(15):
             s = row[auxColumnStart + i]
             if s:
-                out.write("  <meta id='%d'>%s</meta>\n" % (i+1, s))
+                out.write(f"  <meta id='{i+1}'>{s}</meta>\n".encode("UTF-8"))
 
-        out.write("</parameter>\n")
+        out.write("</parameter>\n".encode("UTF-8"))
 
-out.write("</protocol>\n")
+out.write("</protocol>\n".encode("UTF-8"))
 
 out.close
