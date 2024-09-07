@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # This program parses the Spreadsheet that has all of our CANFix definitions and
 # creates the official canfix.xml file
@@ -119,6 +119,44 @@ for x,row in enumerate(tablebuilder["Identifiers"]):
         parameters.append(p)
 
 output["parameters"] = parameters
+
+
+idColumn = 0
+descColumn = 1
+unitsColumn = 2
+typeColumn = 3
+
+status = []
+for x,row in enumerate(tablebuilder["Status"]):
+    if x < 1: continue
+    if row[idColumn] != "":
+        print("Writing Status: %s" % row[descColumn])
+        p = {}
+        p["type"] = row[idColumn]
+        p["description"] = row[descColumn]
+
+        if not row[typeColumn]:
+            print("Warning: Type not set for %s" % row[descColumn])
+            s = ""
+        else:
+            s = row[typeColumn]
+        p["datatype"] = s.replace(" ","")
+
+        if row[unitsColumn]:
+            i = 0
+            #s = row[unitsColumn].replace(u'\xba',u'deg')
+            s = row[unitsColumn].replace(" ","")
+            match = re.match(r"([0-9\.]+)(.+)", s)
+            if match:
+                items = match.groups()
+                p["multiplier"] = items[0]
+                p["units"] = items[1]
+            else:
+                #p["units"] = units.encode("UTF-8")
+                p["units"] = s
+        status.append(p)
+
+output["status"] = status
 
 with open(outputfile, 'w') as outfile:
     json.dump(output, outfile, indent=4, sort_keys=True)

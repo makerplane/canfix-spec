@@ -29,6 +29,8 @@ Version 0.7 - |date|
   * Change Bit Rate Set message error code to 0xFF
   * Change Node ID Set message response
   * General style, grammer and spelling fixes
+  * Add Quorum Voting Rank to Node Status message
+  * Some changes to Suggested Device Types list
 
 
 Version 0.6 - June 6, 2016

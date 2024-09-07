@@ -181,8 +181,12 @@ for more details on the revision process.
   0x92
     Secondary Electronic Flight Display
   0x93
-    Annunciator
+    Multifunction Display
   0x94
+    Engine Display
+  0x95
+    Annunciator
+  0x9F
     Generic Display
 
 
