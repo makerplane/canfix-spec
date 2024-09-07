@@ -114,10 +114,9 @@ Transponder Commands
   | b0 = IDENT
   | b1 = ALT
   | b2 = STBY
-  | b2 = ALT
   | b3 = VFR
-  | b5 = OFF
-  | b6 = Squat
+  | b4 = OFF
+  | b5 = Squat
 
 Starter / Magneto Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2415,7 +2414,7 @@ Hydraulic Fluid Quantity
 Tire Pressure
 ~~~~~~~~~~~~~
 
-:Identifiers\:: 1344 - 1347 (0x540 - 0x543)
+:Identifiers\:: 1342 - 1345 (0x53E - 0x541)
 :Data Type\:: UINT
 :Units\:: 0.01 psi
 :Meta\::
@@ -2430,7 +2429,7 @@ Tire Pressure
 Strut Pressure
 ~~~~~~~~~~~~~~
 
-:Identifiers\:: 1348 - 1351 (0x544 - 0x547)
+:Identifiers\:: 1346 - 1349 (0x542 - 0x545)
 :Data Type\:: UINT
 :Units\:: 0.01 psi
 :Meta\::
@@ -2445,7 +2444,7 @@ Strut Pressure
 Flight Time
 ~~~~~~~~~~~
 
-:Identifier\:: 1349 (0x545)
+:Identifier\:: 1350 (0x546)
 :Data Type\:: UINT
 :Units\:: 0.1 Hours
 :Index\:: Flight

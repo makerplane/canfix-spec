@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # encoding=utf8
 
 # This program parses the spreadsheet file and creates the parameter_list.rst file
@@ -50,11 +50,11 @@ for x,row in enumerate(sheet):
             f.write(s.encode("UTF-8"))
             f.write(("~" * (len(s)-1) + "\n\n").encode("UTF-8"))
             if count == 1:
-                s=":Identifier\:: {s} (0x{s:X})\n".format(s=idstart,e=idend)
+                s=":Identifier\\:: {s} (0x{s:X})\n".format(s=idstart,e=idend)
             else:
-                s=":Identifiers\:: {s} - {e} (0x{s:X} - 0x{e:X})\n".format(s=idstart,e=idend)
+                s=":Identifiers\\:: {s} - {e} (0x{s:X} - 0x{e:X})\n".format(s=idstart,e=idend)
             f.write(s.encode("UTF-8"))
-            s=u":{}\:: {}\n"
+            s=u":{}\\:: {}\n"
             f.write(s.format("Data Type", datatype).encode("UTF-8"))
             if range_: f.write(s.format("Range", range_).encode("UTF-8"))
             if units: # We have to do all this sillyness because of the degree symbol
@@ -67,11 +67,11 @@ for x,row in enumerate(sheet):
                 if each:
                     mstring += "  | {:04b} = {}\n".format(i+1, each)
             if mstring != "":
-                f.write(":Meta\::\n".encode("UTF-8"))
+                f.write(":Meta\\::\n".encode("UTF-8"))
                 f.write(mstring.encode("UTF-8"))
                 f.write("\n".encode("UTF-8"))
             if remarks:
-                f.write(":Remarks\::\n".encode("UTF-8"))
+                f.write(":Remarks\\::\n".encode("UTF-8"))
                 f.write(("  | " + remarks.replace("\l","\n  | ") + "\n").encode("UTF-8"))
             #f.write("\n\n------------------\n\n")
             f.write("\n".encode("UTF-8"))

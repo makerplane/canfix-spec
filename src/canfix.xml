@@ -72,18 +72,13 @@
   <endid>1535</endid>
 </group>
 <group>
-  <name>Reserved for User</name>
-  <startid>1536</startid>
-  <endid>1551</endid>
-</group>
-<group>
   <name>Reserved for Future Use</name>
-  <startid>1552</startid>
-  <endid>1760</endid>
+  <startid>1536</startid>
+  <endid>1759</endid>
 </group>
 <group>
   <name>Node Specific Messages</name>
-  <startid>1761</startid>
+  <startid>1760</startid>
   <endid>2015</endid>
 </group>
 <group>
@@ -200,10 +195,9 @@
   <remarks>b0 = IDENT</remarks>
   <remarks>b1 = ALT</remarks>
   <remarks>b2 = STBY</remarks>
-  <remarks>b2 = ALT</remarks>
   <remarks>b3 = VFR</remarks>
-  <remarks>b5 = OFF</remarks>
-  <remarks>b6 = Squat</remarks>
+  <remarks>b4 = OFF</remarks>
+  <remarks>b5 = Squat</remarks>
 </parameter>
 <parameter>
   <id>276</id>
@@ -2439,7 +2433,7 @@
   <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
-  <id>1344</id>
+  <id>1342</id>
   <count>4</count>
   <name>Tire Pressure</name>
   <type>UINT</type>
@@ -2453,7 +2447,7 @@
   <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
-  <id>1348</id>
+  <id>1346</id>
   <count>4</count>
   <name>Strut Pressure</name>
   <type>UINT</type>
@@ -2467,7 +2461,7 @@
   <meta id='7'>High Alarm</meta>
 </parameter>
 <parameter>
-  <id>1349</id>
+  <id>1350</id>
   <count>1</count>
   <name>Flight Time</name>
   <type>UINT</type>
