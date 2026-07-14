@@ -1,0 +1,57 @@
+name: docs
+
+# Build the CAN-FIX specification (Sphinx) and publish the HTML to GitHub Pages.
+# Docs-only: this reads src/CAN-FIX.ods + the .rst sources to build the site and
+# never modifies the schema. Mirrors src/buildall.sh (minus the PDF).
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One Pages deployment at a time.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Sphinx + spreadsheet readers
+        run: pip install sphinx pyexcel pyexcel-ods
+      - name: Generate parameter data from CAN-FIX.ods
+        working-directory: src
+        run: |
+          python canfix_json.py
+          python canfix_xml.py
+          python parameters.py
+      - name: Build HTML
+        working-directory: src
+        run: sphinx-build -b html . _build/html
+      - name: Field-list cleanup + root redirect to the TOC
+        run: |
+          find src/_build/html -name '*.html' -exec sed -i 's/::/:/g' {} +
+          printf '<!doctype html><meta http-equiv="refresh" content="0; url=toc.html">\n' > src/_build/html/index.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: src/_build/html
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
